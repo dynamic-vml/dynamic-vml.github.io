@@ -1,0 +1,504 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Projects/dvml/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/dvml.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/dvml.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/fas/LICENSE.txt",
+      "output": {
+        "resource": {
+          "relative_path": "images/fas/LICENSE.txt"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/fas/fa-stream/stream-solid-black-border.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/fas/fa-stream/stream-solid-black-border.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/fas/fa-stream/stream-solid-black-border.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/fas/fa-stream/stream-solid-black-border.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/fas/fa-stream/stream-solid-gray.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/fas/fa-stream/stream-solid-gray.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/fas/fa-stream/stream-solid-white-border.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/fas/fa-stream/stream-solid-white-border.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/fas/fa-stream/stream-solid-white.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/fas/fa-stream/stream-solid-white.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/fas/fa-stream/stream-solid.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/fas/fa-stream/stream-solid.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/templates.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/templates.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/templates.pptx",
+      "output": {
+        "resource": {
+          "relative_path": "images/templates.pptx"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "F747AWp0/0g9EAleQTF2Rg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.AddNewDynamicItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.AddNewDynamicItem.html",
+          "hash": "TRH0MDXBPki7I4B5xHBw9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.DynamicList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.DynamicList-1.html",
+          "hash": "JrWqNuUvGrFfwH8vjxW3HQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.DynamicList-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.DynamicList-2.html",
+          "hash": "1aezfZw0koY2D9kDqeFV5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.DynamicListItem-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.DynamicListItem-1.html",
+          "hash": "Zx4u3bK/gEZVCXPlgZWZow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.Extensions.ControllerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.Extensions.ControllerExtensions.html",
+          "hash": "09Aid2Vq/pbOgEIdpmDg4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.Extensions.EditorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.Extensions.EditorExtensions.html",
+          "hash": "BnPQI6Z2zzCB4+pyEm+7IQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.Extensions.EnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.Extensions.EnumerableExtensions.html",
+          "hash": "i+/7CVPaW3ldhPbm+Wv68w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.Extensions.ViewDataExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.Extensions.ViewDataExtensions.html",
+          "hash": "feTq+clZbZIIsoxGb+Fx5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.Extensions.html",
+          "hash": "MRaaR0WshCvu9C4THN/p6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.IDynamicList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.IDynamicList-1.html",
+          "hash": "HIfyzcNC4Fo1arM17EFNkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.IDynamicList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.IDynamicList.html",
+          "hash": "ErwyIfN+mUustyifOBe4uQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.IDynamicListItem-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.IDynamicListItem-1.html",
+          "hash": "eXWtto3p5jCK/v1c1soByw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.IDynamicListItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.IDynamicListItem.html",
+          "hash": "pT2eIV8xsbrT1Ek0Wyayog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.Internals.Constants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.Internals.Constants.html",
+          "hash": "47mzhQ1QrfrSDx4AxgwowQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.Internals.DisplayParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.Internals.DisplayParams.html",
+          "hash": "BkvwwtgdZLj3E3A2pjTQ4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.Internals.EditorParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.Internals.EditorParams.html",
+          "hash": "DcyUwbmF24rsP+ARaU8ehQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.Internals.Parameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.Internals.Parameters.html",
+          "hash": "PjfCZnu7RmPnnOXEowf+Qg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.Internals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.Internals.html",
+          "hash": "7bV09WPqMACafDZG7AyBCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.ListRenderMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.ListRenderMode.html",
+          "hash": "pjcPUYY0RpNu2/zcu6mH+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.NewItemMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.NewItemMethod.html",
+          "hash": "Zg83wRNRIeazach1Y28Jag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.Options.DynamicListAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.Options.DynamicListAttribute.html",
+          "hash": "nr97zEPbm9enWSN/1AOZ5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.Options.DynamicListDisplayOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.Options.DynamicListDisplayOptions.html",
+          "hash": "NXYv2+24Tm20gstO3in3Xw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.Options.DynamicListEditorOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.Options.DynamicListEditorOptions.html",
+          "hash": "jFeevsXb8RYf9/gKQRdS6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.Options.html",
+          "hash": "mOa3Z9S/gGzNHFl80tUAFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.html",
+          "hash": "qcBp+9O57i6TXfAGYKLx7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "samples.md",
+      "output": {
+        ".html": {
+          "relative_path": "samples.html",
+          "hash": "qCx2R7//5RJ4JPK80H2ahA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 2
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 25,
+          "skipped_file_count": 25
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

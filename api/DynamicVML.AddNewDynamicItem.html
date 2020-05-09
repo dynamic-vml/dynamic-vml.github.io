@@ -1,0 +1,536 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AddNewDynamicItem
+   | DVML </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AddNewDynamicItem
+   | DVML ">
+    <meta name="generator" content="docfx 2.52.0.0">
+    
+    <link rel="shortcut icon" href="../images/fas/fa-stream/stream-solid-gray.svg">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/fontawesome.min.css">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg logo" src="../images/fas/fa-stream/stream-solid-white.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../index.html" title="Introduction">Introduction</a>
+                      </li>
+                      <li>
+                          <a href="../api/DynamicVML.html" title="API Documentation">API Documentation</a>
+                      </li>
+                      <li>
+                          <a href="../samples.html" title="Sample Apps">Sample Apps</a>
+                      </li>
+                      <li>
+                          <a href="https://github.com/cesarsouza/dvml/" title="GitHub">GitHub</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="DynamicVML.html" title="DynamicVML" class="">DynamicVML</a>
+                        
+                        <ul class="nav level2">
+                          <li class="active">
+                            <a href="DynamicVML.AddNewDynamicItem.html" title="AddNewDynamicItem" class="active">AddNewDynamicItem</a>
+                          </li>
+                          <li class="">
+                            <a href="DynamicVML.DynamicList-2.html" title="DynamicList&lt;TViewModel, TOptions&gt;" class="">DynamicList&lt;TViewModel, TOptions&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="DynamicVML.DynamicList-1.html" title="DynamicList&lt;TViewModel&gt;" class="">DynamicList&lt;TViewModel&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="DynamicVML.DynamicListItem-1.html" title="DynamicListItem&lt;TViewModel&gt;" class="">DynamicListItem&lt;TViewModel&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="DynamicVML.IDynamicList.html" title="IDynamicList" class="">IDynamicList</a>
+                          </li>
+                          <li class="">
+                            <a href="DynamicVML.IDynamicList-1.html" title="IDynamicList&lt;TValue&gt;" class="">IDynamicList&lt;TValue&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="DynamicVML.IDynamicListItem.html" title="IDynamicListItem" class="">IDynamicListItem</a>
+                          </li>
+                          <li class="">
+                            <a href="DynamicVML.IDynamicListItem-1.html" title="IDynamicListItem&lt;TViewModel&gt;" class="">IDynamicListItem&lt;TViewModel&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="DynamicVML.ListRenderMode.html" title="ListRenderMode" class="">ListRenderMode</a>
+                          </li>
+                          <li class="">
+                            <a href="DynamicVML.NewItemMethod.html" title="NewItemMethod" class="">NewItemMethod</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="DynamicVML.Extensions.html" title="DynamicVML.Extensions" class="">DynamicVML.Extensions</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="DynamicVML.Extensions.ControllerExtensions.html" title="ControllerExtensions" class="">ControllerExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="DynamicVML.Extensions.EditorExtensions.html" title="EditorExtensions" class="">EditorExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="DynamicVML.Extensions.EnumerableExtensions.html" title="EnumerableExtensions" class="">EnumerableExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="DynamicVML.Extensions.ViewDataExtensions.html" title="ViewDataExtensions" class="">ViewDataExtensions</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="DynamicVML.Internals.html" title="DynamicVML.Internals" class="">DynamicVML.Internals</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="DynamicVML.Internals.Constants.html" title="Constants" class="">Constants</a>
+                          </li>
+                          <li class="">
+                            <a href="DynamicVML.Internals.DisplayParams.html" title="DisplayParams" class="">DisplayParams</a>
+                          </li>
+                          <li class="">
+                            <a href="DynamicVML.Internals.EditorParams.html" title="EditorParams" class="">EditorParams</a>
+                          </li>
+                          <li class="">
+                            <a href="DynamicVML.Internals.Parameters.html" title="Parameters" class="">Parameters</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="DynamicVML.Options.html" title="DynamicVML.Options" class="">DynamicVML.Options</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="DynamicVML.Options.DynamicListAttribute.html" title="DynamicListAttribute" class="">DynamicListAttribute</a>
+                          </li>
+                          <li class="">
+                            <a href="DynamicVML.Options.DynamicListDisplayOptions.html" title="DynamicListDisplayOptions" class="">DynamicListDisplayOptions</a>
+                          </li>
+                          <li class="">
+                            <a href="DynamicVML.Options.DynamicListEditorOptions.html" title="DynamicListEditorOptions" class="">DynamicListEditorOptions</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DynamicVML.AddNewDynamicItem">
+  
+  
+  <h1 id="DynamicVML_AddNewDynamicItem" data-uid="DynamicVML.AddNewDynamicItem" class="text-break">Class AddNewDynamicItem
+  </h1>
+  <div class="markdown level0 summary"><p>Represents the data object that the client can send to the server to request a new partial view for
+a new list item using ajax. When the controller creates this new partial view, an instance of this 
+class will be stored in the <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.viewfeatures.viewdatadictionary">ViewDataDictionary</a> object of the views under 
+the key <a class="xref" href="DynamicVML.Internals.Constants.html#DynamicVML_Internals_Constants_NewItemParams">NewItemParams</a>. </p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="DynamicVML.Internals.Parameters.html">Parameters</a></div>
+    <div class="level2"><span class="xref">AddNewDynamicItem</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DynamicVML.Internals.Parameters.html#DynamicVML_Internals_Parameters_ItemTemplate">Parameters.ItemTemplate</a>
+    </div>
+    <div>
+      <a class="xref" href="DynamicVML.Internals.Parameters.html#DynamicVML_Internals_Parameters_ItemContainerTemplate">Parameters.ItemContainerTemplate</a>
+    </div>
+    <div>
+      <a class="xref" href="DynamicVML.Internals.Parameters.html#DynamicVML_Internals_Parameters_ListTemplate">Parameters.ListTemplate</a>
+    </div>
+    <div>
+      <a class="xref" href="DynamicVML.Internals.Parameters.html#DynamicVML_Internals_Parameters_Prefix">Parameters.Prefix</a>
+    </div>
+    <div>
+      <a class="xref" href="DynamicVML.Internals.Parameters.html#DynamicVML_Internals_Parameters_Mode">Parameters.Mode</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DynamicVML.html">DynamicVML</a></h6>
+  <h6><strong>Assembly</strong>: DynamicVML.dll</h6>
+  <h5 id="DynamicVML_AddNewDynamicItem_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AddNewDynamicItem : Parameters</code></pre>
+  </div>
+  <h5 id="DynamicVML_AddNewDynamicItem_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>
+  An instance of this class should be specified as the single argument of the controller action 
+  that should handle the creation of a new item in your application. In addition, your controller 
+  action must end by calling one of the 
+<a class="xref" href="DynamicVML.Extensions.ControllerExtensions.html#DynamicVML_Extensions_ControllerExtensions_PartialView_Microsoft_AspNetCore_Mvc_Controller_DynamicVML_IDynamicList_DynamicVML_AddNewDynamicItem_">PartialView(Controller, IDynamicList, AddNewDynamicItem)</a> 
+overloads that will take care of rendering the new item for you. An example can be seen below:
+</p>
+
+<pre><code class="lang-csharp">[HttpGet]
+public IActionResult AddBook(AddNewDynamicItem parameters)
+{
+    var newBookViewModel = new BookViewModel()
+    {
+        Title = &quot;New book&quot;,
+        PublicationYear = &quot;1994&quot;
+    };
+
+    return this.PartialView(newBookViewModel, parameters);
+}</code></pre>
+<div class="NOTE"><h5>Note</h5><p>  Under normal circumstances, this class should never need to be instantiated directly 
+  by your code as it is part of the inner workings of the library.</p>
+</div>
+</div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cesarsouza/dvml//new/development/docs-ref-overwrite/new?filename=DynamicVML_AddNewDynamicItem__ctor.md&amp;value=---%0Auid%3A%20DynamicVML.AddNewDynamicItem.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cesarsouza/dvml/blob/master/src/AddNewDynamicItem.cs/#L140">View Source</a>
+  </span>
+  <a id="DynamicVML_AddNewDynamicItem__ctor_" data-uid="DynamicVML.AddNewDynamicItem.#ctor*"></a>
+  <h4 id="DynamicVML_AddNewDynamicItem__ctor" data-uid="DynamicVML.AddNewDynamicItem.#ctor">AddNewDynamicItem()</h4>
+  <div class="markdown level1 summary"><p>Creates a new instance of the <a class="xref" href="DynamicVML.AddNewDynamicItem.html">AddNewDynamicItem</a> class. This
+is an empty constructor that is necessary to be present in order for
+<a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.modelbinding.imodelbinder">IModelBinder</a> deserialize objects of this class correctly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AddNewDynamicItem()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cesarsouza/dvml//new/development/docs-ref-overwrite/new?filename=DynamicVML_AddNewDynamicItem_AdditionalViewData.md&amp;value=---%0Auid%3A%20DynamicVML.AddNewDynamicItem.AdditionalViewData%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cesarsouza/dvml/blob/master/src/AddNewDynamicItem.cs/#L68">View Source</a>
+  </span>
+  <a id="DynamicVML_AddNewDynamicItem_AdditionalViewData_" data-uid="DynamicVML.AddNewDynamicItem.AdditionalViewData*"></a>
+  <h4 id="DynamicVML_AddNewDynamicItem_AdditionalViewData" data-uid="DynamicVML.AddNewDynamicItem.AdditionalViewData">AdditionalViewData</h4>
+  <div class="markdown level1 summary"><p>Gets any additional view data which may have been passed by the user
+when calling the <a class="xref" href="DynamicVML.Extensions.EditorExtensions.html#DynamicVML_Extensions_EditorExtensions_ListEditorFor__2_Microsoft_AspNetCore_Mvc_Rendering_IHtmlHelper___0__System_Linq_Expressions_Expression_System_Func___0___1___System_String_System_String_System_String_System_String_System_String_System_String_System_Object_System_String_DynamicVML_ListRenderMode_DynamicVML_NewItemMethod_">ListEditorFor&lt;TModel, TValue&gt;(IHtmlHelper&lt;TModel&gt;, Expression&lt;Func&lt;TModel, TValue&gt;&gt;, String, String, String, String, String, String, Object, String, ListRenderMode, NewItemMethod)</a> extension method, represented by a UTF-8 byte 
+array that can be serialized to JSON and posted back to the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] AdditionalViewData { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cesarsouza/dvml//new/development/docs-ref-overwrite/new?filename=DynamicVML_AddNewDynamicItem_ContainerId.md&amp;value=---%0Auid%3A%20DynamicVML.AddNewDynamicItem.ContainerId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cesarsouza/dvml/blob/master/src/AddNewDynamicItem.cs/#L59">View Source</a>
+  </span>
+  <a id="DynamicVML_AddNewDynamicItem_ContainerId_" data-uid="DynamicVML.AddNewDynamicItem.ContainerId*"></a>
+  <h4 id="DynamicVML_AddNewDynamicItem_ContainerId" data-uid="DynamicVML.AddNewDynamicItem.ContainerId">ContainerId</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the id of the div that should receive the new item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ContainerId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cesarsouza/dvml//new/development/docs-ref-overwrite/new?filename=DynamicVML_AddNewDynamicItem_DisableTraceWarningsForQueryStringsThatContainAdditionalViewData.md&amp;value=---%0Auid%3A%20DynamicVML.AddNewDynamicItem.DisableTraceWarningsForQueryStringsThatContainAdditionalViewData%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cesarsouza/dvml/blob/master/src/AddNewDynamicItem.cs/#L158">View Source</a>
+  </span>
+  <a id="DynamicVML_AddNewDynamicItem_DisableTraceWarningsForQueryStringsThatContainAdditionalViewData_" data-uid="DynamicVML.AddNewDynamicItem.DisableTraceWarningsForQueryStringsThatContainAdditionalViewData*"></a>
+  <h4 id="DynamicVML_AddNewDynamicItem_DisableTraceWarningsForQueryStringsThatContainAdditionalViewData" data-uid="DynamicVML.AddNewDynamicItem.DisableTraceWarningsForQueryStringsThatContainAdditionalViewData">DisableTraceWarningsForQueryStringsThatContainAdditionalViewData</h4>
+  <div class="markdown level1 summary"><p>Self explanatory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool DisableTraceWarningsForQueryStringsThatContainAdditionalViewData { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DynamicVML_AddNewDynamicItem_DisableTraceWarningsForQueryStringsThatContainAdditionalViewData_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>By default, the library will generate a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.diagnostics.trace.tracewarning#System_Diagnostics_Trace_TraceWarning_System_String_">TraceWarning(String)</a> if you
+specify any <code>additionalViewData</code> to the <a class="xref" href="DynamicVML.Extensions.EditorExtensions.html#DynamicVML_Extensions_EditorExtensions_ListEditorFor__2_Microsoft_AspNetCore_Mvc_Rendering_IHtmlHelper___0__System_Linq_Expressions_Expression_System_Func___0___1___System_String_System_String_System_String_System_String_System_String_System_String_System_Object_System_String_DynamicVML_ListRenderMode_DynamicVML_NewItemMethod_">ListEditorFor&lt;TModel, TValue&gt;(IHtmlHelper&lt;TModel&gt;, Expression&lt;Func&lt;TModel, TValue&gt;&gt;, String, String, String, String, String, String, Object, String, ListRenderMode, NewItemMethod)</a>
+method while also specifying the HTTP method as <a class="xref" href="DynamicVML.NewItemMethod.html#DynamicVML_NewItemMethod_Get">Get</a>. Setting
+this static property to <code>false</code> will disable those warnings globally.</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cesarsouza/dvml//new/development/docs-ref-overwrite/new?filename=DynamicVML_AddNewDynamicItem_ToJSON.md&amp;value=---%0Auid%3A%20DynamicVML.AddNewDynamicItem.ToJSON%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cesarsouza/dvml/blob/master/src/AddNewDynamicItem.cs/#L129">View Source</a>
+  </span>
+  <a id="DynamicVML_AddNewDynamicItem_ToJSON_" data-uid="DynamicVML.AddNewDynamicItem.ToJSON*"></a>
+  <h4 id="DynamicVML_AddNewDynamicItem_ToJSON" data-uid="DynamicVML.AddNewDynamicItem.ToJSON">ToJSON()</h4>
+  <div class="markdown level1 summary"><p>Converts this instance to a JSON representation that can be sent to the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ToJSON()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><p>A JSON containing the key-value pairs of the properties of this class.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cesarsouza/dvml//new/development/docs-ref-overwrite/new?filename=DynamicVML_AddNewDynamicItem_ToQueryString.md&amp;value=---%0Auid%3A%20DynamicVML.AddNewDynamicItem.ToQueryString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cesarsouza/dvml/blob/master/src/AddNewDynamicItem.cs/#L104">View Source</a>
+  </span>
+  <a id="DynamicVML_AddNewDynamicItem_ToQueryString_" data-uid="DynamicVML.AddNewDynamicItem.ToQueryString*"></a>
+  <h4 id="DynamicVML_AddNewDynamicItem_ToQueryString" data-uid="DynamicVML.AddNewDynamicItem.ToQueryString">ToQueryString()</h4>
+  <div class="markdown level1 summary"><p>Converts this instance to a GET query string representation that can be sent to the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ToQueryString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><p>An HTTP GET query string containing the key-value pairs of the properties of this class, e.g.:</p>
+<pre><code class="lang-html">&quot;?containerId=SgDdaDhJ&amp;prefix=MyForm.MyProperty&amp;ListTemplate=MyTemplate&quot;</code></pre>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DynamicVML_AddNewDynamicItem_ToQueryString_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><div class="WARNING"><h5>Warning</h5><p>Additional user data is never included in the query string. See <a class="xref" href="DynamicVML.Extensions.EditorExtensions.html#DynamicVML_Extensions_EditorExtensions_ListEditorFor__2_Microsoft_AspNetCore_Mvc_Rendering_IHtmlHelper___0__System_Linq_Expressions_Expression_System_Func___0___1___System_String_System_String_System_String_System_String_System_String_System_String_System_Object_System_String_DynamicVML_ListRenderMode_DynamicVML_NewItemMethod_">ListEditorFor&lt;TModel, TValue&gt;(IHtmlHelper&lt;TModel&gt;, Expression&lt;Func&lt;TModel, TValue&gt;&gt;, String, String, String, String, String, String, Object, String, ListRenderMode, NewItemMethod)</a>
+for more details.</p>
+</div>
+</div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DynamicVML.Extensions.EnumerableExtensions.html#DynamicVML_Extensions_EnumerableExtensions_ToDynamicList__2___0_System_String___1_">EnumerableExtensions.ToDynamicList&lt;TViewModel, TOptions&gt;(TViewModel, String, TOptions)</a>
+  </div>
+  <div>
+      <a class="xref" href="DynamicVML.Extensions.EnumerableExtensions.html#DynamicVML_Extensions_EnumerableExtensions_ToDynamicList__1___0_System_String_">EnumerableExtensions.ToDynamicList&lt;TViewModel&gt;(TViewModel, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="DynamicVML.Extensions.EnumerableExtensions.html#DynamicVML_Extensions_EnumerableExtensions_ToDynamicList__2___0_System_String_System_Func___0___1__">EnumerableExtensions.ToDynamicList&lt;TViewModel, TOptions&gt;(TViewModel, String, Func&lt;TViewModel, TOptions&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="DynamicVML.Extensions.EnumerableExtensions.html#DynamicVML_Extensions_EnumerableExtensions_ToDynamicList__3___2_System_String_System_Func___2___0__System_Func___2___1__">EnumerableExtensions.ToDynamicList&lt;TViewModel, TOptions, TModel&gt;(TModel, String, Func&lt;TModel, TViewModel&gt;, Func&lt;TModel, TOptions&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="DynamicVML.Extensions.EnumerableExtensions.html#DynamicVML_Extensions_EnumerableExtensions_ToDynamicList__2___1_System_String_System_Func___1___0__">EnumerableExtensions.ToDynamicList&lt;TViewModel, TModel&gt;(TModel, String, Func&lt;TModel, TViewModel&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="DynamicVML.Extensions.EnumerableExtensions.html#DynamicVML_Extensions_EnumerableExtensions_ToDynamicList__3___2_System_String_System_Func___2___1__">EnumerableExtensions.ToDynamicList&lt;TViewModel, TOptions, TModel&gt;(TModel, String, Func&lt;TModel, TOptions&gt;)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/cesarsouza/dvml//new/development/docs-ref-overwrite/new?filename=DynamicVML_AddNewDynamicItem.md&amp;value=---%0Auid%3A%20DynamicVML.AddNewDynamicItem%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/cesarsouza/dvml/blob/master/src/AddNewDynamicItem.cs/#L53" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright &copy; 2020 C&eacute;sar Roberto de Souza - All files are available under the <a href="https://opensource.org/licenses/MIT">MIT license</a> except the logo, which comes from <a href="https://fontawesome.com/">FontAwesome.
+            
+          </a></div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

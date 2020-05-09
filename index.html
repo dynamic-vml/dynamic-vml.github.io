@@ -1,0 +1,339 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title> Dynamic View Model Lists | DVML </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content=" Dynamic View Model Lists | DVML ">
+    <meta name="generator" content="docfx 2.52.0.0">
+    
+    <link rel="shortcut icon" href="images/fas/fa-stream/stream-solid-gray.svg">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/fontawesome.min.css">
+    <meta property="docfx:navrel" content="toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    <meta property="docfx:rel" content="">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg logo" src="images/fas/fa-stream/stream-solid-white.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="index.html" title="Introduction">Introduction</a>
+                      </li>
+                      <li>
+                          <a href="api/DynamicVML.html" title="API Documentation">API Documentation</a>
+                      </li>
+                      <li>
+                          <a href="samples.html" title="Sample Apps">Sample Apps</a>
+                      </li>
+                      <li>
+                          <a href="https://github.com/dynamic-mvl/dvml" title="GitHub">GitHub</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 class="article-title"><i class="fas fa-stream logo-color"></i> Dynamic <strong class="logo-color">View Model</strong> Lists</h1>
+
+
+<hr>
+<p>The <em>Dynamic View Model Lists</em> library provides a templating engine to render dynamic item lists in ASP.NET. 
+A dynamic list is a list inside an HTML form where the user can add new items to a list after the page 
+has been rendered.
+In ASP.NET, the default model binder makes certain assumptions to determine the name of the fields in the
+form and how they should be posted back to the server. Using this library, those assumptions
+are always fulfilled and your forms posted correctly.</p>
+<p>This library provides an alternative to the <a href="https://github.com/mattlunn/DynamicListBinding">EditorForMany extension</a>
+by <a href="https://www.mattlunn.me.uk/blog/2014/08/how-to-dynamically-via-ajax-add-new-items-to-a-bound-list-model-in-asp-mvc-net/">@mattalun</a>
+and <a href="https://www.nuget.org/packages/BeginCollectionItem/">BeginCollectionItem</a> by <a href="http://blog.stevensanderson.com/2010/01/28/editing-a-variable-length-list-aspnet-mvc-2-style/">Steve Sanderson</a>.
+However, it supports nested lists of any depth, does not require adding an extra Index field to
+your existing models or view models, and suports multiple editor and display templates for your items.
+The library can also make your controllers include <a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.mvc.rendering.ihtmlhelper-1.editorfor?view=aspnetcore-3.1">additionalViewData</a>
+that had been specified in your view without cluttering your controller code with too many details
+about the view.</p>
+<p>Lastly, the library can handle requests sent by either GET or POST.</p>
+<h1 id="getting-started">Getting started</h1>
+<p>To get started, start by adding a reference to the DynamicVM.Lists NuGet package in your project. Then:</p>
+<h3 id="1-javascript">1. JavaScript</h3>
+<p>Add a reference to the <code>~/lib/dynamic-viewmodel-list/dvml.js</code> script included in the NuGet package
+to your view, e.g., by adding it to the <code>Scripts</code> section usually located at the bottom of your 
+<code>Create</code>, <code>Edit</code>, <code>Details</code>, and/or <code>Delete.cshtml</code> view files:</p>
+<pre><code class="lang-cs">@section Scripts {
+    &lt;!-- Load JS code for the Dynamic ViewModel Lists above --&gt;
+    &lt;script src=&quot;~/lib/dynamic-viewmodel-list/dvml.js&quot;&gt;&lt;/script&gt;
+}
+</code></pre><div class="NOTE"><h5>Note</h5><p>Note: The include above should work even though you will notice that this file will not be physically 
+present in your <code>wwwroot</code> folder. That&#39;s because the library is implemented as a <a href="https://docs.microsoft.com/en-us/aspnet/core/razor-pages/ui-class?view=aspnetcore-3.1&amp;tabs=visual-studio#create-an-rcl-with-static-assets">.NET Core App 3.1 Razor
+Class Library (RCL)</a>
+and the .js is embedded within the library .DLLs. The server will take care of loading it from the correct
+source when needed.</p>
+</div>
+<h3 id="2-viewmodels">2. ViewModels</h3>
+<p>Update your view models to use <code>DynamicList&lt;T&gt;</code> instead of <code>List&lt;T&gt;</code> for any collections
+you want to support client-side dynamic insertion:</p>
+<pre><code class="lang-cs">public class AuthorViewModel
+{
+    [Display(Name = &quot;First name&quot;)]
+    public string FirstName { get; set; }
+
+    [Display(Name = &quot;Last name&quot;)]
+    public string LastName { get; set; }
+
+    [Display(Name = &quot;Authored books&quot;)]
+    public virtual DynamicList&lt;BookViewModel&gt; Books { get; set; } = new DynamicList&lt;BookViewModel&gt;(); // &lt;----
+}
+</code></pre><h3 id="3-controller">3. Controller</h3>
+<p>Add an action to your controller to create a new view model item upon request:</p>
+<pre><code class="lang-cs">public IActionResult AddBook(AddNewDynamicItem parameters)
+{
+    var newBookViewModel = new BookViewModel()
+    {
+        Title = &quot;New book&quot;
+    };
+
+    return this.PartialView(newBookViewModel, parameters);
+}
+</code></pre><h3 id="4-views">4. Views</h3>
+<p>Update your view to use a the extension method <code>Html.ListEditorFor()</code> method that takes
+the name of the method above and a text to be rendered as the <em>&quot;add new item&quot;</em> button as an 
+argument:</p>
+<pre><code class="lang-html">&lt;div&gt;
+    &lt;h3&gt;Books&lt;/h3&gt;
+    @Html.ListEditorFor(x =&gt; x.Books, Url.Action(&quot;AddBook&quot;), &quot;Add new book&quot;)
+&lt;/div&gt;
+</code></pre><h1 id="features">Features</h1>
+<p>The library provides a templating mechanism and an <em>options</em> mechanism so you can 
+customize your lists without having to perform too many changes to your existing 
+view models.</p>
+<h3 id="using-templates-to-customize-list-rendering">Using templates to customize list rendering</h3>
+<p>The library assumes that you already have defined reusable views for the many multiple view models 
+you might have in your project. For example, a common approach for reuse would be to define a common
+&quot;Address.cshtml&quot; view that could render an <code>AddressViewModel</code> in different sections of your application.</p>
+<p>With this assumption in mind, it would have been a lot of trouble if you had to create separate
+views for each common kind of list items you would like to add to your project, e.g., lists for <code>PhoneViewModel</code>s,
+<code>AddressViewModel</code>s and so on.
+That is why, using this library, you can specify which template view you would like to use for each part
+of the list directly when creating your view. For instance, let&#39;s say you would like to render a list of
+<code>AddressViewModel</code>s with one layout, and a list of <code>PhoneViewModel</code>s with a different layout. Then you
+could use:</p>
+<pre><code class="lang-cs">@Html.ListEditorFor(x =&gt; x.Addresses, Url.Action(&quot;AddAddress&quot;), &quot;Add new address&quot;,
+    listContainerTemplate: &quot;CustomListContainerTemplateWithBellsAndWhistles&quot;) 
+</code></pre><p>or</p>
+<pre><code class="lang-cs">@Html.ListEditorFor(x =&gt; x.Phones, Url.Action(&quot;AddPhone&quot;), &quot;Add new phone&quot;,
+    listContainerTemplate: &quot;CustomListContainerTemplateWithFancyButton&quot;) 
+</code></pre><p>Now, note that the list templates do not have any knowledge of your view models. They are completely
+reusable for different regions of your application, with any ViewModel you would like to use. </p>
+<div class="NOTE"><h5>Note</h5><p>The library can guess common names for the view, the action, and even the <em>&quot;add new item&quot;</em> texts
+from the name of your ViewModel, so they do not really need to be specified when calling <code>Html.ListEditorFor()</code>.
+However, specifying the view is strongly advised in order to avoid unnecessary server-side processing.</p>
+</div>
+<p>The library assumes dynamic lists are composed of four main (fully customizable) regions:</p>
+<ul>
+<li>A region that contains the list (<em>which the library refers to as DynamicListContainers</em>)</li>
+<li>The list (<em>which the library refers to as DynamicList</em>)</li>
+<li>Regions that contain the list items (<em>which the library refers to as DynamicItemContainers</em>)</li>
+<li>The list items (<em>which are your already existing views</em>)</li>
+</ul>
+<p>The meaning of each region is shown in the figure below:</p>
+<p><img src="images/templates.png" alt="The four regions of a dynamic list" title="The four regions of a dynamic list"></p>
+<p>Note that each of those regions are completely oblivious of each other and can be replaced at will,
+without having to create different views for each configuration. All you have to do is specify templates
+for them when calling <code>EditorFor</code> in your view. If you do not specify the template for some region,
+the library will use default ones that can be obtained either from the library itself, or by searching
+for .cshtml files in your application that have the same name as the default templates.</p>
+<h3 id="custom-reusable-options">Custom reusable options</h3>
+<p>Now, a common task is to be able to customize each of the item containers with some buttons (e.g. to
+remove the item, collapse the item, or display extra information about what the user is entering).
+Furthermore, you may want only some items to be removable, but not all of them (e.g. the first
+address in a list of addresses could be mandatory and non-removable).</p>
+<p>Instead of having to add each of those options to your ViewModels and thus maybe having multiple
+different ViewModels for different configurations of your items, you can instead specify <em>item
+options</em> for each of your items directly from your view or controller:</p>
+<pre><code class="lang-cs">public IActionResult AddBook(AddNewDynamicItem parameters)
+{
+    var newBookViewModel = new BookViewModel()
+    {
+        Title = &quot;New book&quot;,
+        PublicationYear = &quot;1994&quot;
+    };
+
+    return this.PartialView(newBookViewModel, parameters, new MyOptions&lt;BookViewModel&gt;()
+    {
+        CardTitle = &quot;Dynamic item&quot;,
+        CardSubtitle = &quot;You cannot remove this item&quot;,
+        CanRemove = false
+    });
+}
+</code></pre><p>The <code>MyOptions&lt;T&gt;</code> can be considered a separate view model on its own, that you can customize 
+yourself, adding any options you may want, e.g.:</p>
+<pre><code class="lang-cs">public class MyOptions&lt;T&gt; : DynamicListItemOptions&lt;T&gt;, IMyOptions
+    where T : class
+{
+    public string CardTitle { get; set; }
+    public string CardSubtitle { get; set; }
+    public bool CanRemove { get; set; }
+}
+</code></pre><p>As you can see, this mechanism is highly useful for using with front-end frameworks
+like Bootstrap (where you could bind the CardTitle and CardSubtitle to
+<a href="https://getbootstrap.com/docs/4.0/components/card/">Bootstrap Cards</a>),
+without adding strong coupling with a particular framework. The view for your options
+and the both the view and the view models for your entities are completely independent 
+from your <code>MyOptions&lt;T&gt;</code> ViewModel.</p>
+<h3 id="avoid-touching-the-view-at-all">Avoid touching the view at all</h3>
+<p>Instead of specifying each of your views to add the extra parameters to <code>ListEditorFor()</code>,
+you can alternatively configure the DynamicList properties of your view models directly
+in your view model class definition using attributes:</p>
+<pre><code class="lang-cs">public class AuthorViewModel
+{
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+
+    [Display(Name = &quot;Authored books&quot;)]
+    [DynamicList(&quot;BookView&quot;, 
+        ItemContainerTemplate = &quot;MyCustomItemContainer&quot;, 
+        ListTemplate = &quot;MyCustomList&quot;,
+        Method = RequestNewItemMethod.Post)]
+    public virtual DynamicList&lt;BookViewModel&gt; Books { get; set; } = new DynamicList&lt;BookViewModel&gt;();
+}
+</code></pre><div class="NOTE"><h5>Note</h5><p>While this is possible, this is not exactly recommended as one could argue that specifying view 
+parameters in your view models may add unnecessary coupling between your code and the presentation
+layer. However, if you <strong>really</strong> want to do this for some reason, the library will let you do so.</p>
+</div>
+<h3 id="passing-custom-additionalviewdata-to-dynamic-list-items">Passing custom additionalViewData to dynamic list items</h3>
+<p>Maybe in your project you might have the need to pass different parameters to your views
+by passing anonymous objects to the <code>additionalViewData</code> parameter of <code>ListEditorFor()</code>. However,
+when a user requests a new list item to be added to the form, it is the controller&#39;s task to
+create a new partial view to be sent to the client, and the additionalViewData you have specified
+in the creation of the view will not be available from the controller&#39;s side.</p>
+<p>In order to address this situation, the library can serialize your custom objects into
+JSON UTF-8 byte arrays and keep them hidden in the HTML of the form at the client side. When
+the user requests a new item, the ajax call to the server will include the serialized
+additional data that will then be passed seamlessy to the new partial view, keeping the
+original behavior of your views working. </p>
+<pre><code class="lang-cs">@Html.ListEditorFor(x =&gt; x.Phones, Url.Action(&quot;AddPhone&quot;), &quot;Add new phone&quot;,
+    method: RequestNewItemMethod.Post,
+    additionalViewData: new {
+        MyCustomData = &quot;some attribute I can only compute from the view&quot;
+    }) 
+</code></pre><div class="NOTE"><h5>Note</h5><p>Passing additional view data to the client requires specifying <code>method: RequestNewItemMethod.Post</code>
+since the additional data may be too long to be included in a GET query string.</p>
+</div>
+<div class="WARNING"><h5>Warning</h5><p>While the library supports this scenario, it may not be advisable to actually make use of this
+since there may be other cleaner ways to pass user data to your views, e.g. with proper properties
+in your view models. A malicious user could also tamper with the stored data and let the form
+submit altered data to your server. However, again, if you <strong>really</strong> need this functionality and
+understand the risks, the library still supports this scenario.</p>
+</div>
+<h1 id="related-links">Related links</h1>
+<h3 id="alternative-approaches-amp-more-information-on-aspnets-binding-mechanism">Alternative approaches &amp; more information on ASP.NET&#39;s binding mechanism:</h3>
+<ul>
+<li><a href="https://www.mattlunn.me.uk/blog/2014/08/how-to-dynamically-via-ajax-add-new-items-to-a-bound-list-model-in-asp-mvc-net/">https://www.mattlunn.me.uk/blog/2014/08/how-to-dynamically-via-ajax-add-new-items-to-a-bound-list-model-in-asp-mvc-net/</a></li>
+<li><a href="http://blog.stevensanderson.com/2010/01/28/editing-a-variable-length-list-aspnet-mvc-2-style/">http://blog.stevensanderson.com/2010/01/28/editing-a-variable-length-list-aspnet-mvc-2-style/</a></li>
+<li><a href="https://tuanmsp.wordpress.com/2017/04/25/aspnet-editorfor-with-list-and-add-more-item-to-list-with-ajax/">https://tuanmsp.wordpress.com/2017/04/25/aspnet-editorfor-with-list-and-add-more-item-to-list-with-ajax/</a></li>
+<li><a href="https://dapper-tutorial.net/knowledge-base/53601008/dynamic-add-and-edit-of-data-in-asp-net-mvc-using-razor-view">https://dapper-tutorial.net/knowledge-base/53601008/dynamic-add-and-edit-of-data-in-asp-net-mvc-using-razor-view</a></li>
+<li><a href="https://blog.rsuter.com/asp-net-mvc-how-to-implement-an-edit-form-for-an-entity-with-a-sortable-child-collection/">https://blog.rsuter.com/asp-net-mvc-how-to-implement-an-edit-form-for-an-entity-with-a-sortable-child-collection/</a></li>
+</ul>
+<h3 id="stackoverflow-questions-this-library-should-address">StackOverflow questions this library should address:</h3>
+<ul>
+<li><a href="https://stackoverflow.com/questions/14038392/editorfor-ienumerablet-with-templatename">https://stackoverflow.com/questions/14038392/editorfor-ienumerablet-with-templatename</a></li>
+<li><a href="https://stackoverflow.com/questions/36171865/dynamic-partial-view-list-not-being-picked-up-when-saving">https://stackoverflow.com/questions/36171865/dynamic-partial-view-list-not-being-picked-up-when-saving</a></li>
+<li><a href="https://stackoverflow.com/questions/52305337/how-do-i-use-the-editorformany-html-helper-in-net-core">https://stackoverflow.com/questions/52305337/how-do-i-use-the-editorformany-html-helper-in-net-core</a></li>
+<li><a href="https://stackoverflow.com/questions/42116800/editorformany-not-working-for-objects-deeper-than-1-level">https://stackoverflow.com/questions/42116800/editorformany-not-working-for-objects-deeper-than-1-level</a></li>
+<li><a href="https://stackoverflow.com/questions/29324837/add-related-entities-with-asp-net-mvc-and-razor">https://stackoverflow.com/questions/29324837/add-related-entities-with-asp-net-mvc-and-razor</a></li>
+<li><a href="https://stackoverflow.com/questions/9915612/how-can-i-add-rows-to-a-collection-list-in-my-model">https://stackoverflow.com/questions/9915612/how-can-i-add-rows-to-a-collection-list-in-my-model</a></li>
+</ul>
+<h1 id="license">License</h1>
+<p>This library is licensed under the <a href="https://opensource.org/licenses/MIT">MIT license</a>. The library logo 
+is based on the <em>fa-stream</em> icon from <a href="https://fontawesome.com/">Font Awesome</a> and is licensed under the 
+<a href="https://fontawesome.com/license">Creative Commons Attribution 4.0 International license</a>. </p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/cesarsouza/dvml//blob/development/docs/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright &copy; 2020 C&eacute;sar Roberto de Souza - All files are available under the <a href="https://opensource.org/licenses/MIT">MIT license</a> except the logo, which comes from <a href="https://fontawesome.com/">FontAwesome.
+            
+          </a></div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>
