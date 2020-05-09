@@ -57,7 +57,7 @@
                           <a href="samples.html" title="Sample Apps">Sample Apps</a>
                       </li>
                       <li>
-                          <a href="https://github.com/dynamic-mvl/dvml" title="GitHub">GitHub</a>
+                          <a href="https://github.com/dynamic-vml/dvml" title="GitHub">GitHub</a>
                       </li>
                 </ul>    </div>
           </div>
@@ -89,7 +89,7 @@
 
 
 <hr>
-<p>The <em>Dynamic View Model Lists</em> library provides a templating engine to render dynamic item lists in ASP.NET. 
+<p>The <em>Dynamic View Model Lists</em> library (DVML) provides a templating engine to render dynamic item lists in ASP.NET. 
 A dynamic list is a list inside an HTML form where the user can add new items to a list after the page 
 has been rendered.
 In ASP.NET, the default model binder makes certain assumptions to determine the name of the fields in the
@@ -103,26 +103,28 @@ your existing models or view models, and suports multiple editor and display tem
 The library can also make your controllers include <a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.mvc.rendering.ihtmlhelper-1.editorfor?view=aspnetcore-3.1">additionalViewData</a>
 that had been specified in your view without cluttering your controller code with too many details
 about the view.</p>
-<p>Lastly, the library can handle requests sent by either GET or POST.</p>
+<p>In addition, the library can also handle requests sent by either GETs or POSTs.</p>
 <h1 id="getting-started">Getting started</h1>
-<p>To get started, start by adding a reference to the DynamicVM.Lists NuGet package in your project. Then:</p>
-<h3 id="1-javascript">1. JavaScript</h3>
-<p>Add a reference to the <code>~/lib/dynamic-viewmodel-list/dvml.js</code> script included in the NuGet package
-to your view, e.g., by adding it to the <code>Scripts</code> section usually located at the bottom of your 
-<code>Create</code>, <code>Edit</code>, <code>Details</code>, and/or <code>Delete.cshtml</code> view files:</p>
-<pre><code class="lang-cs">@section Scripts {
+<p>To get started, start by adding a reference to the <a href="https://www.nuget.org/packages/DynamicVML/">DynamicVML NuGet package</a>
+in your project:</p>
+<p><span class="install-command">dotnet add package DynamicVML</span></p>
+<p>After adding the package, you just have to perform four steps to get it running:</p>
+<h3 id="1-add-script-references">1. Add script references</h3>
+<p>Add a reference to <code>~/lib/dynamic-viewmodel-list/dvml.js</code> to your view, e.g., either by adding
+it to your <code>_Layout.cshtml</code> file or to the <code>Scripts</code> section usually located at the bottom of 
+your <code>Create</code>, <code>Edit</code>, <code>Details</code>,  and/or <code>Delete.cshtml</code> view files:</p>
+<pre><code class="lang-html">@section Scripts {
     &lt;!-- Load JS code for the Dynamic ViewModel Lists above --&gt;
     &lt;script src=&quot;~/lib/dynamic-viewmodel-list/dvml.js&quot;&gt;&lt;/script&gt;
 }
-</code></pre><div class="NOTE"><h5>Note</h5><p>Note: The include above should work even though you will notice that this file will not be physically 
+</code></pre><div class="NOTE"><h5>Note</h5><p>The include above should work even though you will notice that this file will not be physically 
 present in your <code>wwwroot</code> folder. That&#39;s because the library is implemented as a <a href="https://docs.microsoft.com/en-us/aspnet/core/razor-pages/ui-class?view=aspnetcore-3.1&amp;tabs=visual-studio#create-an-rcl-with-static-assets">.NET Core App 3.1 Razor
 Class Library (RCL)</a>
-and the .js is embedded within the library .DLLs. The server will take care of loading it from the correct
-source when needed.</p>
+and the .js is embedded within the library .DLLs. </p>
 </div>
-<h3 id="2-viewmodels">2. ViewModels</h3>
-<p>Update your view models to use <code>DynamicList&lt;T&gt;</code> instead of <code>List&lt;T&gt;</code> for any collections
-you want to support client-side dynamic insertion:</p>
+<h3 id="2-replace-relevant-usages-of-listlttgt-with-dynamiclistlttgtxrefdynamicvmldynamiclist601">2. Replace relevant usages of List&lt;T&gt; with <a class="xref" href="api/DynamicVML.DynamicList-1.html">DynamicList&lt;T&gt;</a></h3>
+<p>Update your view models to use <code>DynamicList&lt;T&gt;</code> instead of <code>List&lt;T&gt;</code> for any
+collections you want to support client-side dynamic insertion:</p>
 <pre><code class="lang-cs">public class AuthorViewModel
 {
     [Display(Name = &quot;First name&quot;)]
@@ -134,7 +136,7 @@ you want to support client-side dynamic insertion:</p>
     [Display(Name = &quot;Authored books&quot;)]
     public virtual DynamicList&lt;BookViewModel&gt; Books { get; set; } = new DynamicList&lt;BookViewModel&gt;(); // &lt;----
 }
-</code></pre><h3 id="3-controller">3. Controller</h3>
+</code></pre><h3 id="3-add-actions-that-create-new-items-to-your-controllers">3. Add actions that create new items to your controllers</h3>
 <p>Add an action to your controller to create a new view model item upon request:</p>
 <pre><code class="lang-cs">public IActionResult AddBook(AddNewDynamicItem parameters)
 {
@@ -145,7 +147,7 @@ you want to support client-side dynamic insertion:</p>
 
     return this.PartialView(newBookViewModel, parameters);
 }
-</code></pre><h3 id="4-views">4. Views</h3>
+</code></pre><h3 id="4-use-listeditorfor-and-displaylistfor-in-your-views">4. Use ListEditorFor() and DisplayListFor() in your views</h3>
 <p>Update your view to use a the extension method <code>Html.ListEditorFor()</code> method that takes
 the name of the method above and a text to be rendered as the <em>&quot;add new item&quot;</em> button as an 
 argument:</p>
@@ -190,7 +192,7 @@ However, specifying the view is strongly advised in order to avoid unnecessary s
 <p><img src="images/templates.png" alt="The four regions of a dynamic list" title="The four regions of a dynamic list"></p>
 <p>Note that each of those regions are completely oblivious of each other and can be replaced at will,
 without having to create different views for each configuration. All you have to do is specify templates
-for them when calling <code>EditorFor</code> in your view. If you do not specify the template for some region,
+for them when calling <code>ListEditorFor()</code> in your view. If you do not specify the template for some region,
 the library will use default ones that can be obtained either from the library itself, or by searching
 for .cshtml files in your application that have the same name as the default templates.</p>
 <h3 id="custom-reusable-options">Custom reusable options</h3>
@@ -249,9 +251,9 @@ in your view model class definition using attributes:</p>
 }
 </code></pre><div class="NOTE"><h5>Note</h5><p>While this is possible, this is not exactly recommended as one could argue that specifying view 
 parameters in your view models may add unnecessary coupling between your code and the presentation
-layer. However, if you <strong>really</strong> want to do this for some reason, the library will let you do so.</p>
+layer. However, if you <strong>really</strong> want to do this, the library will let you do so.</p>
 </div>
-<h3 id="passing-custom-additionalviewdata-to-dynamic-list-items">Passing custom additionalViewData to dynamic list items</h3>
+<h3 id="passing-custom-additionalviewdata-to-dynamic-list-items">Passing custom <em>additionalViewData</em> to dynamic list items</h3>
 <p>Maybe in your project you might have the need to pass different parameters to your views
 by passing anonymous objects to the <code>additionalViewData</code> parameter of <code>ListEditorFor()</code>. However,
 when a user requests a new list item to be added to the form, it is the controller&#39;s task to
@@ -267,14 +269,14 @@ original behavior of your views working. </p>
     additionalViewData: new {
         MyCustomData = &quot;some attribute I can only compute from the view&quot;
     }) 
-</code></pre><div class="NOTE"><h5>Note</h5><p>Passing additional view data to the client requires specifying <code>method: RequestNewItemMethod.Post</code>
+</code></pre><div class="NOTE"><h5>Note</h5><p>Passing additional view data to the client requires also specifying <code>method: RequestNewItemMethod.Post</code>
 since the additional data may be too long to be included in a GET query string.</p>
 </div>
 <div class="WARNING"><h5>Warning</h5><p>While the library supports this scenario, it may not be advisable to actually make use of this
 since there may be other cleaner ways to pass user data to your views, e.g. with proper properties
 in your view models. A malicious user could also tamper with the stored data and let the form
 submit altered data to your server. However, again, if you <strong>really</strong> need this functionality and
-understand the risks, the library still supports this scenario.</p>
+understand the risks, the library will also let you do so.</p>
 </div>
 <h1 id="related-links">Related links</h1>
 <h3 id="alternative-approaches-amp-more-information-on-aspnets-binding-mechanism">Alternative approaches &amp; more information on ASP.NET&#39;s binding mechanism:</h3>
@@ -306,7 +308,7 @@ is based on the <em>fa-stream</em> icon from <a href="https://fontawesome.com/">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/cesarsouza/dvml//blob/development/docs/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/dynamic-vml/dvml/blob/master/docs/index.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
