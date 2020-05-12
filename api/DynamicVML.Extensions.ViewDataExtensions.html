@@ -38,7 +38,7 @@
               </button>
               
               <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg logo" src="../images/fas/fa-stream/stream-solid-white.svg" alt="">
+                <img id="logo" class="svg logo" src="../images/logo-128.png" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -161,10 +161,22 @@
                             <a href="DynamicVML.Internals.Constants.html" title="Constants" class="">Constants</a>
                           </li>
                           <li class="">
-                            <a href="DynamicVML.Internals.DisplayParams.html" title="DisplayParams" class="">DisplayParams</a>
+                            <a href="DynamicVML.Internals.ItemDisplayParameters.html" title="ItemDisplayParameters" class="">ItemDisplayParameters</a>
                           </li>
                           <li class="">
-                            <a href="DynamicVML.Internals.EditorParams.html" title="EditorParams" class="">EditorParams</a>
+                            <a href="DynamicVML.Internals.ItemEditorParameters.html" title="ItemEditorParameters" class="">ItemEditorParameters</a>
+                          </li>
+                          <li class="">
+                            <a href="DynamicVML.Internals.ItemParameters.html" title="ItemParameters" class="">ItemParameters</a>
+                          </li>
+                          <li class="">
+                            <a href="DynamicVML.Internals.ListDisplayParameters.html" title="ListDisplayParameters" class="">ListDisplayParameters</a>
+                          </li>
+                          <li class="">
+                            <a href="DynamicVML.Internals.ListEditorParameters.html" title="ListEditorParameters" class="">ListEditorParameters</a>
+                          </li>
+                          <li class="">
+                            <a href="DynamicVML.Internals.ListParameters.html" title="ListParameters" class="">ListParameters</a>
                           </li>
                           <li class="">
                             <a href="DynamicVML.Internals.Parameters.html" title="Parameters" class="">Parameters</a>
@@ -183,6 +195,9 @@
                           </li>
                           <li class="">
                             <a href="DynamicVML.Options.DynamicListEditorOptions.html" title="DynamicListEditorOptions" class="">DynamicListEditorOptions</a>
+                          </li>
+                          <li class="">
+                            <a href="DynamicVML.Options.DynamicListOptions.html" title="DynamicListOptions" class="">DynamicListOptions</a>
                           </li>
                         </ul>  </li>
                   </ul>        </div>
@@ -241,20 +256,20 @@ from <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspne
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/dynamic-vml/dvml/new/master/docs-ref-overwrite/new?filename=DynamicVML_Extensions_ViewDataExtensions_GetAttributeInfo_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_.md&amp;value=---%0Auid%3A%20DynamicVML.Extensions.ViewDataExtensions.GetAttributeInfo(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/dynamic-vml/dvml/new/master/docs-ref-overwrite/new?filename=DynamicVML_Extensions_ViewDataExtensions_GetDynamicListAttribute_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_.md&amp;value=---%0Auid%3A%20DynamicVML.Extensions.ViewDataExtensions.GetDynamicListAttribute(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Extensions/ViewDataExtensions.cs/#L265">View Source</a>
+    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Extensions/ViewDataExtensions.cs/#L36">View Source</a>
   </span>
-  <a id="DynamicVML_Extensions_ViewDataExtensions_GetAttributeInfo_" data-uid="DynamicVML.Extensions.ViewDataExtensions.GetAttributeInfo*"></a>
-  <h4 id="DynamicVML_Extensions_ViewDataExtensions_GetAttributeInfo_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_" data-uid="DynamicVML.Extensions.ViewDataExtensions.GetAttributeInfo(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)">GetAttributeInfo(ViewDataDictionary)</h4>
+  <a id="DynamicVML_Extensions_ViewDataExtensions_GetDynamicListAttribute_" data-uid="DynamicVML.Extensions.ViewDataExtensions.GetDynamicListAttribute*"></a>
+  <h4 id="DynamicVML_Extensions_ViewDataExtensions_GetDynamicListAttribute_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_" data-uid="DynamicVML.Extensions.ViewDataExtensions.GetDynamicListAttribute(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)">GetDynamicListAttribute(ViewDataDictionary)</h4>
   <div class="markdown level1 summary"><p>Attempts to extract a <a class="xref" href="DynamicVML.Options.DynamicListAttribute.html">DynamicListAttribute</a> from the model&apos;s
 metadata stored in the <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.viewfeatures.viewdatadictionary.model#Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_Model">Model</a> property.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DynamicListAttribute GetAttributeInfo(this ViewDataDictionary viewData)</code></pre>
+    <pre><code class="lang-csharp hljs">public static DynamicListAttribute GetDynamicListAttribute(this ViewDataDictionary viewData)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -292,143 +307,20 @@ metadata stored in the <a class="xref" href="https://docs.microsoft.com/dotnet/a
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/dynamic-vml/dvml/new/master/docs-ref-overwrite/new?filename=DynamicVML_Extensions_ViewDataExtensions_GetDisplayParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_.md&amp;value=---%0Auid%3A%20DynamicVML.Extensions.ViewDataExtensions.GetDisplayParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/dynamic-vml/dvml/new/master/docs-ref-overwrite/new?filename=DynamicVML_Extensions_ViewDataExtensions_GetItemCreateParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_System_String_.md&amp;value=---%0Auid%3A%20DynamicVML.Extensions.ViewDataExtensions.GetItemCreateParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Extensions/ViewDataExtensions.cs/#L187">View Source</a>
+    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Extensions/ViewDataExtensions.EditorFor.cs/#L269">View Source</a>
   </span>
-  <a id="DynamicVML_Extensions_ViewDataExtensions_GetDisplayParameters_" data-uid="DynamicVML.Extensions.ViewDataExtensions.GetDisplayParameters*"></a>
-  <h4 id="DynamicVML_Extensions_ViewDataExtensions_GetDisplayParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_" data-uid="DynamicVML.Extensions.ViewDataExtensions.GetDisplayParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)">GetDisplayParameters(ViewDataDictionary)</h4>
-  <div class="markdown level1 summary"><p>Builds a new <a class="xref" href="DynamicVML.Internals.DisplayParams.html">DisplayParams</a> object gathering information from different
-sources, including <a class="xref" href="DynamicVML.Options.DynamicListDisplayOptions.html">DynamicListDisplayOptions</a> objects that may be stored in the
-view data, <a class="xref" href="DynamicVML.Options.DynamicListAttribute.html">DynamicListAttribute</a> attributes defined in the view model class,
-or, as a last resort, reflection.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DisplayParams GetDisplayParameters(this ViewDataDictionary viewData)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.viewfeatures.viewdatadictionary">ViewDataDictionary</a></td>
-        <td><span class="parametername">viewData</span></td>
-        <td><p>The view data object from where information will be extracted.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DynamicVML.Internals.DisplayParams.html">DisplayParams</a></td>
-        <td><p>A new <a class="xref" href="DynamicVML.Internals.DisplayParams.html">DisplayParams</a> object with the actual values to be 
-used when rendering the editor view for your view model.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="DynamicVML_Extensions_ViewDataExtensions_GetDisplayParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><div class="WARNING"><h5>Warning</h5><p>This method will resort to reflecion in case the <a class="xref" href="DynamicVML.Options.DynamicListEditorOptions.html#DynamicVML_Options_DynamicListEditorOptions_ItemTemplate">ItemTemplate</a>,
-<a class="xref" href="DynamicVML.Options.DynamicListEditorOptions.html#DynamicVML_Options_DynamicListEditorOptions_ActionUrl">ActionUrl</a>, or <a class="xref" href="DynamicVML.Options.DynamicListEditorOptions.html#DynamicVML_Options_DynamicListEditorOptions_AddNewItemText">AddNewItemText</a>
-have not been specified, which can incur
-a significant performance impact on the server. To avoid the extra performance hit, specify the name 
-of the view you want to use for your view model when calling <a class="xref" href="DynamicVML.Extensions.EditorExtensions.html#DynamicVML_Extensions_EditorExtensions_DisplayListFor__2_Microsoft_AspNetCore_Mvc_Rendering_IHtmlHelper___0__System_Linq_Expressions_Expression_System_Func___0___1___System_String_System_String_System_String_System_String_System_Object_System_String_DynamicVML_ListRenderMode_">DisplayListFor&lt;TModel, TValue&gt;(IHtmlHelper&lt;TModel&gt;, Expression&lt;Func&lt;TModel, TValue&gt;&gt;, String, String, String, String, Object, String, ListRenderMode)</a></p>
-</div>
-</div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/dynamic-vml/dvml/new/master/docs-ref-overwrite/new?filename=DynamicVML_Extensions_ViewDataExtensions_GetEditorParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_.md&amp;value=---%0Auid%3A%20DynamicVML.Extensions.ViewDataExtensions.GetEditorParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Extensions/ViewDataExtensions.cs/#L70">View Source</a>
-  </span>
-  <a id="DynamicVML_Extensions_ViewDataExtensions_GetEditorParameters_" data-uid="DynamicVML.Extensions.ViewDataExtensions.GetEditorParameters*"></a>
-  <h4 id="DynamicVML_Extensions_ViewDataExtensions_GetEditorParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_" data-uid="DynamicVML.Extensions.ViewDataExtensions.GetEditorParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)">GetEditorParameters(ViewDataDictionary)</h4>
-  <div class="markdown level1 summary"><p>Builds a new <a class="xref" href="DynamicVML.Internals.EditorParams.html">EditorParams</a> object gathering information from different
-sources, including <a class="xref" href="DynamicVML.Options.DynamicListEditorOptions.html">DynamicListEditorOptions</a> objects that may be stored in the
-view data, <a class="xref" href="DynamicVML.Options.DynamicListAttribute.html">DynamicListAttribute</a> attributes defined in the view model class,
-or, as a last resort, reflection.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static EditorParams GetEditorParameters(this ViewDataDictionary viewData)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.viewfeatures.viewdatadictionary">ViewDataDictionary</a></td>
-        <td><span class="parametername">viewData</span></td>
-        <td><p>The view data object from where information will be extracted.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DynamicVML.Internals.EditorParams.html">EditorParams</a></td>
-        <td><p>A new <a class="xref" href="DynamicVML.Internals.EditorParams.html">EditorParams</a> object with the actual values to be 
-used when rendering the editor view for your view model.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="DynamicVML_Extensions_ViewDataExtensions_GetEditorParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><div class="WARNING"><h5>Warning</h5><p>This method will resort to reflecion in case the <a class="xref" href="DynamicVML.Options.DynamicListEditorOptions.html#DynamicVML_Options_DynamicListEditorOptions_ItemTemplate">ItemTemplate</a>
-has not been specified, which can incur a significant performance impact on the server. To avoid the 
-extra performance hit, specify the name of the view you want to use for your view model when calling
-<a class="xref" href="DynamicVML.Extensions.EditorExtensions.html#DynamicVML_Extensions_EditorExtensions_ListEditorFor__2_Microsoft_AspNetCore_Mvc_Rendering_IHtmlHelper___0__System_Linq_Expressions_Expression_System_Func___0___1___System_String_System_String_System_String_System_String_System_String_System_String_System_Object_System_String_DynamicVML_ListRenderMode_DynamicVML_NewItemMethod_">ListEditorFor&lt;TModel, TValue&gt;(IHtmlHelper&lt;TModel&gt;, Expression&lt;Func&lt;TModel, TValue&gt;&gt;, String, String, String, String, String, String, Object, String, ListRenderMode, NewItemMethod)</a></p>
-</div>
-</div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/dynamic-vml/dvml/new/master/docs-ref-overwrite/new?filename=DynamicVML_Extensions_ViewDataExtensions_GetNewItemParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_.md&amp;value=---%0Auid%3A%20DynamicVML.Extensions.ViewDataExtensions.GetNewItemParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Extensions/ViewDataExtensions.cs/#L37">View Source</a>
-  </span>
-  <a id="DynamicVML_Extensions_ViewDataExtensions_GetNewItemParameters_" data-uid="DynamicVML.Extensions.ViewDataExtensions.GetNewItemParameters*"></a>
-  <h4 id="DynamicVML_Extensions_ViewDataExtensions_GetNewItemParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_" data-uid="DynamicVML.Extensions.ViewDataExtensions.GetNewItemParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)">GetNewItemParameters(ViewDataDictionary)</h4>
+  <a id="DynamicVML_Extensions_ViewDataExtensions_GetItemCreateParameters_" data-uid="DynamicVML.Extensions.ViewDataExtensions.GetItemCreateParameters*"></a>
+  <h4 id="DynamicVML_Extensions_ViewDataExtensions_GetItemCreateParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_System_String_" data-uid="DynamicVML.Extensions.ViewDataExtensions.GetItemCreateParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary,System.String)">GetItemCreateParameters(ViewDataDictionary, String)</h4>
   <div class="markdown level1 summary"><p>Extracts a <a class="xref" href="DynamicVML.AddNewDynamicItem.html">AddNewDynamicItem</a> object from a <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.viewfeatures.viewdatadictionary">ViewDataDictionary</a>
 dictionary.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static AddNewDynamicItem GetNewItemParameters(this ViewDataDictionary viewData)</code></pre>
+    <pre><code class="lang-csharp hljs">public static AddNewDynamicItem GetItemCreateParameters(this ViewDataDictionary viewData, string itemId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -445,6 +337,12 @@ dictionary.</p>
         <td><span class="parametername">viewData</span></td>
         <td><p>The view data dictionary that should contain the object. If the object is
 not present, an <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.applicationexception">ApplicationException</a> will be thrown.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">itemId</span></td>
+        <td><p>The HTML div ID for the current list item.</p>
 </td>
       </tr>
     </tbody>
@@ -465,6 +363,338 @@ not present, an <a class="xref" href="https://docs.microsoft.com/dotnet/api/syst
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dynamic-vml/dvml/new/master/docs-ref-overwrite/new?filename=DynamicVML_Extensions_ViewDataExtensions_GetItemDisplayParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_System_String_System_String_.md&amp;value=---%0Auid%3A%20DynamicVML.Extensions.ViewDataExtensions.GetItemDisplayParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Extensions/ViewDataExtensions.DisplayFor.cs/#L131">View Source</a>
+  </span>
+  <a id="DynamicVML_Extensions_ViewDataExtensions_GetItemDisplayParameters_" data-uid="DynamicVML.Extensions.ViewDataExtensions.GetItemDisplayParameters*"></a>
+  <h4 id="DynamicVML_Extensions_ViewDataExtensions_GetItemDisplayParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_System_String_System_String_" data-uid="DynamicVML.Extensions.ViewDataExtensions.GetItemDisplayParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary,System.String,System.String)">GetItemDisplayParameters(ViewDataDictionary, String, String)</h4>
+  <div class="markdown level1 summary"><p>Retrieves the <a class="xref" href="DynamicVML.Internals.ItemDisplayParameters.html">ItemDisplayParameters</a> object stored in the <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.viewfeatures.viewdatadictionary">ViewDataDictionary</a>.
+If no <a class="xref" href="DynamicVML.Internals.ItemDisplayParameters.html">ItemDisplayParameters</a> is available, a new one will be created from the information 
+stored in the <a class="xref" href="DynamicVML.Internals.ListDisplayParameters.html">ListDisplayParameters</a> object that should have been stored in the ViewData. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ItemDisplayParameters GetItemDisplayParameters(this ViewDataDictionary viewData, string itemId, string containerId = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.viewfeatures.viewdatadictionary">ViewDataDictionary</a></td>
+        <td><span class="parametername">viewData</span></td>
+        <td><p>The view data object from where information will be extracted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">itemId</span></td>
+        <td><p>The HTML div element ID for the current list item.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">containerId</span></td>
+        <td><p>The HTML div element ID for the current list.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DynamicVML.Internals.ItemDisplayParameters.html">ItemDisplayParameters</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dynamic-vml/dvml/new/master/docs-ref-overwrite/new?filename=DynamicVML_Extensions_ViewDataExtensions_GetItemEditorParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_System_String_DynamicVML_AddNewDynamicItem_DynamicVML_NewItemMethod_.md&amp;value=---%0Auid%3A%20DynamicVML.Extensions.ViewDataExtensions.GetItemEditorParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary%2CSystem.String%2CDynamicVML.AddNewDynamicItem%2CDynamicVML.NewItemMethod)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Extensions/ViewDataExtensions.EditorFor.cs/#L199">View Source</a>
+  </span>
+  <a id="DynamicVML_Extensions_ViewDataExtensions_GetItemEditorParameters_" data-uid="DynamicVML.Extensions.ViewDataExtensions.GetItemEditorParameters*"></a>
+  <h4 id="DynamicVML_Extensions_ViewDataExtensions_GetItemEditorParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_System_String_DynamicVML_AddNewDynamicItem_DynamicVML_NewItemMethod_" data-uid="DynamicVML.Extensions.ViewDataExtensions.GetItemEditorParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary,System.String,DynamicVML.AddNewDynamicItem,DynamicVML.NewItemMethod)">GetItemEditorParameters(ViewDataDictionary, String, AddNewDynamicItem, NewItemMethod)</h4>
+  <div class="markdown level1 summary"><p>Re-creates a <a class="xref" href="DynamicVML.Internals.ItemEditorParameters.html">ItemEditorParameters</a> from the partial information about the original list
+contained in a <a class="xref" href="DynamicVML.AddNewDynamicItem.html">AddNewDynamicItem</a> object. This information will be stored in the
+<a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.viewfeatures.viewdatadictionary">ViewDataDictionary</a> in order to make the rest of the code work the same as much as
+possible.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ItemEditorParameters GetItemEditorParameters(this ViewDataDictionary viewData, string itemId, AddNewDynamicItem newItemParameters, NewItemMethod method)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.viewfeatures.viewdatadictionary">ViewDataDictionary</a></td>
+        <td><span class="parametername">viewData</span></td>
+        <td><p>The view data object from where information will be extracted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">itemId</span></td>
+        <td><p>The HTML div element ID for the current list item.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DynamicVML.AddNewDynamicItem.html">AddNewDynamicItem</a></td>
+        <td><span class="parametername">newItemParameters</span></td>
+        <td><p>The <a class="xref" href="DynamicVML.AddNewDynamicItem.html">AddNewDynamicItem</a> parameters containing information
+    about how the controller should create new items to be added to the list.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DynamicVML.NewItemMethod.html">NewItemMethod</a></td>
+        <td><span class="parametername">method</span></td>
+        <td><p>The HTTP method used when calling the controller to add new items to the list.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DynamicVML.Internals.ItemEditorParameters.html">ItemEditorParameters</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dynamic-vml/dvml/new/master/docs-ref-overwrite/new?filename=DynamicVML_Extensions_ViewDataExtensions_GetItemEditorParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_System_String_System_String_.md&amp;value=---%0Auid%3A%20DynamicVML.Extensions.ViewDataExtensions.GetItemEditorParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Extensions/ViewDataExtensions.EditorFor.cs/#L155">View Source</a>
+  </span>
+  <a id="DynamicVML_Extensions_ViewDataExtensions_GetItemEditorParameters_" data-uid="DynamicVML.Extensions.ViewDataExtensions.GetItemEditorParameters*"></a>
+  <h4 id="DynamicVML_Extensions_ViewDataExtensions_GetItemEditorParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_System_String_System_String_" data-uid="DynamicVML.Extensions.ViewDataExtensions.GetItemEditorParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary,System.String,System.String)">GetItemEditorParameters(ViewDataDictionary, String, String)</h4>
+  <div class="markdown level1 summary"><p>Retrieves the <a class="xref" href="DynamicVML.Internals.ItemEditorParameters.html">ItemEditorParameters</a> object stored in the <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.viewfeatures.viewdatadictionary">ViewDataDictionary</a>.
+If no <a class="xref" href="DynamicVML.Internals.ItemEditorParameters.html">ItemEditorParameters</a> is available, a new one will be created from the information 
+stored in the <a class="xref" href="DynamicVML.Internals.ListEditorParameters.html">ListEditorParameters</a> object that should have been stored in the ViewData. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ItemEditorParameters GetItemEditorParameters(this ViewDataDictionary viewData, string itemId, string containerId = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.viewfeatures.viewdatadictionary">ViewDataDictionary</a></td>
+        <td><span class="parametername">viewData</span></td>
+        <td><p>The view data object from where information will be extracted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">itemId</span></td>
+        <td><p>The HTML div element ID for the current list item.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">containerId</span></td>
+        <td><p>The HTML div element ID for the current list.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DynamicVML.Internals.ItemEditorParameters.html">ItemEditorParameters</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dynamic-vml/dvml/new/master/docs-ref-overwrite/new?filename=DynamicVML_Extensions_ViewDataExtensions_GetListDisplayParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_System_String_.md&amp;value=---%0Auid%3A%20DynamicVML.Extensions.ViewDataExtensions.GetListDisplayParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Extensions/ViewDataExtensions.DisplayFor.cs/#L48">View Source</a>
+  </span>
+  <a id="DynamicVML_Extensions_ViewDataExtensions_GetListDisplayParameters_" data-uid="DynamicVML.Extensions.ViewDataExtensions.GetListDisplayParameters*"></a>
+  <h4 id="DynamicVML_Extensions_ViewDataExtensions_GetListDisplayParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_System_String_" data-uid="DynamicVML.Extensions.ViewDataExtensions.GetListDisplayParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary,System.String)">GetListDisplayParameters(ViewDataDictionary, String)</h4>
+  <div class="markdown level1 summary"><p>Builds a new <a class="xref" href="DynamicVML.Internals.ListDisplayParameters.html">ListDisplayParameters</a> object gathering information from different
+sources, including <a class="xref" href="DynamicVML.Options.DynamicListDisplayOptions.html">DynamicListDisplayOptions</a> objects that may be stored in the
+view data, <a class="xref" href="DynamicVML.Options.DynamicListAttribute.html">DynamicListAttribute</a> attributes defined in the view model class,
+or, as a last resort, reflection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ListDisplayParameters GetListDisplayParameters(this ViewDataDictionary viewData, string containerId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.viewfeatures.viewdatadictionary">ViewDataDictionary</a></td>
+        <td><span class="parametername">viewData</span></td>
+        <td><p>The view data object from where information will be extracted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">containerId</span></td>
+        <td><p>The HTML div element ID for the current list.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DynamicVML.Internals.ListDisplayParameters.html">ListDisplayParameters</a></td>
+        <td><p>A new <a class="xref" href="DynamicVML.Internals.ListDisplayParameters.html">ListDisplayParameters</a> object with the actual values to be 
+used when rendering the editor view for your view model.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DynamicVML_Extensions_ViewDataExtensions_GetListDisplayParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><div class="WARNING"><h5>Warning</h5><p>This method will resort to reflecion in case the <a class="xref" href="DynamicVML.Options.DynamicListOptions.html#DynamicVML_Options_DynamicListOptions_ItemTemplate">ItemTemplate</a>,
+<a class="xref" href="DynamicVML.Options.DynamicListEditorOptions.html#DynamicVML_Options_DynamicListEditorOptions_ActionUrl">ActionUrl</a>, or <a class="xref" href="DynamicVML.Options.DynamicListEditorOptions.html#DynamicVML_Options_DynamicListEditorOptions_AddNewItemText">AddNewItemText</a>
+have not been specified, which can incur
+a significant performance impact on the server. To avoid the extra performance hit, specify the name 
+of the view you want to use for your view model when calling <a class="xref" href="DynamicVML.Extensions.EditorExtensions.html#DynamicVML_Extensions_EditorExtensions_DisplayListFor__2_Microsoft_AspNetCore_Mvc_Rendering_IHtmlHelper___0__System_Linq_Expressions_Expression_System_Func___0___1___System_String_System_String_System_String_System_String_System_Object_DynamicVML_ListRenderMode_">DisplayListFor&lt;TModel, TValue&gt;(IHtmlHelper&lt;TModel&gt;, Expression&lt;Func&lt;TModel, TValue&gt;&gt;, String, String, String, String, Object, ListRenderMode)</a></p>
+</div>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dynamic-vml/dvml/new/master/docs-ref-overwrite/new?filename=DynamicVML_Extensions_ViewDataExtensions_GetListEditorParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_System_String_.md&amp;value=---%0Auid%3A%20DynamicVML.Extensions.ViewDataExtensions.GetListEditorParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Extensions/ViewDataExtensions.EditorFor.cs/#L47">View Source</a>
+  </span>
+  <a id="DynamicVML_Extensions_ViewDataExtensions_GetListEditorParameters_" data-uid="DynamicVML.Extensions.ViewDataExtensions.GetListEditorParameters*"></a>
+  <h4 id="DynamicVML_Extensions_ViewDataExtensions_GetListEditorParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_System_String_" data-uid="DynamicVML.Extensions.ViewDataExtensions.GetListEditorParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary,System.String)">GetListEditorParameters(ViewDataDictionary, String)</h4>
+  <div class="markdown level1 summary"><p>Builds a new <a class="xref" href="DynamicVML.Internals.ListEditorParameters.html">ListEditorParameters</a> object gathering information from different
+sources, including <a class="xref" href="DynamicVML.Options.DynamicListEditorOptions.html">DynamicListEditorOptions</a> objects that may be stored in the
+view data, <a class="xref" href="DynamicVML.Options.DynamicListAttribute.html">DynamicListAttribute</a> attributes defined in the view model class,
+or, as a last resort, reflection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ListEditorParameters GetListEditorParameters(this ViewDataDictionary viewData, string containerId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.viewfeatures.viewdatadictionary">ViewDataDictionary</a></td>
+        <td><span class="parametername">viewData</span></td>
+        <td><p>The view data object from where information will be extracted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">containerId</span></td>
+        <td><p>The HTML div element ID for the current list.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DynamicVML.Internals.ListEditorParameters.html">ListEditorParameters</a></td>
+        <td><p>A new <a class="xref" href="DynamicVML.Internals.ListEditorParameters.html">ListEditorParameters</a> object with the actual values
+to be used when rendering the editor view for your view model.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DynamicVML_Extensions_ViewDataExtensions_GetListEditorParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><div class="WARNING"><h5>Warning</h5><p>This method will resort to reflecion in case the <a class="xref" href="DynamicVML.Options.DynamicListOptions.html#DynamicVML_Options_DynamicListOptions_ItemTemplate">ItemTemplate</a>
+has not been specified, which can incur a significant performance impact on the server. To avoid the 
+extra performance hit, specify the name of the view you want to use for your view model when calling
+<a class="xref" href="DynamicVML.Extensions.EditorExtensions.html#DynamicVML_Extensions_EditorExtensions_ListEditorFor__2_Microsoft_AspNetCore_Mvc_Rendering_IHtmlHelper___0__System_Linq_Expressions_Expression_System_Func___0___1___System_String_System_String_System_String_System_String_System_String_System_String_System_Object_DynamicVML_ListRenderMode_DynamicVML_NewItemMethod_">ListEditorFor&lt;TModel, TValue&gt;(IHtmlHelper&lt;TModel&gt;, Expression&lt;Func&lt;TModel, TValue&gt;&gt;, String, String, String, String, String, String, Object, ListRenderMode, NewItemMethod)</a></p>
+</div>
+</div>
 </article>
           </div>
           
@@ -476,7 +706,7 @@ not present, an <a class="xref" href="https://docs.microsoft.com/dotnet/api/syst
                     <a href="https://github.com/dynamic-vml/dvml/new/master/docs-ref-overwrite/new?filename=DynamicVML_Extensions_ViewDataExtensions.md&amp;value=---%0Auid%3A%20DynamicVML.Extensions.ViewDataExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Extensions/ViewDataExtensions.cs/#L23" class="contribution-link">View Source</a>
+                    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Extensions/ViewDataExtensions.EditorFor.cs/#L21" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

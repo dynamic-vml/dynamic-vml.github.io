@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Projects/dvml/docs",
+  "source_base_path": "C:/Projects/dvml-group/dvml/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -29,17 +29,6 @@
       "output": {
         "resource": {
           "relative_path": "README.md"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/dvml.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/dvml.png"
         }
       },
       "is_incremental": false,
@@ -124,6 +113,72 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/logo-128.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo-128.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo-512.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo-512.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo-v2.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo-v2.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo-v3.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo-v3.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo-v4.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo-v4.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo-v5.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo-v5.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/templates.png",
       "output": {
         "resource": {
@@ -150,7 +205,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "EoCPkp7jjBT9XabSbKEzSg=="
+          "hash": "pd64KhPnZ8AErX0YyFhvbg=="
         }
       },
       "is_incremental": false,
@@ -162,7 +217,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DynamicVML.AddNewDynamicItem.html",
-          "hash": "6QCETsAIvK8A26orGc2eng=="
+          "hash": "rJeV1FSoSs/BuxmEkd6rdA=="
         }
       },
       "is_incremental": false,
@@ -174,7 +229,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DynamicVML.DynamicList-1.html",
-          "hash": "GBrB7/4A6sf2VCr3zkHdqA=="
+          "hash": "djf7N7Cv/kDvs9Ja8xIy2A=="
         }
       },
       "is_incremental": false,
@@ -186,7 +241,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DynamicVML.DynamicList-2.html",
-          "hash": "s7BUeNoirQsbJJ13QsZg1A=="
+          "hash": "+luFVRDa2rNxAT8n6zRVwg=="
         }
       },
       "is_incremental": false,
@@ -198,7 +253,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DynamicVML.DynamicListItem-1.html",
-          "hash": "zJ9GwcRXMeJm9cPGgxV97Q=="
+          "hash": "NgdkA78zsEMdge/epTls4A=="
         }
       },
       "is_incremental": false,
@@ -210,7 +265,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DynamicVML.Extensions.ControllerExtensions.html",
-          "hash": "V0zEkRR753unykzdbkG/ng=="
+          "hash": "TC5z/Xk8pBslCmYMfq6Eow=="
         }
       },
       "is_incremental": false,
@@ -222,7 +277,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DynamicVML.Extensions.EditorExtensions.html",
-          "hash": "bur7ba8SPE/oxhDJqPuqIg=="
+          "hash": "+skiUySmFD9BnTlXT3jt4Q=="
         }
       },
       "is_incremental": false,
@@ -234,7 +289,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DynamicVML.Extensions.EnumerableExtensions.html",
-          "hash": "MAuQHEHmzvyYA3xju3K3OA=="
+          "hash": "+BXyqEWtiBct21x4UbufMA=="
         }
       },
       "is_incremental": false,
@@ -246,7 +301,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DynamicVML.Extensions.ViewDataExtensions.html",
-          "hash": "58p8wXAr/BKtOjNRBD+dSw=="
+          "hash": "lhN3vpVR4lA0uxt1ZVJEFw=="
         }
       },
       "is_incremental": false,
@@ -258,7 +313,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DynamicVML.Extensions.html",
-          "hash": "//T+2T2v7BURN+pbt/Xvuw=="
+          "hash": "PYK+Y2WafBju+jdNsPXIlA=="
         }
       },
       "is_incremental": false,
@@ -270,7 +325,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DynamicVML.IDynamicList-1.html",
-          "hash": "TaVMGVtY3DHbbp7UjE05AA=="
+          "hash": "XeQQRO2fOM2id7BYOZpKmA=="
         }
       },
       "is_incremental": false,
@@ -282,7 +337,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DynamicVML.IDynamicList.html",
-          "hash": "Iw8kx6pocvXKbRuDfWCXYw=="
+          "hash": "ZIHAT2kRr4idgnxxE3MoAw=="
         }
       },
       "is_incremental": false,
@@ -294,7 +349,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DynamicVML.IDynamicListItem-1.html",
-          "hash": "2kDf0Ls7Kip9pqZsS7hH6g=="
+          "hash": "ypL6bbIAITgxuyYVsATa1g=="
         }
       },
       "is_incremental": false,
@@ -306,7 +361,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DynamicVML.IDynamicListItem.html",
-          "hash": "QnN3uflD3KKZwqhNNajHkQ=="
+          "hash": "2cgq9C7PGjxWn/D7J//P0A=="
         }
       },
       "is_incremental": false,
@@ -318,7 +373,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DynamicVML.Internals.Constants.html",
-          "hash": "YS1qSvKdDyxtKZGcL63qkQ=="
+          "hash": "+O1EnLLDNJ7dCAf9I7Ee3A=="
         }
       },
       "is_incremental": false,
@@ -326,11 +381,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/DynamicVML.Internals.DisplayParams.yml",
+      "source_relative_path": "obj/api/DynamicVML.Internals.ItemDisplayParameters.yml",
       "output": {
         ".html": {
-          "relative_path": "api/DynamicVML.Internals.DisplayParams.html",
-          "hash": "0GjW7jBKZ8ckYa01VjT61w=="
+          "relative_path": "api/DynamicVML.Internals.ItemDisplayParameters.html",
+          "hash": "iLnCZ7spnaKZFo6HEj9Rgw=="
         }
       },
       "is_incremental": false,
@@ -338,11 +393,59 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/DynamicVML.Internals.EditorParams.yml",
+      "source_relative_path": "obj/api/DynamicVML.Internals.ItemEditorParameters.yml",
       "output": {
         ".html": {
-          "relative_path": "api/DynamicVML.Internals.EditorParams.html",
-          "hash": "CrhitUT0gC8szinq6wFj5g=="
+          "relative_path": "api/DynamicVML.Internals.ItemEditorParameters.html",
+          "hash": "UKL7kJmT3iljVLB7cfNEsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.Internals.ItemParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.Internals.ItemParameters.html",
+          "hash": "T1aNo1iWpLT/ZvhXiTeYjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.Internals.ListDisplayParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.Internals.ListDisplayParameters.html",
+          "hash": "kQ8qh+76bCrEbZzE96Rb8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.Internals.ListEditorParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.Internals.ListEditorParameters.html",
+          "hash": "8zFSvvWwDh6U1KIK3TzNAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.Internals.ListParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.Internals.ListParameters.html",
+          "hash": "QKrbjFNUWFgX2mC5EIQb5g=="
         }
       },
       "is_incremental": false,
@@ -354,7 +457,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DynamicVML.Internals.Parameters.html",
-          "hash": "+apJV34OCpUck9xdv2CMlQ=="
+          "hash": "NgJGrtkCj4OPQt5uDSJ6Pg=="
         }
       },
       "is_incremental": false,
@@ -366,7 +469,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DynamicVML.Internals.html",
-          "hash": "qsGEO2Xo6gdCVwJXFNg9qw=="
+          "hash": "G+EeaYjRfU0pmIYRmzfDIA=="
         }
       },
       "is_incremental": false,
@@ -378,7 +481,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DynamicVML.ListRenderMode.html",
-          "hash": "3SceJDwshQ/0PWZBies6xA=="
+          "hash": "BVon11VJAAz7jgtH5cqPgA=="
         }
       },
       "is_incremental": false,
@@ -390,7 +493,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DynamicVML.NewItemMethod.html",
-          "hash": "hjbLRO4RVxrrvAVbeWghVA=="
+          "hash": "JT8MFqgyG8T1q+ufDsqxbA=="
         }
       },
       "is_incremental": false,
@@ -402,7 +505,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DynamicVML.Options.DynamicListAttribute.html",
-          "hash": "UDoD8A+8u86wfDuom1hOxg=="
+          "hash": "SUtxyX/Gh3l8Fwir25P2ew=="
         }
       },
       "is_incremental": false,
@@ -414,7 +517,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DynamicVML.Options.DynamicListDisplayOptions.html",
-          "hash": "UURtE6uQkoSrpAHfB+7/Ow=="
+          "hash": "FJiMyLGcw1gxoseY72bZeQ=="
         }
       },
       "is_incremental": false,
@@ -426,7 +529,19 @@
       "output": {
         ".html": {
           "relative_path": "api/DynamicVML.Options.DynamicListEditorOptions.html",
-          "hash": "BsdeKRXwM3W493NLLIgjzA=="
+          "hash": "jdvmKHLFNqXmG/1Sql+xDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DynamicVML.Options.DynamicListOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DynamicVML.Options.DynamicListOptions.html",
+          "hash": "tbJ6bMqhrE66qyyw9GDWzw=="
         }
       },
       "is_incremental": false,
@@ -438,7 +553,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DynamicVML.Options.html",
-          "hash": "XHshYxi9t2eG0h6mk2AZCg=="
+          "hash": "rqfAxqDIGWjPM6C95qA6+g=="
         }
       },
       "is_incremental": false,
@@ -450,7 +565,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DynamicVML.html",
-          "hash": "XfnVyeMMqmcrESPz7/NgMA=="
+          "hash": "5WJwEeBLMHdlNeXb4prFUQ=="
         }
       },
       "is_incremental": false,
@@ -462,7 +577,7 @@
       "output": {
         ".html": {
           "relative_path": "samples.html",
-          "hash": "QR46mWNPlxEWFmjeIfQTRQ=="
+          "hash": "KOXXzbVf7tB1Ow0KIknouQ=="
         }
       },
       "is_incremental": false,
@@ -472,23 +587,25 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Disable incremental build by force rebuild option.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ForceRebuild"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 2,
-          "skipped_file_count": 2
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 25,
-          "skipped_file_count": 25
+          "total_file_count": 30,
+          "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum ListRenderMode
+    <title>Class ItemEditorParameters
    | DVML </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum ListRenderMode
+    <meta name="title" content="Class ItemEditorParameters
    | DVML ">
     <meta name="generator" content="docfx 2.52.0.0">
     
@@ -127,8 +127,8 @@
                           <li class="">
                             <a href="DynamicVML.IDynamicListItem-1.html" title="IDynamicListItem&lt;TViewModel&gt;" class="">IDynamicListItem&lt;TViewModel&gt;</a>
                           </li>
-                          <li class="active">
-                            <a href="DynamicVML.ListRenderMode.html" title="ListRenderMode" class="active">ListRenderMode</a>
+                          <li class="">
+                            <a href="DynamicVML.ListRenderMode.html" title="ListRenderMode" class="">ListRenderMode</a>
                           </li>
                           <li class="">
                             <a href="DynamicVML.NewItemMethod.html" title="NewItemMethod" class="">NewItemMethod</a>
@@ -163,8 +163,8 @@
                           <li class="">
                             <a href="DynamicVML.Internals.ItemDisplayParameters.html" title="ItemDisplayParameters" class="">ItemDisplayParameters</a>
                           </li>
-                          <li class="">
-                            <a href="DynamicVML.Internals.ItemEditorParameters.html" title="ItemEditorParameters" class="">ItemEditorParameters</a>
+                          <li class="active">
+                            <a href="DynamicVML.Internals.ItemEditorParameters.html" title="ItemEditorParameters" class="active">ItemEditorParameters</a>
                           </li>
                           <li class="">
                             <a href="DynamicVML.Internals.ItemParameters.html" title="ItemParameters" class="">ItemParameters</a>
@@ -207,54 +207,196 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="DynamicVML.ListRenderMode">
+            <article class="content wrap" id="_content" data-uid="DynamicVML.Internals.ItemEditorParameters">
   
   
-  <h1 id="DynamicVML_ListRenderMode" data-uid="DynamicVML.ListRenderMode" class="text-break">Enum ListRenderMode
+  <h1 id="DynamicVML_Internals_ItemEditorParameters" data-uid="DynamicVML.Internals.ItemEditorParameters" class="text-break">Class ItemEditorParameters
   </h1>
-  <div class="markdown level0 summary"><p>Represents different rendering modes for the final (user-provided) item template.</p>
+  <div class="markdown level0 summary"><p>Represents the actual parameters being used to render an item of the list for edit. An instance of this class
+will be stored in the ViewData object of your view under the key <a class="xref" href="DynamicVML.Internals.Constants.html#DynamicVML_Internals_Constants_ItemEditorParameters">ItemEditorParameters</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="DynamicVML.html">DynamicVML</a></h6>
-  <h6><strong>Assembly</strong>: DynamicVML.dll</h6>
-  <h5 id="DynamicVML_ListRenderMode_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum ListRenderMode</code></pre>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="DynamicVML.Internals.Parameters.html">Parameters</a></div>
+    <div class="level2"><a class="xref" href="DynamicVML.Internals.ItemParameters.html">ItemParameters</a></div>
+    <div class="level3"><span class="xref">ItemEditorParameters</span></div>
   </div>
-  <h3 id="fields">Fields
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DynamicVML.Internals.ItemParameters.html#DynamicVML_Internals_ItemParameters_Index">ItemParameters.Index</a>
+    </div>
+    <div>
+      <a class="xref" href="DynamicVML.Internals.Parameters.html#DynamicVML_Internals_Parameters_ContainerId">Parameters.ContainerId</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DynamicVML.Internals.html">DynamicVML.Internals</a></h6>
+  <h6><strong>Assembly</strong>: DynamicVML.dll</h6>
+  <h5 id="DynamicVML_Internals_ItemEditorParameters_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ItemEditorParameters : ItemParameters</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
   </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dynamic-vml/dvml/new/master/docs-ref-overwrite/new?filename=DynamicVML_Internals_ItemEditorParameters__ctor_System_String_System_String_DynamicVML_AddNewDynamicItem_DynamicVML_Internals_ListEditorParameters_.md&amp;value=---%0Auid%3A%20DynamicVML.Internals.ItemEditorParameters.%23ctor(System.String%2CSystem.String%2CDynamicVML.AddNewDynamicItem%2CDynamicVML.Internals.ListEditorParameters)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Internals/ItemEditorParameters.cs/#L34">View Source</a>
+  </span>
+  <a id="DynamicVML_Internals_ItemEditorParameters__ctor_" data-uid="DynamicVML.Internals.ItemEditorParameters.#ctor*"></a>
+  <h4 id="DynamicVML_Internals_ItemEditorParameters__ctor_System_String_System_String_DynamicVML_AddNewDynamicItem_DynamicVML_Internals_ListEditorParameters_" data-uid="DynamicVML.Internals.ItemEditorParameters.#ctor(System.String,System.String,DynamicVML.AddNewDynamicItem,DynamicVML.Internals.ListEditorParameters)">ItemEditorParameters(String, String, AddNewDynamicItem, ListEditorParameters)</h4>
+  <div class="markdown level1 summary"><p>Creates a new instance of <a class="xref" href="DynamicVML.Internals.ItemEditorParameters.html">ItemEditorParameters</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ItemEditorParameters(string containerId, string itemId, AddNewDynamicItem newItemParameters, ListEditorParameters editorParameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
+        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
-    <thead>
+    </thead>
     <tbody>
       <tr>
-        <td id="DynamicVML_ListRenderMode_ViewModelOnly">ViewModelOnly</td>
-        <td><p>The final user-provided item template expects an instance of their 
-view model as the MVC <code>@model</code> class (e.g., &quot;BookViewModel&quot;).</p>
-</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">containerId</span></td>
+        <td></td>
       </tr>
       <tr>
-        <td id="DynamicVML_ListRenderMode_ViewModelWithOptions">ViewModelWithOptions</td>
-        <td><p>The final user-provided item template expects an instance of their 
-custom options for their view model as the MVC <code>@model</code> class
-(e.g., &quot;TOptions&lt;BookViewModel&gt;&quot;).</p>
-</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">itemId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DynamicVML.AddNewDynamicItem.html">AddNewDynamicItem</a></td>
+        <td><span class="parametername">newItemParameters</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DynamicVML.Internals.ListEditorParameters.html">ListEditorParameters</a></td>
+        <td><span class="parametername">editorParameters</span></td>
+        <td></td>
       </tr>
     </tbody>
-  </thead></thead></table>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dynamic-vml/dvml/new/master/docs-ref-overwrite/new?filename=DynamicVML_Internals_ItemEditorParameters_AddNewItem.md&amp;value=---%0Auid%3A%20DynamicVML.Internals.ItemEditorParameters.AddNewItem%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Internals/ItemEditorParameters.cs/#L28">View Source</a>
+  </span>
+  <a id="DynamicVML_Internals_ItemEditorParameters_AddNewItem_" data-uid="DynamicVML.Internals.ItemEditorParameters.AddNewItem*"></a>
+  <h4 id="DynamicVML_Internals_ItemEditorParameters_AddNewItem" data-uid="DynamicVML.Internals.ItemEditorParameters.AddNewItem">AddNewItem</h4>
+  <div class="markdown level1 summary"><p>Gets the parameters that should be sent to the server with instructions 
+on how to create new items to be dynamically added to the list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AddNewDynamicItem AddNewItem { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DynamicVML.AddNewDynamicItem.html">AddNewDynamicItem</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dynamic-vml/dvml/new/master/docs-ref-overwrite/new?filename=DynamicVML_Internals_ItemEditorParameters_Editor.md&amp;value=---%0Auid%3A%20DynamicVML.Internals.ItemEditorParameters.Editor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Internals/ItemEditorParameters.cs/#L21">View Source</a>
+  </span>
+  <a id="DynamicVML_Internals_ItemEditorParameters_Editor_" data-uid="DynamicVML.Internals.ItemEditorParameters.Editor*"></a>
+  <h4 id="DynamicVML_Internals_ItemEditorParameters_Editor" data-uid="DynamicVML.Internals.ItemEditorParameters.Editor">Editor</h4>
+  <div class="markdown level1 summary"><p>Gets the parameters used to render this list for edit.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ListEditorParameters Editor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DynamicVML.Internals.ListEditorParameters.html">ListEditorParameters</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="DynamicVML.Extensions.EnumerableExtensions.html#DynamicVML_Extensions_EnumerableExtensions_ToDynamicList__3___2_System_String_System_Func___2___0__System_Func___2___1__">EnumerableExtensions.ToDynamicList&lt;TViewModel, TOptions, ListRenderMode&gt;(String, Func&lt;ListRenderMode, TViewModel&gt;, Func&lt;ListRenderMode, TOptions&gt;)</a>
+      <a class="xref" href="DynamicVML.Extensions.EnumerableExtensions.html#DynamicVML_Extensions_EnumerableExtensions_ToDynamicList__2___0_System_String___1_">EnumerableExtensions.ToDynamicList&lt;TViewModel, TOptions&gt;(TViewModel, String, TOptions)</a>
   </div>
   <div>
-      <a class="xref" href="DynamicVML.Extensions.EnumerableExtensions.html#DynamicVML_Extensions_EnumerableExtensions_ToDynamicList__2___1_System_String_System_Func___1___0__">EnumerableExtensions.ToDynamicList&lt;TViewModel, ListRenderMode&gt;(String, Func&lt;ListRenderMode, TViewModel&gt;)</a>
+      <a class="xref" href="DynamicVML.Extensions.EnumerableExtensions.html#DynamicVML_Extensions_EnumerableExtensions_ToDynamicList__1___0_System_String_">EnumerableExtensions.ToDynamicList&lt;TViewModel&gt;(TViewModel, String)</a>
   </div>
   <div>
-      <a class="xref" href="DynamicVML.Extensions.EnumerableExtensions.html#DynamicVML_Extensions_EnumerableExtensions_ToDynamicList__3___2_System_String_System_Func___2___1__">EnumerableExtensions.ToDynamicList&lt;TViewModel, TOptions, ListRenderMode&gt;(String, Func&lt;ListRenderMode, TOptions&gt;)</a>
+      <a class="xref" href="DynamicVML.Extensions.EnumerableExtensions.html#DynamicVML_Extensions_EnumerableExtensions_ToDynamicList__2___0_System_String_System_Func___0___1__">EnumerableExtensions.ToDynamicList&lt;TViewModel, TOptions&gt;(TViewModel, String, Func&lt;TViewModel, TOptions&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="DynamicVML.Extensions.EnumerableExtensions.html#DynamicVML_Extensions_EnumerableExtensions_ToDynamicList__3___2_System_String_System_Func___2___0__System_Func___2___1__">EnumerableExtensions.ToDynamicList&lt;TViewModel, TOptions, TModel&gt;(TModel, String, Func&lt;TModel, TViewModel&gt;, Func&lt;TModel, TOptions&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="DynamicVML.Extensions.EnumerableExtensions.html#DynamicVML_Extensions_EnumerableExtensions_ToDynamicList__2___1_System_String_System_Func___1___0__">EnumerableExtensions.ToDynamicList&lt;TViewModel, TModel&gt;(TModel, String, Func&lt;TModel, TViewModel&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="DynamicVML.Extensions.EnumerableExtensions.html#DynamicVML_Extensions_EnumerableExtensions_ToDynamicList__3___2_System_String_System_Func___2___1__">EnumerableExtensions.ToDynamicList&lt;TViewModel, TOptions, TModel&gt;(TModel, String, Func&lt;TModel, TOptions&gt;)</a>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="DynamicVML.Internals.ListEditorParameters.html">ListEditorParameters</a></div>
+      <div><a class="xref" href="DynamicVML.Internals.ItemDisplayParameters.html">ItemDisplayParameters</a></div>
   </div>
 </article>
           </div>
@@ -264,10 +406,10 @@ custom options for their view model as the MVC <code>@model</code> class
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/dynamic-vml/dvml/new/master/docs-ref-overwrite/new?filename=DynamicVML_ListRenderMode.md&amp;value=---%0Auid%3A%20DynamicVML.ListRenderMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/dynamic-vml/dvml/new/master/docs-ref-overwrite/new?filename=DynamicVML_Internals_ItemEditorParameters.md&amp;value=---%0Auid%3A%20DynamicVML.Internals.ItemEditorParameters%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Configuration/ListRenderMode.cs/#L11" class="contribution-link">View Source</a>
+                    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Internals/ItemEditorParameters.cs/#L15" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

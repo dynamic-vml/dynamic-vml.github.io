@@ -19,6 +19,12 @@ references:
   commentId: M:DynamicVML.AddNewDynamicItem.#ctor
   fullName: DynamicVML.AddNewDynamicItem.AddNewDynamicItem()
   nameWithType: AddNewDynamicItem.AddNewDynamicItem()
+- uid: DynamicVML.AddNewDynamicItem.#ctor(System.String,System.String,System.String,System.String,System.String,DynamicVML.ListRenderMode,System.Object)
+  name: AddNewDynamicItem(String, String, String, String, String, ListRenderMode, Object)
+  href: api/DynamicVML.AddNewDynamicItem.html#DynamicVML_AddNewDynamicItem__ctor_System_String_System_String_System_String_System_String_System_String_DynamicVML_ListRenderMode_System_Object_
+  commentId: M:DynamicVML.AddNewDynamicItem.#ctor(System.String,System.String,System.String,System.String,System.String,DynamicVML.ListRenderMode,System.Object)
+  fullName: DynamicVML.AddNewDynamicItem.AddNewDynamicItem(System.String, System.String, System.String, System.String, System.String, DynamicVML.ListRenderMode, System.Object)
+  nameWithType: AddNewDynamicItem.AddNewDynamicItem(String, String, String, String, String, ListRenderMode, Object)
 - uid: DynamicVML.AddNewDynamicItem.#ctor*
   name: AddNewDynamicItem
   href: api/DynamicVML.AddNewDynamicItem.html#DynamicVML_AddNewDynamicItem__ctor_
@@ -65,6 +71,84 @@ references:
   isSpec: "True"
   fullName: DynamicVML.AddNewDynamicItem.DisableTraceWarningsForQueryStringsThatContainAdditionalViewData
   nameWithType: AddNewDynamicItem.DisableTraceWarningsForQueryStringsThatContainAdditionalViewData
+- uid: DynamicVML.AddNewDynamicItem.GetAdditionalViewData
+  name: GetAdditionalViewData()
+  href: api/DynamicVML.AddNewDynamicItem.html#DynamicVML_AddNewDynamicItem_GetAdditionalViewData
+  commentId: M:DynamicVML.AddNewDynamicItem.GetAdditionalViewData
+  fullName: DynamicVML.AddNewDynamicItem.GetAdditionalViewData()
+  nameWithType: AddNewDynamicItem.GetAdditionalViewData()
+- uid: DynamicVML.AddNewDynamicItem.GetAdditionalViewData*
+  name: GetAdditionalViewData
+  href: api/DynamicVML.AddNewDynamicItem.html#DynamicVML_AddNewDynamicItem_GetAdditionalViewData_
+  commentId: Overload:DynamicVML.AddNewDynamicItem.GetAdditionalViewData
+  isSpec: "True"
+  fullName: DynamicVML.AddNewDynamicItem.GetAdditionalViewData
+  nameWithType: AddNewDynamicItem.GetAdditionalViewData
+- uid: DynamicVML.AddNewDynamicItem.ItemContainerTemplate
+  name: ItemContainerTemplate
+  href: api/DynamicVML.AddNewDynamicItem.html#DynamicVML_AddNewDynamicItem_ItemContainerTemplate
+  commentId: P:DynamicVML.AddNewDynamicItem.ItemContainerTemplate
+  fullName: DynamicVML.AddNewDynamicItem.ItemContainerTemplate
+  nameWithType: AddNewDynamicItem.ItemContainerTemplate
+- uid: DynamicVML.AddNewDynamicItem.ItemContainerTemplate*
+  name: ItemContainerTemplate
+  href: api/DynamicVML.AddNewDynamicItem.html#DynamicVML_AddNewDynamicItem_ItemContainerTemplate_
+  commentId: Overload:DynamicVML.AddNewDynamicItem.ItemContainerTemplate
+  isSpec: "True"
+  fullName: DynamicVML.AddNewDynamicItem.ItemContainerTemplate
+  nameWithType: AddNewDynamicItem.ItemContainerTemplate
+- uid: DynamicVML.AddNewDynamicItem.ItemTemplate
+  name: ItemTemplate
+  href: api/DynamicVML.AddNewDynamicItem.html#DynamicVML_AddNewDynamicItem_ItemTemplate
+  commentId: P:DynamicVML.AddNewDynamicItem.ItemTemplate
+  fullName: DynamicVML.AddNewDynamicItem.ItemTemplate
+  nameWithType: AddNewDynamicItem.ItemTemplate
+- uid: DynamicVML.AddNewDynamicItem.ItemTemplate*
+  name: ItemTemplate
+  href: api/DynamicVML.AddNewDynamicItem.html#DynamicVML_AddNewDynamicItem_ItemTemplate_
+  commentId: Overload:DynamicVML.AddNewDynamicItem.ItemTemplate
+  isSpec: "True"
+  fullName: DynamicVML.AddNewDynamicItem.ItemTemplate
+  nameWithType: AddNewDynamicItem.ItemTemplate
+- uid: DynamicVML.AddNewDynamicItem.ListTemplate
+  name: ListTemplate
+  href: api/DynamicVML.AddNewDynamicItem.html#DynamicVML_AddNewDynamicItem_ListTemplate
+  commentId: P:DynamicVML.AddNewDynamicItem.ListTemplate
+  fullName: DynamicVML.AddNewDynamicItem.ListTemplate
+  nameWithType: AddNewDynamicItem.ListTemplate
+- uid: DynamicVML.AddNewDynamicItem.ListTemplate*
+  name: ListTemplate
+  href: api/DynamicVML.AddNewDynamicItem.html#DynamicVML_AddNewDynamicItem_ListTemplate_
+  commentId: Overload:DynamicVML.AddNewDynamicItem.ListTemplate
+  isSpec: "True"
+  fullName: DynamicVML.AddNewDynamicItem.ListTemplate
+  nameWithType: AddNewDynamicItem.ListTemplate
+- uid: DynamicVML.AddNewDynamicItem.Mode
+  name: Mode
+  href: api/DynamicVML.AddNewDynamicItem.html#DynamicVML_AddNewDynamicItem_Mode
+  commentId: P:DynamicVML.AddNewDynamicItem.Mode
+  fullName: DynamicVML.AddNewDynamicItem.Mode
+  nameWithType: AddNewDynamicItem.Mode
+- uid: DynamicVML.AddNewDynamicItem.Mode*
+  name: Mode
+  href: api/DynamicVML.AddNewDynamicItem.html#DynamicVML_AddNewDynamicItem_Mode_
+  commentId: Overload:DynamicVML.AddNewDynamicItem.Mode
+  isSpec: "True"
+  fullName: DynamicVML.AddNewDynamicItem.Mode
+  nameWithType: AddNewDynamicItem.Mode
+- uid: DynamicVML.AddNewDynamicItem.Prefix
+  name: Prefix
+  href: api/DynamicVML.AddNewDynamicItem.html#DynamicVML_AddNewDynamicItem_Prefix
+  commentId: P:DynamicVML.AddNewDynamicItem.Prefix
+  fullName: DynamicVML.AddNewDynamicItem.Prefix
+  nameWithType: AddNewDynamicItem.Prefix
+- uid: DynamicVML.AddNewDynamicItem.Prefix*
+  name: Prefix
+  href: api/DynamicVML.AddNewDynamicItem.html#DynamicVML_AddNewDynamicItem_Prefix_
+  commentId: Overload:DynamicVML.AddNewDynamicItem.Prefix
+  isSpec: "True"
+  fullName: DynamicVML.AddNewDynamicItem.Prefix
+  nameWithType: AddNewDynamicItem.Prefix
 - uid: DynamicVML.AddNewDynamicItem.ToJSON
   name: ToJSON()
   href: api/DynamicVML.AddNewDynamicItem.html#DynamicVML_AddNewDynamicItem_ToJSON
@@ -167,6 +251,15 @@ references:
   fullName.vb: DynamicVML.DynamicList(Of TViewModel, TOptions).Add(TViewModel)
   nameWithType: DynamicList<TViewModel, TOptions>.Add(TViewModel)
   nameWithType.vb: DynamicList(Of TViewModel, TOptions).Add(TViewModel)
+- uid: DynamicVML.DynamicList`2.Add(`0,System.Action{`1})
+  name: Add(TViewModel, Action<TOptions>)
+  href: api/DynamicVML.DynamicList-2.html#DynamicVML_DynamicList_2_Add__0_System_Action__1__
+  commentId: M:DynamicVML.DynamicList`2.Add(`0,System.Action{`1})
+  name.vb: Add(TViewModel, Action(Of TOptions))
+  fullName: DynamicVML.DynamicList<TViewModel, TOptions>.Add(TViewModel, System.Action<TOptions>)
+  fullName.vb: DynamicVML.DynamicList(Of TViewModel, TOptions).Add(TViewModel, System.Action(Of TOptions))
+  nameWithType: DynamicList<TViewModel, TOptions>.Add(TViewModel, Action<TOptions>)
+  nameWithType.vb: DynamicList(Of TViewModel, TOptions).Add(TViewModel, Action(Of TOptions))
 - uid: DynamicVML.DynamicList`2.Add(`1)
   name: Add(TOptions)
   href: api/DynamicVML.DynamicList-2.html#DynamicVML_DynamicList_2_Add__1_
@@ -648,6 +741,15 @@ references:
   fullName.vb: DynamicVML.Extensions.ControllerExtensions.PartialView(Of TViewModel)(Microsoft.AspNetCore.Mvc.Controller, TViewModel, DynamicVML.AddNewDynamicItem)
   nameWithType: ControllerExtensions.PartialView<TViewModel>(Controller, TViewModel, AddNewDynamicItem)
   nameWithType.vb: ControllerExtensions.PartialView(Of TViewModel)(Controller, TViewModel, AddNewDynamicItem)
+- uid: DynamicVML.Extensions.ControllerExtensions.PartialView``1(Microsoft.AspNetCore.Mvc.Controller,``0,DynamicVML.AddNewDynamicItem,System.Action{DynamicVML.DynamicListItem{``0}})
+  name: PartialView<TViewModel>(Controller, TViewModel, AddNewDynamicItem, Action<DynamicListItem<TViewModel>>)
+  href: api/DynamicVML.Extensions.ControllerExtensions.html#DynamicVML_Extensions_ControllerExtensions_PartialView__1_Microsoft_AspNetCore_Mvc_Controller___0_DynamicVML_AddNewDynamicItem_System_Action_DynamicVML_DynamicListItem___0___
+  commentId: M:DynamicVML.Extensions.ControllerExtensions.PartialView``1(Microsoft.AspNetCore.Mvc.Controller,``0,DynamicVML.AddNewDynamicItem,System.Action{DynamicVML.DynamicListItem{``0}})
+  name.vb: PartialView(Of TViewModel)(Controller, TViewModel, AddNewDynamicItem, Action(Of DynamicListItem(Of TViewModel)))
+  fullName: DynamicVML.Extensions.ControllerExtensions.PartialView<TViewModel>(Microsoft.AspNetCore.Mvc.Controller, TViewModel, DynamicVML.AddNewDynamicItem, System.Action<DynamicVML.DynamicListItem<TViewModel>>)
+  fullName.vb: DynamicVML.Extensions.ControllerExtensions.PartialView(Of TViewModel)(Microsoft.AspNetCore.Mvc.Controller, TViewModel, DynamicVML.AddNewDynamicItem, System.Action(Of DynamicVML.DynamicListItem(Of TViewModel)))
+  nameWithType: ControllerExtensions.PartialView<TViewModel>(Controller, TViewModel, AddNewDynamicItem, Action<DynamicListItem<TViewModel>>)
+  nameWithType.vb: ControllerExtensions.PartialView(Of TViewModel)(Controller, TViewModel, AddNewDynamicItem, Action(Of DynamicListItem(Of TViewModel)))
 - uid: DynamicVML.Extensions.ControllerExtensions.PartialView``2(Microsoft.AspNetCore.Mvc.Controller,``0,DynamicVML.AddNewDynamicItem,``1)
   name: PartialView<TViewModel, TOptions>(Controller, TViewModel, AddNewDynamicItem, TOptions)
   href: api/DynamicVML.Extensions.ControllerExtensions.html#DynamicVML_Extensions_ControllerExtensions_PartialView__2_Microsoft_AspNetCore_Mvc_Controller___0_DynamicVML_AddNewDynamicItem___1_
@@ -657,6 +759,21 @@ references:
   fullName.vb: DynamicVML.Extensions.ControllerExtensions.PartialView(Of TViewModel, TOptions)(Microsoft.AspNetCore.Mvc.Controller, TViewModel, DynamicVML.AddNewDynamicItem, TOptions)
   nameWithType: ControllerExtensions.PartialView<TViewModel, TOptions>(Controller, TViewModel, AddNewDynamicItem, TOptions)
   nameWithType.vb: ControllerExtensions.PartialView(Of TViewModel, TOptions)(Controller, TViewModel, AddNewDynamicItem, TOptions)
+- uid: DynamicVML.Extensions.ControllerExtensions.PartialView``2(Microsoft.AspNetCore.Mvc.Controller,``0,DynamicVML.AddNewDynamicItem,System.Action{``1})
+  name: PartialView<TViewModel, TOptions>(Controller, TViewModel, AddNewDynamicItem, Action<TOptions>)
+  href: api/DynamicVML.Extensions.ControllerExtensions.html#DynamicVML_Extensions_ControllerExtensions_PartialView__2_Microsoft_AspNetCore_Mvc_Controller___0_DynamicVML_AddNewDynamicItem_System_Action___1__
+  commentId: M:DynamicVML.Extensions.ControllerExtensions.PartialView``2(Microsoft.AspNetCore.Mvc.Controller,``0,DynamicVML.AddNewDynamicItem,System.Action{``1})
+  name.vb: PartialView(Of TViewModel, TOptions)(Controller, TViewModel, AddNewDynamicItem, Action(Of TOptions))
+  fullName: DynamicVML.Extensions.ControllerExtensions.PartialView<TViewModel, TOptions>(Microsoft.AspNetCore.Mvc.Controller, TViewModel, DynamicVML.AddNewDynamicItem, System.Action<TOptions>)
+  fullName.vb: DynamicVML.Extensions.ControllerExtensions.PartialView(Of TViewModel, TOptions)(Microsoft.AspNetCore.Mvc.Controller, TViewModel, DynamicVML.AddNewDynamicItem, System.Action(Of TOptions))
+  nameWithType: ControllerExtensions.PartialView<TViewModel, TOptions>(Controller, TViewModel, AddNewDynamicItem, Action<TOptions>)
+  nameWithType.vb: ControllerExtensions.PartialView(Of TViewModel, TOptions)(Controller, TViewModel, AddNewDynamicItem, Action(Of TOptions))
+- uid: DynamicVML.Extensions.ControllerExtensions.PartialViewAsync(Microsoft.AspNetCore.Mvc.Controller,Microsoft.AspNetCore.Mvc.ViewEngines.ICompositeViewEngine,DynamicVML.IDynamicList,DynamicVML.AddNewDynamicItem)
+  name: PartialViewAsync(Controller, ICompositeViewEngine, IDynamicList, AddNewDynamicItem)
+  href: api/DynamicVML.Extensions.ControllerExtensions.html#DynamicVML_Extensions_ControllerExtensions_PartialViewAsync_Microsoft_AspNetCore_Mvc_Controller_Microsoft_AspNetCore_Mvc_ViewEngines_ICompositeViewEngine_DynamicVML_IDynamicList_DynamicVML_AddNewDynamicItem_
+  commentId: M:DynamicVML.Extensions.ControllerExtensions.PartialViewAsync(Microsoft.AspNetCore.Mvc.Controller,Microsoft.AspNetCore.Mvc.ViewEngines.ICompositeViewEngine,DynamicVML.IDynamicList,DynamicVML.AddNewDynamicItem)
+  fullName: DynamicVML.Extensions.ControllerExtensions.PartialViewAsync(Microsoft.AspNetCore.Mvc.Controller, Microsoft.AspNetCore.Mvc.ViewEngines.ICompositeViewEngine, DynamicVML.IDynamicList, DynamicVML.AddNewDynamicItem)
+  nameWithType: ControllerExtensions.PartialViewAsync(Controller, ICompositeViewEngine, IDynamicList, AddNewDynamicItem)
 - uid: DynamicVML.Extensions.ControllerExtensions.PartialViewAsync*
   name: PartialViewAsync
   href: api/DynamicVML.Extensions.ControllerExtensions.html#DynamicVML_Extensions_ControllerExtensions_PartialViewAsync_
@@ -664,6 +781,15 @@ references:
   isSpec: "True"
   fullName: DynamicVML.Extensions.ControllerExtensions.PartialViewAsync
   nameWithType: ControllerExtensions.PartialViewAsync
+- uid: DynamicVML.Extensions.ControllerExtensions.PartialViewAsync``1(Microsoft.AspNetCore.Mvc.Controller,Microsoft.AspNetCore.Mvc.ViewEngines.ICompositeViewEngine,``0,DynamicVML.AddNewDynamicItem,System.Action{DynamicVML.DynamicListItem{``0}})
+  name: PartialViewAsync<TViewModel>(Controller, ICompositeViewEngine, TViewModel, AddNewDynamicItem, Action<DynamicListItem<TViewModel>>)
+  href: api/DynamicVML.Extensions.ControllerExtensions.html#DynamicVML_Extensions_ControllerExtensions_PartialViewAsync__1_Microsoft_AspNetCore_Mvc_Controller_Microsoft_AspNetCore_Mvc_ViewEngines_ICompositeViewEngine___0_DynamicVML_AddNewDynamicItem_System_Action_DynamicVML_DynamicListItem___0___
+  commentId: M:DynamicVML.Extensions.ControllerExtensions.PartialViewAsync``1(Microsoft.AspNetCore.Mvc.Controller,Microsoft.AspNetCore.Mvc.ViewEngines.ICompositeViewEngine,``0,DynamicVML.AddNewDynamicItem,System.Action{DynamicVML.DynamicListItem{``0}})
+  name.vb: PartialViewAsync(Of TViewModel)(Controller, ICompositeViewEngine, TViewModel, AddNewDynamicItem, Action(Of DynamicListItem(Of TViewModel)))
+  fullName: DynamicVML.Extensions.ControllerExtensions.PartialViewAsync<TViewModel>(Microsoft.AspNetCore.Mvc.Controller, Microsoft.AspNetCore.Mvc.ViewEngines.ICompositeViewEngine, TViewModel, DynamicVML.AddNewDynamicItem, System.Action<DynamicVML.DynamicListItem<TViewModel>>)
+  fullName.vb: DynamicVML.Extensions.ControllerExtensions.PartialViewAsync(Of TViewModel)(Microsoft.AspNetCore.Mvc.Controller, Microsoft.AspNetCore.Mvc.ViewEngines.ICompositeViewEngine, TViewModel, DynamicVML.AddNewDynamicItem, System.Action(Of DynamicVML.DynamicListItem(Of TViewModel)))
+  nameWithType: ControllerExtensions.PartialViewAsync<TViewModel>(Controller, ICompositeViewEngine, TViewModel, AddNewDynamicItem, Action<DynamicListItem<TViewModel>>)
+  nameWithType.vb: ControllerExtensions.PartialViewAsync(Of TViewModel)(Controller, ICompositeViewEngine, TViewModel, AddNewDynamicItem, Action(Of DynamicListItem(Of TViewModel)))
 - uid: DynamicVML.Extensions.ControllerExtensions.PartialViewAsync``2(Microsoft.AspNetCore.Mvc.Controller,Microsoft.AspNetCore.Mvc.ViewEngines.ICompositeViewEngine,``0,DynamicVML.AddNewDynamicItem,``1)
   name: PartialViewAsync<TViewModel, TOptions>(Controller, ICompositeViewEngine, TViewModel, AddNewDynamicItem, TOptions)
   href: api/DynamicVML.Extensions.ControllerExtensions.html#DynamicVML_Extensions_ControllerExtensions_PartialViewAsync__2_Microsoft_AspNetCore_Mvc_Controller_Microsoft_AspNetCore_Mvc_ViewEngines_ICompositeViewEngine___0_DynamicVML_AddNewDynamicItem___1_
@@ -673,6 +799,15 @@ references:
   fullName.vb: DynamicVML.Extensions.ControllerExtensions.PartialViewAsync(Of TViewModel, TOptions)(Microsoft.AspNetCore.Mvc.Controller, Microsoft.AspNetCore.Mvc.ViewEngines.ICompositeViewEngine, TViewModel, DynamicVML.AddNewDynamicItem, TOptions)
   nameWithType: ControllerExtensions.PartialViewAsync<TViewModel, TOptions>(Controller, ICompositeViewEngine, TViewModel, AddNewDynamicItem, TOptions)
   nameWithType.vb: ControllerExtensions.PartialViewAsync(Of TViewModel, TOptions)(Controller, ICompositeViewEngine, TViewModel, AddNewDynamicItem, TOptions)
+- uid: DynamicVML.Extensions.ControllerExtensions.PartialViewAsync``2(Microsoft.AspNetCore.Mvc.Controller,Microsoft.AspNetCore.Mvc.ViewEngines.ICompositeViewEngine,``0,DynamicVML.AddNewDynamicItem,System.Action{``1})
+  name: PartialViewAsync<TViewModel, TOptions>(Controller, ICompositeViewEngine, TViewModel, AddNewDynamicItem, Action<TOptions>)
+  href: api/DynamicVML.Extensions.ControllerExtensions.html#DynamicVML_Extensions_ControllerExtensions_PartialViewAsync__2_Microsoft_AspNetCore_Mvc_Controller_Microsoft_AspNetCore_Mvc_ViewEngines_ICompositeViewEngine___0_DynamicVML_AddNewDynamicItem_System_Action___1__
+  commentId: M:DynamicVML.Extensions.ControllerExtensions.PartialViewAsync``2(Microsoft.AspNetCore.Mvc.Controller,Microsoft.AspNetCore.Mvc.ViewEngines.ICompositeViewEngine,``0,DynamicVML.AddNewDynamicItem,System.Action{``1})
+  name.vb: PartialViewAsync(Of TViewModel, TOptions)(Controller, ICompositeViewEngine, TViewModel, AddNewDynamicItem, Action(Of TOptions))
+  fullName: DynamicVML.Extensions.ControllerExtensions.PartialViewAsync<TViewModel, TOptions>(Microsoft.AspNetCore.Mvc.Controller, Microsoft.AspNetCore.Mvc.ViewEngines.ICompositeViewEngine, TViewModel, DynamicVML.AddNewDynamicItem, System.Action<TOptions>)
+  fullName.vb: DynamicVML.Extensions.ControllerExtensions.PartialViewAsync(Of TViewModel, TOptions)(Microsoft.AspNetCore.Mvc.Controller, Microsoft.AspNetCore.Mvc.ViewEngines.ICompositeViewEngine, TViewModel, DynamicVML.AddNewDynamicItem, System.Action(Of TOptions))
+  nameWithType: ControllerExtensions.PartialViewAsync<TViewModel, TOptions>(Controller, ICompositeViewEngine, TViewModel, AddNewDynamicItem, Action<TOptions>)
+  nameWithType.vb: ControllerExtensions.PartialViewAsync(Of TViewModel, TOptions)(Controller, ICompositeViewEngine, TViewModel, AddNewDynamicItem, Action(Of TOptions))
 - uid: DynamicVML.Extensions.EditorExtensions
   name: EditorExtensions
   href: api/DynamicVML.Extensions.EditorExtensions.html
@@ -686,15 +821,15 @@ references:
   isSpec: "True"
   fullName: DynamicVML.Extensions.EditorExtensions.DisplayListFor
   nameWithType: EditorExtensions.DisplayListFor
-- uid: DynamicVML.Extensions.EditorExtensions.DisplayListFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String,System.String,System.String,System.String,System.Object,System.String,DynamicVML.ListRenderMode)
-  name: DisplayListFor<TModel, TValue>(IHtmlHelper<TModel>, Expression<Func<TModel, TValue>>, String, String, String, String, Object, String, ListRenderMode)
-  href: api/DynamicVML.Extensions.EditorExtensions.html#DynamicVML_Extensions_EditorExtensions_DisplayListFor__2_Microsoft_AspNetCore_Mvc_Rendering_IHtmlHelper___0__System_Linq_Expressions_Expression_System_Func___0___1___System_String_System_String_System_String_System_String_System_Object_System_String_DynamicVML_ListRenderMode_
-  commentId: M:DynamicVML.Extensions.EditorExtensions.DisplayListFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String,System.String,System.String,System.String,System.Object,System.String,DynamicVML.ListRenderMode)
-  name.vb: DisplayListFor(Of TModel, TValue)(IHtmlHelper(Of TModel), Expression(Of Func(Of TModel, TValue)), String, String, String, String, Object, String, ListRenderMode)
-  fullName: DynamicVML.Extensions.EditorExtensions.DisplayListFor<TModel, TValue>(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>, System.Linq.Expressions.Expression<System.Func<TModel, TValue>>, System.String, System.String, System.String, System.String, System.Object, System.String, DynamicVML.ListRenderMode)
-  fullName.vb: DynamicVML.Extensions.EditorExtensions.DisplayListFor(Of TModel, TValue)(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper(Of TModel), System.Linq.Expressions.Expression(Of System.Func(Of TModel, TValue)), System.String, System.String, System.String, System.String, System.Object, System.String, DynamicVML.ListRenderMode)
-  nameWithType: EditorExtensions.DisplayListFor<TModel, TValue>(IHtmlHelper<TModel>, Expression<Func<TModel, TValue>>, String, String, String, String, Object, String, ListRenderMode)
-  nameWithType.vb: EditorExtensions.DisplayListFor(Of TModel, TValue)(IHtmlHelper(Of TModel), Expression(Of Func(Of TModel, TValue)), String, String, String, String, Object, String, ListRenderMode)
+- uid: DynamicVML.Extensions.EditorExtensions.DisplayListFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String,System.String,System.String,System.String,System.Object,DynamicVML.ListRenderMode)
+  name: DisplayListFor<TModel, TValue>(IHtmlHelper<TModel>, Expression<Func<TModel, TValue>>, String, String, String, String, Object, ListRenderMode)
+  href: api/DynamicVML.Extensions.EditorExtensions.html#DynamicVML_Extensions_EditorExtensions_DisplayListFor__2_Microsoft_AspNetCore_Mvc_Rendering_IHtmlHelper___0__System_Linq_Expressions_Expression_System_Func___0___1___System_String_System_String_System_String_System_String_System_Object_DynamicVML_ListRenderMode_
+  commentId: M:DynamicVML.Extensions.EditorExtensions.DisplayListFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String,System.String,System.String,System.String,System.Object,DynamicVML.ListRenderMode)
+  name.vb: DisplayListFor(Of TModel, TValue)(IHtmlHelper(Of TModel), Expression(Of Func(Of TModel, TValue)), String, String, String, String, Object, ListRenderMode)
+  fullName: DynamicVML.Extensions.EditorExtensions.DisplayListFor<TModel, TValue>(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>, System.Linq.Expressions.Expression<System.Func<TModel, TValue>>, System.String, System.String, System.String, System.String, System.Object, DynamicVML.ListRenderMode)
+  fullName.vb: DynamicVML.Extensions.EditorExtensions.DisplayListFor(Of TModel, TValue)(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper(Of TModel), System.Linq.Expressions.Expression(Of System.Func(Of TModel, TValue)), System.String, System.String, System.String, System.String, System.Object, DynamicVML.ListRenderMode)
+  nameWithType: EditorExtensions.DisplayListFor<TModel, TValue>(IHtmlHelper<TModel>, Expression<Func<TModel, TValue>>, String, String, String, String, Object, ListRenderMode)
+  nameWithType.vb: EditorExtensions.DisplayListFor(Of TModel, TValue)(IHtmlHelper(Of TModel), Expression(Of Func(Of TModel, TValue)), String, String, String, String, Object, ListRenderMode)
 - uid: DynamicVML.Extensions.EditorExtensions.GetDynamicListActionUrl(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{DynamicVML.IDynamicList})
   name: GetDynamicListActionUrl(IHtmlHelper<IDynamicList>)
   href: api/DynamicVML.Extensions.EditorExtensions.html#DynamicVML_Extensions_EditorExtensions_GetDynamicListActionUrl_Microsoft_AspNetCore_Mvc_Rendering_IHtmlHelper_DynamicVML_IDynamicList__
@@ -718,15 +853,15 @@ references:
   isSpec: "True"
   fullName: DynamicVML.Extensions.EditorExtensions.ListEditorFor
   nameWithType: EditorExtensions.ListEditorFor
-- uid: DynamicVML.Extensions.EditorExtensions.ListEditorFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String,System.String,System.String,System.String,System.String,System.String,System.Object,System.String,DynamicVML.ListRenderMode,DynamicVML.NewItemMethod)
-  name: ListEditorFor<TModel, TValue>(IHtmlHelper<TModel>, Expression<Func<TModel, TValue>>, String, String, String, String, String, String, Object, String, ListRenderMode, NewItemMethod)
-  href: api/DynamicVML.Extensions.EditorExtensions.html#DynamicVML_Extensions_EditorExtensions_ListEditorFor__2_Microsoft_AspNetCore_Mvc_Rendering_IHtmlHelper___0__System_Linq_Expressions_Expression_System_Func___0___1___System_String_System_String_System_String_System_String_System_String_System_String_System_Object_System_String_DynamicVML_ListRenderMode_DynamicVML_NewItemMethod_
-  commentId: M:DynamicVML.Extensions.EditorExtensions.ListEditorFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String,System.String,System.String,System.String,System.String,System.String,System.Object,System.String,DynamicVML.ListRenderMode,DynamicVML.NewItemMethod)
-  name.vb: ListEditorFor(Of TModel, TValue)(IHtmlHelper(Of TModel), Expression(Of Func(Of TModel, TValue)), String, String, String, String, String, String, Object, String, ListRenderMode, NewItemMethod)
-  fullName: DynamicVML.Extensions.EditorExtensions.ListEditorFor<TModel, TValue>(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>, System.Linq.Expressions.Expression<System.Func<TModel, TValue>>, System.String, System.String, System.String, System.String, System.String, System.String, System.Object, System.String, DynamicVML.ListRenderMode, DynamicVML.NewItemMethod)
-  fullName.vb: DynamicVML.Extensions.EditorExtensions.ListEditorFor(Of TModel, TValue)(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper(Of TModel), System.Linq.Expressions.Expression(Of System.Func(Of TModel, TValue)), System.String, System.String, System.String, System.String, System.String, System.String, System.Object, System.String, DynamicVML.ListRenderMode, DynamicVML.NewItemMethod)
-  nameWithType: EditorExtensions.ListEditorFor<TModel, TValue>(IHtmlHelper<TModel>, Expression<Func<TModel, TValue>>, String, String, String, String, String, String, Object, String, ListRenderMode, NewItemMethod)
-  nameWithType.vb: EditorExtensions.ListEditorFor(Of TModel, TValue)(IHtmlHelper(Of TModel), Expression(Of Func(Of TModel, TValue)), String, String, String, String, String, String, Object, String, ListRenderMode, NewItemMethod)
+- uid: DynamicVML.Extensions.EditorExtensions.ListEditorFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String,System.String,System.String,System.String,System.String,System.String,System.Object,DynamicVML.ListRenderMode,DynamicVML.NewItemMethod)
+  name: ListEditorFor<TModel, TValue>(IHtmlHelper<TModel>, Expression<Func<TModel, TValue>>, String, String, String, String, String, String, Object, ListRenderMode, NewItemMethod)
+  href: api/DynamicVML.Extensions.EditorExtensions.html#DynamicVML_Extensions_EditorExtensions_ListEditorFor__2_Microsoft_AspNetCore_Mvc_Rendering_IHtmlHelper___0__System_Linq_Expressions_Expression_System_Func___0___1___System_String_System_String_System_String_System_String_System_String_System_String_System_Object_DynamicVML_ListRenderMode_DynamicVML_NewItemMethod_
+  commentId: M:DynamicVML.Extensions.EditorExtensions.ListEditorFor``2(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String,System.String,System.String,System.String,System.String,System.String,System.Object,DynamicVML.ListRenderMode,DynamicVML.NewItemMethod)
+  name.vb: ListEditorFor(Of TModel, TValue)(IHtmlHelper(Of TModel), Expression(Of Func(Of TModel, TValue)), String, String, String, String, String, String, Object, ListRenderMode, NewItemMethod)
+  fullName: DynamicVML.Extensions.EditorExtensions.ListEditorFor<TModel, TValue>(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>, System.Linq.Expressions.Expression<System.Func<TModel, TValue>>, System.String, System.String, System.String, System.String, System.String, System.String, System.Object, DynamicVML.ListRenderMode, DynamicVML.NewItemMethod)
+  fullName.vb: DynamicVML.Extensions.EditorExtensions.ListEditorFor(Of TModel, TValue)(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper(Of TModel), System.Linq.Expressions.Expression(Of System.Func(Of TModel, TValue)), System.String, System.String, System.String, System.String, System.String, System.String, System.Object, DynamicVML.ListRenderMode, DynamicVML.NewItemMethod)
+  nameWithType: EditorExtensions.ListEditorFor<TModel, TValue>(IHtmlHelper<TModel>, Expression<Func<TModel, TValue>>, String, String, String, String, String, String, Object, ListRenderMode, NewItemMethod)
+  nameWithType.vb: EditorExtensions.ListEditorFor(Of TModel, TValue)(IHtmlHelper(Of TModel), Expression(Of Func(Of TModel, TValue)), String, String, String, String, String, String, Object, ListRenderMode, NewItemMethod)
 - uid: DynamicVML.Extensions.EditorExtensions.RenderDynamicItemContainerDisplay*
   name: RenderDynamicItemContainerDisplay
   href: api/DynamicVML.Extensions.EditorExtensions.html#DynamicVML_Extensions_EditorExtensions_RenderDynamicItemContainerDisplay_
@@ -807,38 +942,38 @@ references:
   isSpec: "True"
   fullName: DynamicVML.Extensions.EditorExtensions.RenderDynamicListAddNewItemText
   nameWithType: EditorExtensions.RenderDynamicListAddNewItemText
-- uid: DynamicVML.Extensions.EditorExtensions.RenderDynamicListDisplayAsync*
-  name: RenderDynamicListDisplayAsync
-  href: api/DynamicVML.Extensions.EditorExtensions.html#DynamicVML_Extensions_EditorExtensions_RenderDynamicListDisplayAsync_
-  commentId: Overload:DynamicVML.Extensions.EditorExtensions.RenderDynamicListDisplayAsync
+- uid: DynamicVML.Extensions.EditorExtensions.RenderDynamicListDisplay*
+  name: RenderDynamicListDisplay
+  href: api/DynamicVML.Extensions.EditorExtensions.html#DynamicVML_Extensions_EditorExtensions_RenderDynamicListDisplay_
+  commentId: Overload:DynamicVML.Extensions.EditorExtensions.RenderDynamicListDisplay
   isSpec: "True"
-  fullName: DynamicVML.Extensions.EditorExtensions.RenderDynamicListDisplayAsync
-  nameWithType: EditorExtensions.RenderDynamicListDisplayAsync
-- uid: DynamicVML.Extensions.EditorExtensions.RenderDynamicListDisplayAsync``1(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0})
-  name: RenderDynamicListDisplayAsync<TModel>(IHtmlHelper<TModel>)
-  href: api/DynamicVML.Extensions.EditorExtensions.html#DynamicVML_Extensions_EditorExtensions_RenderDynamicListDisplayAsync__1_Microsoft_AspNetCore_Mvc_Rendering_IHtmlHelper___0__
-  commentId: M:DynamicVML.Extensions.EditorExtensions.RenderDynamicListDisplayAsync``1(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0})
-  name.vb: RenderDynamicListDisplayAsync(Of TModel)(IHtmlHelper(Of TModel))
-  fullName: DynamicVML.Extensions.EditorExtensions.RenderDynamicListDisplayAsync<TModel>(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>)
-  fullName.vb: DynamicVML.Extensions.EditorExtensions.RenderDynamicListDisplayAsync(Of TModel)(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper(Of TModel))
-  nameWithType: EditorExtensions.RenderDynamicListDisplayAsync<TModel>(IHtmlHelper<TModel>)
-  nameWithType.vb: EditorExtensions.RenderDynamicListDisplayAsync(Of TModel)(IHtmlHelper(Of TModel))
-- uid: DynamicVML.Extensions.EditorExtensions.RenderDynamicListEditorAsync*
-  name: RenderDynamicListEditorAsync
-  href: api/DynamicVML.Extensions.EditorExtensions.html#DynamicVML_Extensions_EditorExtensions_RenderDynamicListEditorAsync_
-  commentId: Overload:DynamicVML.Extensions.EditorExtensions.RenderDynamicListEditorAsync
+  fullName: DynamicVML.Extensions.EditorExtensions.RenderDynamicListDisplay
+  nameWithType: EditorExtensions.RenderDynamicListDisplay
+- uid: DynamicVML.Extensions.EditorExtensions.RenderDynamicListDisplay``1(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0})
+  name: RenderDynamicListDisplay<TModel>(IHtmlHelper<TModel>)
+  href: api/DynamicVML.Extensions.EditorExtensions.html#DynamicVML_Extensions_EditorExtensions_RenderDynamicListDisplay__1_Microsoft_AspNetCore_Mvc_Rendering_IHtmlHelper___0__
+  commentId: M:DynamicVML.Extensions.EditorExtensions.RenderDynamicListDisplay``1(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0})
+  name.vb: RenderDynamicListDisplay(Of TModel)(IHtmlHelper(Of TModel))
+  fullName: DynamicVML.Extensions.EditorExtensions.RenderDynamicListDisplay<TModel>(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>)
+  fullName.vb: DynamicVML.Extensions.EditorExtensions.RenderDynamicListDisplay(Of TModel)(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper(Of TModel))
+  nameWithType: EditorExtensions.RenderDynamicListDisplay<TModel>(IHtmlHelper<TModel>)
+  nameWithType.vb: EditorExtensions.RenderDynamicListDisplay(Of TModel)(IHtmlHelper(Of TModel))
+- uid: DynamicVML.Extensions.EditorExtensions.RenderDynamicListEditor*
+  name: RenderDynamicListEditor
+  href: api/DynamicVML.Extensions.EditorExtensions.html#DynamicVML_Extensions_EditorExtensions_RenderDynamicListEditor_
+  commentId: Overload:DynamicVML.Extensions.EditorExtensions.RenderDynamicListEditor
   isSpec: "True"
-  fullName: DynamicVML.Extensions.EditorExtensions.RenderDynamicListEditorAsync
-  nameWithType: EditorExtensions.RenderDynamicListEditorAsync
-- uid: DynamicVML.Extensions.EditorExtensions.RenderDynamicListEditorAsync``1(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0})
-  name: RenderDynamicListEditorAsync<TModel>(IHtmlHelper<TModel>)
-  href: api/DynamicVML.Extensions.EditorExtensions.html#DynamicVML_Extensions_EditorExtensions_RenderDynamicListEditorAsync__1_Microsoft_AspNetCore_Mvc_Rendering_IHtmlHelper___0__
-  commentId: M:DynamicVML.Extensions.EditorExtensions.RenderDynamicListEditorAsync``1(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0})
-  name.vb: RenderDynamicListEditorAsync(Of TModel)(IHtmlHelper(Of TModel))
-  fullName: DynamicVML.Extensions.EditorExtensions.RenderDynamicListEditorAsync<TModel>(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>)
-  fullName.vb: DynamicVML.Extensions.EditorExtensions.RenderDynamicListEditorAsync(Of TModel)(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper(Of TModel))
-  nameWithType: EditorExtensions.RenderDynamicListEditorAsync<TModel>(IHtmlHelper<TModel>)
-  nameWithType.vb: EditorExtensions.RenderDynamicListEditorAsync(Of TModel)(IHtmlHelper(Of TModel))
+  fullName: DynamicVML.Extensions.EditorExtensions.RenderDynamicListEditor
+  nameWithType: EditorExtensions.RenderDynamicListEditor
+- uid: DynamicVML.Extensions.EditorExtensions.RenderDynamicListEditor``1(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0})
+  name: RenderDynamicListEditor<TModel>(IHtmlHelper<TModel>)
+  href: api/DynamicVML.Extensions.EditorExtensions.html#DynamicVML_Extensions_EditorExtensions_RenderDynamicListEditor__1_Microsoft_AspNetCore_Mvc_Rendering_IHtmlHelper___0__
+  commentId: M:DynamicVML.Extensions.EditorExtensions.RenderDynamicListEditor``1(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper{``0})
+  name.vb: RenderDynamicListEditor(Of TModel)(IHtmlHelper(Of TModel))
+  fullName: DynamicVML.Extensions.EditorExtensions.RenderDynamicListEditor<TModel>(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>)
+  fullName.vb: DynamicVML.Extensions.EditorExtensions.RenderDynamicListEditor(Of TModel)(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper(Of TModel))
+  nameWithType: EditorExtensions.RenderDynamicListEditor<TModel>(IHtmlHelper<TModel>)
+  nameWithType.vb: EditorExtensions.RenderDynamicListEditor(Of TModel)(IHtmlHelper(Of TModel))
 - uid: DynamicVML.Extensions.EnumerableExtensions
   name: EnumerableExtensions
   href: api/DynamicVML.Extensions.EnumerableExtensions.html
@@ -966,58 +1101,90 @@ references:
   commentId: T:DynamicVML.Extensions.ViewDataExtensions
   fullName: DynamicVML.Extensions.ViewDataExtensions
   nameWithType: ViewDataExtensions
-- uid: DynamicVML.Extensions.ViewDataExtensions.GetAttributeInfo(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)
-  name: GetAttributeInfo(ViewDataDictionary)
-  href: api/DynamicVML.Extensions.ViewDataExtensions.html#DynamicVML_Extensions_ViewDataExtensions_GetAttributeInfo_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_
-  commentId: M:DynamicVML.Extensions.ViewDataExtensions.GetAttributeInfo(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)
-  fullName: DynamicVML.Extensions.ViewDataExtensions.GetAttributeInfo(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)
-  nameWithType: ViewDataExtensions.GetAttributeInfo(ViewDataDictionary)
-- uid: DynamicVML.Extensions.ViewDataExtensions.GetAttributeInfo*
-  name: GetAttributeInfo
-  href: api/DynamicVML.Extensions.ViewDataExtensions.html#DynamicVML_Extensions_ViewDataExtensions_GetAttributeInfo_
-  commentId: Overload:DynamicVML.Extensions.ViewDataExtensions.GetAttributeInfo
+- uid: DynamicVML.Extensions.ViewDataExtensions.GetDynamicListAttribute(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)
+  name: GetDynamicListAttribute(ViewDataDictionary)
+  href: api/DynamicVML.Extensions.ViewDataExtensions.html#DynamicVML_Extensions_ViewDataExtensions_GetDynamicListAttribute_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_
+  commentId: M:DynamicVML.Extensions.ViewDataExtensions.GetDynamicListAttribute(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)
+  fullName: DynamicVML.Extensions.ViewDataExtensions.GetDynamicListAttribute(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)
+  nameWithType: ViewDataExtensions.GetDynamicListAttribute(ViewDataDictionary)
+- uid: DynamicVML.Extensions.ViewDataExtensions.GetDynamicListAttribute*
+  name: GetDynamicListAttribute
+  href: api/DynamicVML.Extensions.ViewDataExtensions.html#DynamicVML_Extensions_ViewDataExtensions_GetDynamicListAttribute_
+  commentId: Overload:DynamicVML.Extensions.ViewDataExtensions.GetDynamicListAttribute
   isSpec: "True"
-  fullName: DynamicVML.Extensions.ViewDataExtensions.GetAttributeInfo
-  nameWithType: ViewDataExtensions.GetAttributeInfo
-- uid: DynamicVML.Extensions.ViewDataExtensions.GetDisplayParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)
-  name: GetDisplayParameters(ViewDataDictionary)
-  href: api/DynamicVML.Extensions.ViewDataExtensions.html#DynamicVML_Extensions_ViewDataExtensions_GetDisplayParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_
-  commentId: M:DynamicVML.Extensions.ViewDataExtensions.GetDisplayParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)
-  fullName: DynamicVML.Extensions.ViewDataExtensions.GetDisplayParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)
-  nameWithType: ViewDataExtensions.GetDisplayParameters(ViewDataDictionary)
-- uid: DynamicVML.Extensions.ViewDataExtensions.GetDisplayParameters*
-  name: GetDisplayParameters
-  href: api/DynamicVML.Extensions.ViewDataExtensions.html#DynamicVML_Extensions_ViewDataExtensions_GetDisplayParameters_
-  commentId: Overload:DynamicVML.Extensions.ViewDataExtensions.GetDisplayParameters
+  fullName: DynamicVML.Extensions.ViewDataExtensions.GetDynamicListAttribute
+  nameWithType: ViewDataExtensions.GetDynamicListAttribute
+- uid: DynamicVML.Extensions.ViewDataExtensions.GetItemCreateParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary,System.String)
+  name: GetItemCreateParameters(ViewDataDictionary, String)
+  href: api/DynamicVML.Extensions.ViewDataExtensions.html#DynamicVML_Extensions_ViewDataExtensions_GetItemCreateParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_System_String_
+  commentId: M:DynamicVML.Extensions.ViewDataExtensions.GetItemCreateParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary,System.String)
+  fullName: DynamicVML.Extensions.ViewDataExtensions.GetItemCreateParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary, System.String)
+  nameWithType: ViewDataExtensions.GetItemCreateParameters(ViewDataDictionary, String)
+- uid: DynamicVML.Extensions.ViewDataExtensions.GetItemCreateParameters*
+  name: GetItemCreateParameters
+  href: api/DynamicVML.Extensions.ViewDataExtensions.html#DynamicVML_Extensions_ViewDataExtensions_GetItemCreateParameters_
+  commentId: Overload:DynamicVML.Extensions.ViewDataExtensions.GetItemCreateParameters
   isSpec: "True"
-  fullName: DynamicVML.Extensions.ViewDataExtensions.GetDisplayParameters
-  nameWithType: ViewDataExtensions.GetDisplayParameters
-- uid: DynamicVML.Extensions.ViewDataExtensions.GetEditorParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)
-  name: GetEditorParameters(ViewDataDictionary)
-  href: api/DynamicVML.Extensions.ViewDataExtensions.html#DynamicVML_Extensions_ViewDataExtensions_GetEditorParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_
-  commentId: M:DynamicVML.Extensions.ViewDataExtensions.GetEditorParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)
-  fullName: DynamicVML.Extensions.ViewDataExtensions.GetEditorParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)
-  nameWithType: ViewDataExtensions.GetEditorParameters(ViewDataDictionary)
-- uid: DynamicVML.Extensions.ViewDataExtensions.GetEditorParameters*
-  name: GetEditorParameters
-  href: api/DynamicVML.Extensions.ViewDataExtensions.html#DynamicVML_Extensions_ViewDataExtensions_GetEditorParameters_
-  commentId: Overload:DynamicVML.Extensions.ViewDataExtensions.GetEditorParameters
+  fullName: DynamicVML.Extensions.ViewDataExtensions.GetItemCreateParameters
+  nameWithType: ViewDataExtensions.GetItemCreateParameters
+- uid: DynamicVML.Extensions.ViewDataExtensions.GetItemDisplayParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary,System.String,System.String)
+  name: GetItemDisplayParameters(ViewDataDictionary, String, String)
+  href: api/DynamicVML.Extensions.ViewDataExtensions.html#DynamicVML_Extensions_ViewDataExtensions_GetItemDisplayParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_System_String_System_String_
+  commentId: M:DynamicVML.Extensions.ViewDataExtensions.GetItemDisplayParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary,System.String,System.String)
+  fullName: DynamicVML.Extensions.ViewDataExtensions.GetItemDisplayParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary, System.String, System.String)
+  nameWithType: ViewDataExtensions.GetItemDisplayParameters(ViewDataDictionary, String, String)
+- uid: DynamicVML.Extensions.ViewDataExtensions.GetItemDisplayParameters*
+  name: GetItemDisplayParameters
+  href: api/DynamicVML.Extensions.ViewDataExtensions.html#DynamicVML_Extensions_ViewDataExtensions_GetItemDisplayParameters_
+  commentId: Overload:DynamicVML.Extensions.ViewDataExtensions.GetItemDisplayParameters
   isSpec: "True"
-  fullName: DynamicVML.Extensions.ViewDataExtensions.GetEditorParameters
-  nameWithType: ViewDataExtensions.GetEditorParameters
-- uid: DynamicVML.Extensions.ViewDataExtensions.GetNewItemParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)
-  name: GetNewItemParameters(ViewDataDictionary)
-  href: api/DynamicVML.Extensions.ViewDataExtensions.html#DynamicVML_Extensions_ViewDataExtensions_GetNewItemParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_
-  commentId: M:DynamicVML.Extensions.ViewDataExtensions.GetNewItemParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)
-  fullName: DynamicVML.Extensions.ViewDataExtensions.GetNewItemParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary)
-  nameWithType: ViewDataExtensions.GetNewItemParameters(ViewDataDictionary)
-- uid: DynamicVML.Extensions.ViewDataExtensions.GetNewItemParameters*
-  name: GetNewItemParameters
-  href: api/DynamicVML.Extensions.ViewDataExtensions.html#DynamicVML_Extensions_ViewDataExtensions_GetNewItemParameters_
-  commentId: Overload:DynamicVML.Extensions.ViewDataExtensions.GetNewItemParameters
+  fullName: DynamicVML.Extensions.ViewDataExtensions.GetItemDisplayParameters
+  nameWithType: ViewDataExtensions.GetItemDisplayParameters
+- uid: DynamicVML.Extensions.ViewDataExtensions.GetItemEditorParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary,System.String,DynamicVML.AddNewDynamicItem,DynamicVML.NewItemMethod)
+  name: GetItemEditorParameters(ViewDataDictionary, String, AddNewDynamicItem, NewItemMethod)
+  href: api/DynamicVML.Extensions.ViewDataExtensions.html#DynamicVML_Extensions_ViewDataExtensions_GetItemEditorParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_System_String_DynamicVML_AddNewDynamicItem_DynamicVML_NewItemMethod_
+  commentId: M:DynamicVML.Extensions.ViewDataExtensions.GetItemEditorParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary,System.String,DynamicVML.AddNewDynamicItem,DynamicVML.NewItemMethod)
+  fullName: DynamicVML.Extensions.ViewDataExtensions.GetItemEditorParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary, System.String, DynamicVML.AddNewDynamicItem, DynamicVML.NewItemMethod)
+  nameWithType: ViewDataExtensions.GetItemEditorParameters(ViewDataDictionary, String, AddNewDynamicItem, NewItemMethod)
+- uid: DynamicVML.Extensions.ViewDataExtensions.GetItemEditorParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary,System.String,System.String)
+  name: GetItemEditorParameters(ViewDataDictionary, String, String)
+  href: api/DynamicVML.Extensions.ViewDataExtensions.html#DynamicVML_Extensions_ViewDataExtensions_GetItemEditorParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_System_String_System_String_
+  commentId: M:DynamicVML.Extensions.ViewDataExtensions.GetItemEditorParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary,System.String,System.String)
+  fullName: DynamicVML.Extensions.ViewDataExtensions.GetItemEditorParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary, System.String, System.String)
+  nameWithType: ViewDataExtensions.GetItemEditorParameters(ViewDataDictionary, String, String)
+- uid: DynamicVML.Extensions.ViewDataExtensions.GetItemEditorParameters*
+  name: GetItemEditorParameters
+  href: api/DynamicVML.Extensions.ViewDataExtensions.html#DynamicVML_Extensions_ViewDataExtensions_GetItemEditorParameters_
+  commentId: Overload:DynamicVML.Extensions.ViewDataExtensions.GetItemEditorParameters
   isSpec: "True"
-  fullName: DynamicVML.Extensions.ViewDataExtensions.GetNewItemParameters
-  nameWithType: ViewDataExtensions.GetNewItemParameters
+  fullName: DynamicVML.Extensions.ViewDataExtensions.GetItemEditorParameters
+  nameWithType: ViewDataExtensions.GetItemEditorParameters
+- uid: DynamicVML.Extensions.ViewDataExtensions.GetListDisplayParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary,System.String)
+  name: GetListDisplayParameters(ViewDataDictionary, String)
+  href: api/DynamicVML.Extensions.ViewDataExtensions.html#DynamicVML_Extensions_ViewDataExtensions_GetListDisplayParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_System_String_
+  commentId: M:DynamicVML.Extensions.ViewDataExtensions.GetListDisplayParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary,System.String)
+  fullName: DynamicVML.Extensions.ViewDataExtensions.GetListDisplayParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary, System.String)
+  nameWithType: ViewDataExtensions.GetListDisplayParameters(ViewDataDictionary, String)
+- uid: DynamicVML.Extensions.ViewDataExtensions.GetListDisplayParameters*
+  name: GetListDisplayParameters
+  href: api/DynamicVML.Extensions.ViewDataExtensions.html#DynamicVML_Extensions_ViewDataExtensions_GetListDisplayParameters_
+  commentId: Overload:DynamicVML.Extensions.ViewDataExtensions.GetListDisplayParameters
+  isSpec: "True"
+  fullName: DynamicVML.Extensions.ViewDataExtensions.GetListDisplayParameters
+  nameWithType: ViewDataExtensions.GetListDisplayParameters
+- uid: DynamicVML.Extensions.ViewDataExtensions.GetListEditorParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary,System.String)
+  name: GetListEditorParameters(ViewDataDictionary, String)
+  href: api/DynamicVML.Extensions.ViewDataExtensions.html#DynamicVML_Extensions_ViewDataExtensions_GetListEditorParameters_Microsoft_AspNetCore_Mvc_ViewFeatures_ViewDataDictionary_System_String_
+  commentId: M:DynamicVML.Extensions.ViewDataExtensions.GetListEditorParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary,System.String)
+  fullName: DynamicVML.Extensions.ViewDataExtensions.GetListEditorParameters(Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary, System.String)
+  nameWithType: ViewDataExtensions.GetListEditorParameters(ViewDataDictionary, String)
+- uid: DynamicVML.Extensions.ViewDataExtensions.GetListEditorParameters*
+  name: GetListEditorParameters
+  href: api/DynamicVML.Extensions.ViewDataExtensions.html#DynamicVML_Extensions_ViewDataExtensions_GetListEditorParameters_
+  commentId: Overload:DynamicVML.Extensions.ViewDataExtensions.GetListEditorParameters
+  isSpec: "True"
+  fullName: DynamicVML.Extensions.ViewDataExtensions.GetListEditorParameters
+  nameWithType: ViewDataExtensions.GetListEditorParameters
 - uid: DynamicVML.IDynamicList
   name: IDynamicList
   href: api/DynamicVML.IDynamicList.html
@@ -1195,6 +1362,12 @@ references:
   commentId: F:DynamicVML.Internals.Constants.AdditionalViewData
   fullName: DynamicVML.Internals.Constants.AdditionalViewData
   nameWithType: Constants.AdditionalViewData
+- uid: DynamicVML.Internals.Constants.CurrentContainerId
+  name: CurrentContainerId
+  href: api/DynamicVML.Internals.Constants.html#DynamicVML_Internals_Constants_CurrentContainerId
+  commentId: F:DynamicVML.Internals.Constants.CurrentContainerId
+  fullName: DynamicVML.Internals.Constants.CurrentContainerId
+  nameWithType: Constants.CurrentContainerId
 - uid: DynamicVML.Internals.Constants.CurrentIndex
   name: CurrentIndex
   href: api/DynamicVML.Internals.Constants.html#DynamicVML_Internals_Constants_CurrentIndex
@@ -1225,204 +1398,396 @@ references:
   commentId: F:DynamicVML.Internals.Constants.DisplayOptions
   fullName: DynamicVML.Internals.Constants.DisplayOptions
   nameWithType: Constants.DisplayOptions
-- uid: DynamicVML.Internals.Constants.DisplayParams
-  name: DisplayParams
-  href: api/DynamicVML.Internals.Constants.html#DynamicVML_Internals_Constants_DisplayParams
-  commentId: F:DynamicVML.Internals.Constants.DisplayParams
-  fullName: DynamicVML.Internals.Constants.DisplayParams
-  nameWithType: Constants.DisplayParams
 - uid: DynamicVML.Internals.Constants.EditorOptions
   name: EditorOptions
   href: api/DynamicVML.Internals.Constants.html#DynamicVML_Internals_Constants_EditorOptions
   commentId: F:DynamicVML.Internals.Constants.EditorOptions
   fullName: DynamicVML.Internals.Constants.EditorOptions
   nameWithType: Constants.EditorOptions
-- uid: DynamicVML.Internals.Constants.EditorParams
-  name: EditorParams
-  href: api/DynamicVML.Internals.Constants.html#DynamicVML_Internals_Constants_EditorParams
-  commentId: F:DynamicVML.Internals.Constants.EditorParams
-  fullName: DynamicVML.Internals.Constants.EditorParams
-  nameWithType: Constants.EditorParams
-- uid: DynamicVML.Internals.Constants.NewItemParams
-  name: NewItemParams
-  href: api/DynamicVML.Internals.Constants.html#DynamicVML_Internals_Constants_NewItemParams
-  commentId: F:DynamicVML.Internals.Constants.NewItemParams
-  fullName: DynamicVML.Internals.Constants.NewItemParams
-  nameWithType: Constants.NewItemParams
-- uid: DynamicVML.Internals.DisplayParams
-  name: DisplayParams
-  href: api/DynamicVML.Internals.DisplayParams.html
-  commentId: T:DynamicVML.Internals.DisplayParams
-  fullName: DynamicVML.Internals.DisplayParams
-  nameWithType: DisplayParams
-- uid: DynamicVML.Internals.DisplayParams.AdditionalViewData
-  name: AdditionalViewData
-  href: api/DynamicVML.Internals.DisplayParams.html#DynamicVML_Internals_DisplayParams_AdditionalViewData
-  commentId: P:DynamicVML.Internals.DisplayParams.AdditionalViewData
-  fullName: DynamicVML.Internals.DisplayParams.AdditionalViewData
-  nameWithType: DisplayParams.AdditionalViewData
-- uid: DynamicVML.Internals.DisplayParams.AdditionalViewData*
-  name: AdditionalViewData
-  href: api/DynamicVML.Internals.DisplayParams.html#DynamicVML_Internals_DisplayParams_AdditionalViewData_
-  commentId: Overload:DynamicVML.Internals.DisplayParams.AdditionalViewData
+- uid: DynamicVML.Internals.Constants.ItemCreateParameters
+  name: ItemCreateParameters
+  href: api/DynamicVML.Internals.Constants.html#DynamicVML_Internals_Constants_ItemCreateParameters
+  commentId: F:DynamicVML.Internals.Constants.ItemCreateParameters
+  fullName: DynamicVML.Internals.Constants.ItemCreateParameters
+  nameWithType: Constants.ItemCreateParameters
+- uid: DynamicVML.Internals.Constants.ItemDisplayParameters
+  name: ItemDisplayParameters
+  href: api/DynamicVML.Internals.Constants.html#DynamicVML_Internals_Constants_ItemDisplayParameters
+  commentId: F:DynamicVML.Internals.Constants.ItemDisplayParameters
+  fullName: DynamicVML.Internals.Constants.ItemDisplayParameters
+  nameWithType: Constants.ItemDisplayParameters
+- uid: DynamicVML.Internals.Constants.ItemEditorParameters
+  name: ItemEditorParameters
+  href: api/DynamicVML.Internals.Constants.html#DynamicVML_Internals_Constants_ItemEditorParameters
+  commentId: F:DynamicVML.Internals.Constants.ItemEditorParameters
+  fullName: DynamicVML.Internals.Constants.ItemEditorParameters
+  nameWithType: Constants.ItemEditorParameters
+- uid: DynamicVML.Internals.Constants.ListDisplayParameters
+  name: ListDisplayParameters
+  href: api/DynamicVML.Internals.Constants.html#DynamicVML_Internals_Constants_ListDisplayParameters
+  commentId: F:DynamicVML.Internals.Constants.ListDisplayParameters
+  fullName: DynamicVML.Internals.Constants.ListDisplayParameters
+  nameWithType: Constants.ListDisplayParameters
+- uid: DynamicVML.Internals.Constants.ListEditorParameters
+  name: ListEditorParameters
+  href: api/DynamicVML.Internals.Constants.html#DynamicVML_Internals_Constants_ListEditorParameters
+  commentId: F:DynamicVML.Internals.Constants.ListEditorParameters
+  fullName: DynamicVML.Internals.Constants.ListEditorParameters
+  nameWithType: Constants.ListEditorParameters
+- uid: DynamicVML.Internals.ItemDisplayParameters
+  name: ItemDisplayParameters
+  href: api/DynamicVML.Internals.ItemDisplayParameters.html
+  commentId: T:DynamicVML.Internals.ItemDisplayParameters
+  fullName: DynamicVML.Internals.ItemDisplayParameters
+  nameWithType: ItemDisplayParameters
+- uid: DynamicVML.Internals.ItemDisplayParameters.#ctor(System.String,System.String,DynamicVML.Internals.ListDisplayParameters)
+  name: ItemDisplayParameters(String, String, ListDisplayParameters)
+  href: api/DynamicVML.Internals.ItemDisplayParameters.html#DynamicVML_Internals_ItemDisplayParameters__ctor_System_String_System_String_DynamicVML_Internals_ListDisplayParameters_
+  commentId: M:DynamicVML.Internals.ItemDisplayParameters.#ctor(System.String,System.String,DynamicVML.Internals.ListDisplayParameters)
+  fullName: DynamicVML.Internals.ItemDisplayParameters.ItemDisplayParameters(System.String, System.String, DynamicVML.Internals.ListDisplayParameters)
+  nameWithType: ItemDisplayParameters.ItemDisplayParameters(String, String, ListDisplayParameters)
+- uid: DynamicVML.Internals.ItemDisplayParameters.#ctor*
+  name: ItemDisplayParameters
+  href: api/DynamicVML.Internals.ItemDisplayParameters.html#DynamicVML_Internals_ItemDisplayParameters__ctor_
+  commentId: Overload:DynamicVML.Internals.ItemDisplayParameters.#ctor
   isSpec: "True"
-  fullName: DynamicVML.Internals.DisplayParams.AdditionalViewData
-  nameWithType: DisplayParams.AdditionalViewData
-- uid: DynamicVML.Internals.EditorParams
-  name: EditorParams
-  href: api/DynamicVML.Internals.EditorParams.html
-  commentId: T:DynamicVML.Internals.EditorParams
-  fullName: DynamicVML.Internals.EditorParams
-  nameWithType: EditorParams
-- uid: DynamicVML.Internals.EditorParams.ActionUrl
+  fullName: DynamicVML.Internals.ItemDisplayParameters.ItemDisplayParameters
+  nameWithType: ItemDisplayParameters.ItemDisplayParameters
+- uid: DynamicVML.Internals.ItemDisplayParameters.Display
+  name: Display
+  href: api/DynamicVML.Internals.ItemDisplayParameters.html#DynamicVML_Internals_ItemDisplayParameters_Display
+  commentId: P:DynamicVML.Internals.ItemDisplayParameters.Display
+  fullName: DynamicVML.Internals.ItemDisplayParameters.Display
+  nameWithType: ItemDisplayParameters.Display
+- uid: DynamicVML.Internals.ItemDisplayParameters.Display*
+  name: Display
+  href: api/DynamicVML.Internals.ItemDisplayParameters.html#DynamicVML_Internals_ItemDisplayParameters_Display_
+  commentId: Overload:DynamicVML.Internals.ItemDisplayParameters.Display
+  isSpec: "True"
+  fullName: DynamicVML.Internals.ItemDisplayParameters.Display
+  nameWithType: ItemDisplayParameters.Display
+- uid: DynamicVML.Internals.ItemEditorParameters
+  name: ItemEditorParameters
+  href: api/DynamicVML.Internals.ItemEditorParameters.html
+  commentId: T:DynamicVML.Internals.ItemEditorParameters
+  fullName: DynamicVML.Internals.ItemEditorParameters
+  nameWithType: ItemEditorParameters
+- uid: DynamicVML.Internals.ItemEditorParameters.#ctor(System.String,System.String,DynamicVML.AddNewDynamicItem,DynamicVML.Internals.ListEditorParameters)
+  name: ItemEditorParameters(String, String, AddNewDynamicItem, ListEditorParameters)
+  href: api/DynamicVML.Internals.ItemEditorParameters.html#DynamicVML_Internals_ItemEditorParameters__ctor_System_String_System_String_DynamicVML_AddNewDynamicItem_DynamicVML_Internals_ListEditorParameters_
+  commentId: M:DynamicVML.Internals.ItemEditorParameters.#ctor(System.String,System.String,DynamicVML.AddNewDynamicItem,DynamicVML.Internals.ListEditorParameters)
+  fullName: DynamicVML.Internals.ItemEditorParameters.ItemEditorParameters(System.String, System.String, DynamicVML.AddNewDynamicItem, DynamicVML.Internals.ListEditorParameters)
+  nameWithType: ItemEditorParameters.ItemEditorParameters(String, String, AddNewDynamicItem, ListEditorParameters)
+- uid: DynamicVML.Internals.ItemEditorParameters.#ctor*
+  name: ItemEditorParameters
+  href: api/DynamicVML.Internals.ItemEditorParameters.html#DynamicVML_Internals_ItemEditorParameters__ctor_
+  commentId: Overload:DynamicVML.Internals.ItemEditorParameters.#ctor
+  isSpec: "True"
+  fullName: DynamicVML.Internals.ItemEditorParameters.ItemEditorParameters
+  nameWithType: ItemEditorParameters.ItemEditorParameters
+- uid: DynamicVML.Internals.ItemEditorParameters.AddNewItem
+  name: AddNewItem
+  href: api/DynamicVML.Internals.ItemEditorParameters.html#DynamicVML_Internals_ItemEditorParameters_AddNewItem
+  commentId: P:DynamicVML.Internals.ItemEditorParameters.AddNewItem
+  fullName: DynamicVML.Internals.ItemEditorParameters.AddNewItem
+  nameWithType: ItemEditorParameters.AddNewItem
+- uid: DynamicVML.Internals.ItemEditorParameters.AddNewItem*
+  name: AddNewItem
+  href: api/DynamicVML.Internals.ItemEditorParameters.html#DynamicVML_Internals_ItemEditorParameters_AddNewItem_
+  commentId: Overload:DynamicVML.Internals.ItemEditorParameters.AddNewItem
+  isSpec: "True"
+  fullName: DynamicVML.Internals.ItemEditorParameters.AddNewItem
+  nameWithType: ItemEditorParameters.AddNewItem
+- uid: DynamicVML.Internals.ItemEditorParameters.Editor
+  name: Editor
+  href: api/DynamicVML.Internals.ItemEditorParameters.html#DynamicVML_Internals_ItemEditorParameters_Editor
+  commentId: P:DynamicVML.Internals.ItemEditorParameters.Editor
+  fullName: DynamicVML.Internals.ItemEditorParameters.Editor
+  nameWithType: ItemEditorParameters.Editor
+- uid: DynamicVML.Internals.ItemEditorParameters.Editor*
+  name: Editor
+  href: api/DynamicVML.Internals.ItemEditorParameters.html#DynamicVML_Internals_ItemEditorParameters_Editor_
+  commentId: Overload:DynamicVML.Internals.ItemEditorParameters.Editor
+  isSpec: "True"
+  fullName: DynamicVML.Internals.ItemEditorParameters.Editor
+  nameWithType: ItemEditorParameters.Editor
+- uid: DynamicVML.Internals.ItemParameters
+  name: ItemParameters
+  href: api/DynamicVML.Internals.ItemParameters.html
+  commentId: T:DynamicVML.Internals.ItemParameters
+  fullName: DynamicVML.Internals.ItemParameters
+  nameWithType: ItemParameters
+- uid: DynamicVML.Internals.ItemParameters.#ctor(System.String,System.String)
+  name: ItemParameters(String, String)
+  href: api/DynamicVML.Internals.ItemParameters.html#DynamicVML_Internals_ItemParameters__ctor_System_String_System_String_
+  commentId: M:DynamicVML.Internals.ItemParameters.#ctor(System.String,System.String)
+  fullName: DynamicVML.Internals.ItemParameters.ItemParameters(System.String, System.String)
+  nameWithType: ItemParameters.ItemParameters(String, String)
+- uid: DynamicVML.Internals.ItemParameters.#ctor*
+  name: ItemParameters
+  href: api/DynamicVML.Internals.ItemParameters.html#DynamicVML_Internals_ItemParameters__ctor_
+  commentId: Overload:DynamicVML.Internals.ItemParameters.#ctor
+  isSpec: "True"
+  fullName: DynamicVML.Internals.ItemParameters.ItemParameters
+  nameWithType: ItemParameters.ItemParameters
+- uid: DynamicVML.Internals.ItemParameters.Index
+  name: Index
+  href: api/DynamicVML.Internals.ItemParameters.html#DynamicVML_Internals_ItemParameters_Index
+  commentId: P:DynamicVML.Internals.ItemParameters.Index
+  fullName: DynamicVML.Internals.ItemParameters.Index
+  nameWithType: ItemParameters.Index
+- uid: DynamicVML.Internals.ItemParameters.Index*
+  name: Index
+  href: api/DynamicVML.Internals.ItemParameters.html#DynamicVML_Internals_ItemParameters_Index_
+  commentId: Overload:DynamicVML.Internals.ItemParameters.Index
+  isSpec: "True"
+  fullName: DynamicVML.Internals.ItemParameters.Index
+  nameWithType: ItemParameters.Index
+- uid: DynamicVML.Internals.ListDisplayParameters
+  name: ListDisplayParameters
+  href: api/DynamicVML.Internals.ListDisplayParameters.html
+  commentId: T:DynamicVML.Internals.ListDisplayParameters
+  fullName: DynamicVML.Internals.ListDisplayParameters
+  nameWithType: ListDisplayParameters
+- uid: DynamicVML.Internals.ListDisplayParameters.#ctor(DynamicVML.Internals.ListParameters,System.Object)
+  name: ListDisplayParameters(ListParameters, Object)
+  href: api/DynamicVML.Internals.ListDisplayParameters.html#DynamicVML_Internals_ListDisplayParameters__ctor_DynamicVML_Internals_ListParameters_System_Object_
+  commentId: M:DynamicVML.Internals.ListDisplayParameters.#ctor(DynamicVML.Internals.ListParameters,System.Object)
+  fullName: DynamicVML.Internals.ListDisplayParameters.ListDisplayParameters(DynamicVML.Internals.ListParameters, System.Object)
+  nameWithType: ListDisplayParameters.ListDisplayParameters(ListParameters, Object)
+- uid: DynamicVML.Internals.ListDisplayParameters.#ctor*
+  name: ListDisplayParameters
+  href: api/DynamicVML.Internals.ListDisplayParameters.html#DynamicVML_Internals_ListDisplayParameters__ctor_
+  commentId: Overload:DynamicVML.Internals.ListDisplayParameters.#ctor
+  isSpec: "True"
+  fullName: DynamicVML.Internals.ListDisplayParameters.ListDisplayParameters
+  nameWithType: ListDisplayParameters.ListDisplayParameters
+- uid: DynamicVML.Internals.ListDisplayParameters.AdditionalViewData
+  name: AdditionalViewData
+  href: api/DynamicVML.Internals.ListDisplayParameters.html#DynamicVML_Internals_ListDisplayParameters_AdditionalViewData
+  commentId: P:DynamicVML.Internals.ListDisplayParameters.AdditionalViewData
+  fullName: DynamicVML.Internals.ListDisplayParameters.AdditionalViewData
+  nameWithType: ListDisplayParameters.AdditionalViewData
+- uid: DynamicVML.Internals.ListDisplayParameters.AdditionalViewData*
+  name: AdditionalViewData
+  href: api/DynamicVML.Internals.ListDisplayParameters.html#DynamicVML_Internals_ListDisplayParameters_AdditionalViewData_
+  commentId: Overload:DynamicVML.Internals.ListDisplayParameters.AdditionalViewData
+  isSpec: "True"
+  fullName: DynamicVML.Internals.ListDisplayParameters.AdditionalViewData
+  nameWithType: ListDisplayParameters.AdditionalViewData
+- uid: DynamicVML.Internals.ListDisplayParameters.List
+  name: List
+  href: api/DynamicVML.Internals.ListDisplayParameters.html#DynamicVML_Internals_ListDisplayParameters_List
+  commentId: P:DynamicVML.Internals.ListDisplayParameters.List
+  fullName: DynamicVML.Internals.ListDisplayParameters.List
+  nameWithType: ListDisplayParameters.List
+- uid: DynamicVML.Internals.ListDisplayParameters.List*
+  name: List
+  href: api/DynamicVML.Internals.ListDisplayParameters.html#DynamicVML_Internals_ListDisplayParameters_List_
+  commentId: Overload:DynamicVML.Internals.ListDisplayParameters.List
+  isSpec: "True"
+  fullName: DynamicVML.Internals.ListDisplayParameters.List
+  nameWithType: ListDisplayParameters.List
+- uid: DynamicVML.Internals.ListEditorParameters
+  name: ListEditorParameters
+  href: api/DynamicVML.Internals.ListEditorParameters.html
+  commentId: T:DynamicVML.Internals.ListEditorParameters
+  fullName: DynamicVML.Internals.ListEditorParameters
+  nameWithType: ListEditorParameters
+- uid: DynamicVML.Internals.ListEditorParameters.#ctor(DynamicVML.Internals.ListParameters,System.Object,System.String,System.String,DynamicVML.NewItemMethod)
+  name: ListEditorParameters(ListParameters, Object, String, String, NewItemMethod)
+  href: api/DynamicVML.Internals.ListEditorParameters.html#DynamicVML_Internals_ListEditorParameters__ctor_DynamicVML_Internals_ListParameters_System_Object_System_String_System_String_DynamicVML_NewItemMethod_
+  commentId: M:DynamicVML.Internals.ListEditorParameters.#ctor(DynamicVML.Internals.ListParameters,System.Object,System.String,System.String,DynamicVML.NewItemMethod)
+  fullName: DynamicVML.Internals.ListEditorParameters.ListEditorParameters(DynamicVML.Internals.ListParameters, System.Object, System.String, System.String, DynamicVML.NewItemMethod)
+  nameWithType: ListEditorParameters.ListEditorParameters(ListParameters, Object, String, String, NewItemMethod)
+- uid: DynamicVML.Internals.ListEditorParameters.#ctor*
+  name: ListEditorParameters
+  href: api/DynamicVML.Internals.ListEditorParameters.html#DynamicVML_Internals_ListEditorParameters__ctor_
+  commentId: Overload:DynamicVML.Internals.ListEditorParameters.#ctor
+  isSpec: "True"
+  fullName: DynamicVML.Internals.ListEditorParameters.ListEditorParameters
+  nameWithType: ListEditorParameters.ListEditorParameters
+- uid: DynamicVML.Internals.ListEditorParameters.ActionUrl
   name: ActionUrl
-  href: api/DynamicVML.Internals.EditorParams.html#DynamicVML_Internals_EditorParams_ActionUrl
-  commentId: P:DynamicVML.Internals.EditorParams.ActionUrl
-  fullName: DynamicVML.Internals.EditorParams.ActionUrl
-  nameWithType: EditorParams.ActionUrl
-- uid: DynamicVML.Internals.EditorParams.ActionUrl*
+  href: api/DynamicVML.Internals.ListEditorParameters.html#DynamicVML_Internals_ListEditorParameters_ActionUrl
+  commentId: P:DynamicVML.Internals.ListEditorParameters.ActionUrl
+  fullName: DynamicVML.Internals.ListEditorParameters.ActionUrl
+  nameWithType: ListEditorParameters.ActionUrl
+- uid: DynamicVML.Internals.ListEditorParameters.ActionUrl*
   name: ActionUrl
-  href: api/DynamicVML.Internals.EditorParams.html#DynamicVML_Internals_EditorParams_ActionUrl_
-  commentId: Overload:DynamicVML.Internals.EditorParams.ActionUrl
+  href: api/DynamicVML.Internals.ListEditorParameters.html#DynamicVML_Internals_ListEditorParameters_ActionUrl_
+  commentId: Overload:DynamicVML.Internals.ListEditorParameters.ActionUrl
   isSpec: "True"
-  fullName: DynamicVML.Internals.EditorParams.ActionUrl
-  nameWithType: EditorParams.ActionUrl
-- uid: DynamicVML.Internals.EditorParams.AdditionalViewData
-  name: AdditionalViewData
-  href: api/DynamicVML.Internals.EditorParams.html#DynamicVML_Internals_EditorParams_AdditionalViewData
-  commentId: P:DynamicVML.Internals.EditorParams.AdditionalViewData
-  fullName: DynamicVML.Internals.EditorParams.AdditionalViewData
-  nameWithType: EditorParams.AdditionalViewData
-- uid: DynamicVML.Internals.EditorParams.AdditionalViewData*
-  name: AdditionalViewData
-  href: api/DynamicVML.Internals.EditorParams.html#DynamicVML_Internals_EditorParams_AdditionalViewData_
-  commentId: Overload:DynamicVML.Internals.EditorParams.AdditionalViewData
-  isSpec: "True"
-  fullName: DynamicVML.Internals.EditorParams.AdditionalViewData
-  nameWithType: EditorParams.AdditionalViewData
-- uid: DynamicVML.Internals.EditorParams.AddNewItemText
+  fullName: DynamicVML.Internals.ListEditorParameters.ActionUrl
+  nameWithType: ListEditorParameters.ActionUrl
+- uid: DynamicVML.Internals.ListEditorParameters.AddNewItemText
   name: AddNewItemText
-  href: api/DynamicVML.Internals.EditorParams.html#DynamicVML_Internals_EditorParams_AddNewItemText
-  commentId: P:DynamicVML.Internals.EditorParams.AddNewItemText
-  fullName: DynamicVML.Internals.EditorParams.AddNewItemText
-  nameWithType: EditorParams.AddNewItemText
-- uid: DynamicVML.Internals.EditorParams.AddNewItemText*
+  href: api/DynamicVML.Internals.ListEditorParameters.html#DynamicVML_Internals_ListEditorParameters_AddNewItemText
+  commentId: P:DynamicVML.Internals.ListEditorParameters.AddNewItemText
+  fullName: DynamicVML.Internals.ListEditorParameters.AddNewItemText
+  nameWithType: ListEditorParameters.AddNewItemText
+- uid: DynamicVML.Internals.ListEditorParameters.AddNewItemText*
   name: AddNewItemText
-  href: api/DynamicVML.Internals.EditorParams.html#DynamicVML_Internals_EditorParams_AddNewItemText_
-  commentId: Overload:DynamicVML.Internals.EditorParams.AddNewItemText
+  href: api/DynamicVML.Internals.ListEditorParameters.html#DynamicVML_Internals_ListEditorParameters_AddNewItemText_
+  commentId: Overload:DynamicVML.Internals.ListEditorParameters.AddNewItemText
   isSpec: "True"
-  fullName: DynamicVML.Internals.EditorParams.AddNewItemText
-  nameWithType: EditorParams.AddNewItemText
-- uid: DynamicVML.Internals.EditorParams.CreateNewItemParams(System.String)
-  name: CreateNewItemParams(String)
-  href: api/DynamicVML.Internals.EditorParams.html#DynamicVML_Internals_EditorParams_CreateNewItemParams_System_String_
-  commentId: M:DynamicVML.Internals.EditorParams.CreateNewItemParams(System.String)
-  fullName: DynamicVML.Internals.EditorParams.CreateNewItemParams(System.String)
-  nameWithType: EditorParams.CreateNewItemParams(String)
-- uid: DynamicVML.Internals.EditorParams.CreateNewItemParams*
-  name: CreateNewItemParams
-  href: api/DynamicVML.Internals.EditorParams.html#DynamicVML_Internals_EditorParams_CreateNewItemParams_
-  commentId: Overload:DynamicVML.Internals.EditorParams.CreateNewItemParams
+  fullName: DynamicVML.Internals.ListEditorParameters.AddNewItemText
+  nameWithType: ListEditorParameters.AddNewItemText
+- uid: DynamicVML.Internals.ListEditorParameters.GetActionInfo
+  name: GetActionInfo()
+  href: api/DynamicVML.Internals.ListEditorParameters.html#DynamicVML_Internals_ListEditorParameters_GetActionInfo
+  commentId: M:DynamicVML.Internals.ListEditorParameters.GetActionInfo
+  fullName: DynamicVML.Internals.ListEditorParameters.GetActionInfo()
+  nameWithType: ListEditorParameters.GetActionInfo()
+- uid: DynamicVML.Internals.ListEditorParameters.GetActionInfo*
+  name: GetActionInfo
+  href: api/DynamicVML.Internals.ListEditorParameters.html#DynamicVML_Internals_ListEditorParameters_GetActionInfo_
+  commentId: Overload:DynamicVML.Internals.ListEditorParameters.GetActionInfo
   isSpec: "True"
-  fullName: DynamicVML.Internals.EditorParams.CreateNewItemParams
-  nameWithType: EditorParams.CreateNewItemParams
-- uid: DynamicVML.Internals.EditorParams.GetActionContent(System.String)
-  name: GetActionContent(String)
-  href: api/DynamicVML.Internals.EditorParams.html#DynamicVML_Internals_EditorParams_GetActionContent_System_String_
-  commentId: M:DynamicVML.Internals.EditorParams.GetActionContent(System.String)
-  fullName: DynamicVML.Internals.EditorParams.GetActionContent(System.String)
-  nameWithType: EditorParams.GetActionContent(String)
-- uid: DynamicVML.Internals.EditorParams.GetActionContent*
-  name: GetActionContent
-  href: api/DynamicVML.Internals.EditorParams.html#DynamicVML_Internals_EditorParams_GetActionContent_
-  commentId: Overload:DynamicVML.Internals.EditorParams.GetActionContent
+  fullName: DynamicVML.Internals.ListEditorParameters.GetActionInfo
+  nameWithType: ListEditorParameters.GetActionInfo
+- uid: DynamicVML.Internals.ListEditorParameters.GetItemCreateParameters
+  name: GetItemCreateParameters()
+  href: api/DynamicVML.Internals.ListEditorParameters.html#DynamicVML_Internals_ListEditorParameters_GetItemCreateParameters
+  commentId: M:DynamicVML.Internals.ListEditorParameters.GetItemCreateParameters
+  fullName: DynamicVML.Internals.ListEditorParameters.GetItemCreateParameters()
+  nameWithType: ListEditorParameters.GetItemCreateParameters()
+- uid: DynamicVML.Internals.ListEditorParameters.GetItemCreateParameters*
+  name: GetItemCreateParameters
+  href: api/DynamicVML.Internals.ListEditorParameters.html#DynamicVML_Internals_ListEditorParameters_GetItemCreateParameters_
+  commentId: Overload:DynamicVML.Internals.ListEditorParameters.GetItemCreateParameters
   isSpec: "True"
-  fullName: DynamicVML.Internals.EditorParams.GetActionContent
-  nameWithType: EditorParams.GetActionContent
-- uid: DynamicVML.Internals.EditorParams.Method
+  fullName: DynamicVML.Internals.ListEditorParameters.GetItemCreateParameters
+  nameWithType: ListEditorParameters.GetItemCreateParameters
+- uid: DynamicVML.Internals.ListEditorParameters.Method
   name: Method
-  href: api/DynamicVML.Internals.EditorParams.html#DynamicVML_Internals_EditorParams_Method
-  commentId: P:DynamicVML.Internals.EditorParams.Method
-  fullName: DynamicVML.Internals.EditorParams.Method
-  nameWithType: EditorParams.Method
-- uid: DynamicVML.Internals.EditorParams.Method*
+  href: api/DynamicVML.Internals.ListEditorParameters.html#DynamicVML_Internals_ListEditorParameters_Method
+  commentId: P:DynamicVML.Internals.ListEditorParameters.Method
+  fullName: DynamicVML.Internals.ListEditorParameters.Method
+  nameWithType: ListEditorParameters.Method
+- uid: DynamicVML.Internals.ListEditorParameters.Method*
   name: Method
-  href: api/DynamicVML.Internals.EditorParams.html#DynamicVML_Internals_EditorParams_Method_
-  commentId: Overload:DynamicVML.Internals.EditorParams.Method
+  href: api/DynamicVML.Internals.ListEditorParameters.html#DynamicVML_Internals_ListEditorParameters_Method_
+  commentId: Overload:DynamicVML.Internals.ListEditorParameters.Method
   isSpec: "True"
-  fullName: DynamicVML.Internals.EditorParams.Method
-  nameWithType: EditorParams.Method
+  fullName: DynamicVML.Internals.ListEditorParameters.Method
+  nameWithType: ListEditorParameters.Method
+- uid: DynamicVML.Internals.ListParameters
+  name: ListParameters
+  href: api/DynamicVML.Internals.ListParameters.html
+  commentId: T:DynamicVML.Internals.ListParameters
+  fullName: DynamicVML.Internals.ListParameters
+  nameWithType: ListParameters
+- uid: DynamicVML.Internals.ListParameters.#ctor(System.String,System.String,System.String,System.String,System.String,DynamicVML.ListRenderMode)
+  name: ListParameters(String, String, String, String, String, ListRenderMode)
+  href: api/DynamicVML.Internals.ListParameters.html#DynamicVML_Internals_ListParameters__ctor_System_String_System_String_System_String_System_String_System_String_DynamicVML_ListRenderMode_
+  commentId: M:DynamicVML.Internals.ListParameters.#ctor(System.String,System.String,System.String,System.String,System.String,DynamicVML.ListRenderMode)
+  fullName: DynamicVML.Internals.ListParameters.ListParameters(System.String, System.String, System.String, System.String, System.String, DynamicVML.ListRenderMode)
+  nameWithType: ListParameters.ListParameters(String, String, String, String, String, ListRenderMode)
+- uid: DynamicVML.Internals.ListParameters.#ctor*
+  name: ListParameters
+  href: api/DynamicVML.Internals.ListParameters.html#DynamicVML_Internals_ListParameters__ctor_
+  commentId: Overload:DynamicVML.Internals.ListParameters.#ctor
+  isSpec: "True"
+  fullName: DynamicVML.Internals.ListParameters.ListParameters
+  nameWithType: ListParameters.ListParameters
+- uid: DynamicVML.Internals.ListParameters.ItemContainerTemplate
+  name: ItemContainerTemplate
+  href: api/DynamicVML.Internals.ListParameters.html#DynamicVML_Internals_ListParameters_ItemContainerTemplate
+  commentId: P:DynamicVML.Internals.ListParameters.ItemContainerTemplate
+  fullName: DynamicVML.Internals.ListParameters.ItemContainerTemplate
+  nameWithType: ListParameters.ItemContainerTemplate
+- uid: DynamicVML.Internals.ListParameters.ItemContainerTemplate*
+  name: ItemContainerTemplate
+  href: api/DynamicVML.Internals.ListParameters.html#DynamicVML_Internals_ListParameters_ItemContainerTemplate_
+  commentId: Overload:DynamicVML.Internals.ListParameters.ItemContainerTemplate
+  isSpec: "True"
+  fullName: DynamicVML.Internals.ListParameters.ItemContainerTemplate
+  nameWithType: ListParameters.ItemContainerTemplate
+- uid: DynamicVML.Internals.ListParameters.ItemTemplate
+  name: ItemTemplate
+  href: api/DynamicVML.Internals.ListParameters.html#DynamicVML_Internals_ListParameters_ItemTemplate
+  commentId: P:DynamicVML.Internals.ListParameters.ItemTemplate
+  fullName: DynamicVML.Internals.ListParameters.ItemTemplate
+  nameWithType: ListParameters.ItemTemplate
+- uid: DynamicVML.Internals.ListParameters.ItemTemplate*
+  name: ItemTemplate
+  href: api/DynamicVML.Internals.ListParameters.html#DynamicVML_Internals_ListParameters_ItemTemplate_
+  commentId: Overload:DynamicVML.Internals.ListParameters.ItemTemplate
+  isSpec: "True"
+  fullName: DynamicVML.Internals.ListParameters.ItemTemplate
+  nameWithType: ListParameters.ItemTemplate
+- uid: DynamicVML.Internals.ListParameters.ListTemplate
+  name: ListTemplate
+  href: api/DynamicVML.Internals.ListParameters.html#DynamicVML_Internals_ListParameters_ListTemplate
+  commentId: P:DynamicVML.Internals.ListParameters.ListTemplate
+  fullName: DynamicVML.Internals.ListParameters.ListTemplate
+  nameWithType: ListParameters.ListTemplate
+- uid: DynamicVML.Internals.ListParameters.ListTemplate*
+  name: ListTemplate
+  href: api/DynamicVML.Internals.ListParameters.html#DynamicVML_Internals_ListParameters_ListTemplate_
+  commentId: Overload:DynamicVML.Internals.ListParameters.ListTemplate
+  isSpec: "True"
+  fullName: DynamicVML.Internals.ListParameters.ListTemplate
+  nameWithType: ListParameters.ListTemplate
+- uid: DynamicVML.Internals.ListParameters.Mode
+  name: Mode
+  href: api/DynamicVML.Internals.ListParameters.html#DynamicVML_Internals_ListParameters_Mode
+  commentId: P:DynamicVML.Internals.ListParameters.Mode
+  fullName: DynamicVML.Internals.ListParameters.Mode
+  nameWithType: ListParameters.Mode
+- uid: DynamicVML.Internals.ListParameters.Mode*
+  name: Mode
+  href: api/DynamicVML.Internals.ListParameters.html#DynamicVML_Internals_ListParameters_Mode_
+  commentId: Overload:DynamicVML.Internals.ListParameters.Mode
+  isSpec: "True"
+  fullName: DynamicVML.Internals.ListParameters.Mode
+  nameWithType: ListParameters.Mode
+- uid: DynamicVML.Internals.ListParameters.Prefix
+  name: Prefix
+  href: api/DynamicVML.Internals.ListParameters.html#DynamicVML_Internals_ListParameters_Prefix
+  commentId: P:DynamicVML.Internals.ListParameters.Prefix
+  fullName: DynamicVML.Internals.ListParameters.Prefix
+  nameWithType: ListParameters.Prefix
+- uid: DynamicVML.Internals.ListParameters.Prefix*
+  name: Prefix
+  href: api/DynamicVML.Internals.ListParameters.html#DynamicVML_Internals_ListParameters_Prefix_
+  commentId: Overload:DynamicVML.Internals.ListParameters.Prefix
+  isSpec: "True"
+  fullName: DynamicVML.Internals.ListParameters.Prefix
+  nameWithType: ListParameters.Prefix
 - uid: DynamicVML.Internals.Parameters
   name: Parameters
   href: api/DynamicVML.Internals.Parameters.html
   commentId: T:DynamicVML.Internals.Parameters
   fullName: DynamicVML.Internals.Parameters
   nameWithType: Parameters
-- uid: DynamicVML.Internals.Parameters.ItemContainerTemplate
-  name: ItemContainerTemplate
-  href: api/DynamicVML.Internals.Parameters.html#DynamicVML_Internals_Parameters_ItemContainerTemplate
-  commentId: P:DynamicVML.Internals.Parameters.ItemContainerTemplate
-  fullName: DynamicVML.Internals.Parameters.ItemContainerTemplate
-  nameWithType: Parameters.ItemContainerTemplate
-- uid: DynamicVML.Internals.Parameters.ItemContainerTemplate*
-  name: ItemContainerTemplate
-  href: api/DynamicVML.Internals.Parameters.html#DynamicVML_Internals_Parameters_ItemContainerTemplate_
-  commentId: Overload:DynamicVML.Internals.Parameters.ItemContainerTemplate
+- uid: DynamicVML.Internals.Parameters.#ctor(System.String)
+  name: Parameters(String)
+  href: api/DynamicVML.Internals.Parameters.html#DynamicVML_Internals_Parameters__ctor_System_String_
+  commentId: M:DynamicVML.Internals.Parameters.#ctor(System.String)
+  fullName: DynamicVML.Internals.Parameters.Parameters(System.String)
+  nameWithType: Parameters.Parameters(String)
+- uid: DynamicVML.Internals.Parameters.#ctor*
+  name: Parameters
+  href: api/DynamicVML.Internals.Parameters.html#DynamicVML_Internals_Parameters__ctor_
+  commentId: Overload:DynamicVML.Internals.Parameters.#ctor
   isSpec: "True"
-  fullName: DynamicVML.Internals.Parameters.ItemContainerTemplate
-  nameWithType: Parameters.ItemContainerTemplate
-- uid: DynamicVML.Internals.Parameters.ItemTemplate
-  name: ItemTemplate
-  href: api/DynamicVML.Internals.Parameters.html#DynamicVML_Internals_Parameters_ItemTemplate
-  commentId: P:DynamicVML.Internals.Parameters.ItemTemplate
-  fullName: DynamicVML.Internals.Parameters.ItemTemplate
-  nameWithType: Parameters.ItemTemplate
-- uid: DynamicVML.Internals.Parameters.ItemTemplate*
-  name: ItemTemplate
-  href: api/DynamicVML.Internals.Parameters.html#DynamicVML_Internals_Parameters_ItemTemplate_
-  commentId: Overload:DynamicVML.Internals.Parameters.ItemTemplate
+  fullName: DynamicVML.Internals.Parameters.Parameters
+  nameWithType: Parameters.Parameters
+- uid: DynamicVML.Internals.Parameters.ContainerId
+  name: ContainerId
+  href: api/DynamicVML.Internals.Parameters.html#DynamicVML_Internals_Parameters_ContainerId
+  commentId: P:DynamicVML.Internals.Parameters.ContainerId
+  fullName: DynamicVML.Internals.Parameters.ContainerId
+  nameWithType: Parameters.ContainerId
+- uid: DynamicVML.Internals.Parameters.ContainerId*
+  name: ContainerId
+  href: api/DynamicVML.Internals.Parameters.html#DynamicVML_Internals_Parameters_ContainerId_
+  commentId: Overload:DynamicVML.Internals.Parameters.ContainerId
   isSpec: "True"
-  fullName: DynamicVML.Internals.Parameters.ItemTemplate
-  nameWithType: Parameters.ItemTemplate
-- uid: DynamicVML.Internals.Parameters.ListTemplate
-  name: ListTemplate
-  href: api/DynamicVML.Internals.Parameters.html#DynamicVML_Internals_Parameters_ListTemplate
-  commentId: P:DynamicVML.Internals.Parameters.ListTemplate
-  fullName: DynamicVML.Internals.Parameters.ListTemplate
-  nameWithType: Parameters.ListTemplate
-- uid: DynamicVML.Internals.Parameters.ListTemplate*
-  name: ListTemplate
-  href: api/DynamicVML.Internals.Parameters.html#DynamicVML_Internals_Parameters_ListTemplate_
-  commentId: Overload:DynamicVML.Internals.Parameters.ListTemplate
-  isSpec: "True"
-  fullName: DynamicVML.Internals.Parameters.ListTemplate
-  nameWithType: Parameters.ListTemplate
-- uid: DynamicVML.Internals.Parameters.Mode
-  name: Mode
-  href: api/DynamicVML.Internals.Parameters.html#DynamicVML_Internals_Parameters_Mode
-  commentId: P:DynamicVML.Internals.Parameters.Mode
-  fullName: DynamicVML.Internals.Parameters.Mode
-  nameWithType: Parameters.Mode
-- uid: DynamicVML.Internals.Parameters.Mode*
-  name: Mode
-  href: api/DynamicVML.Internals.Parameters.html#DynamicVML_Internals_Parameters_Mode_
-  commentId: Overload:DynamicVML.Internals.Parameters.Mode
-  isSpec: "True"
-  fullName: DynamicVML.Internals.Parameters.Mode
-  nameWithType: Parameters.Mode
-- uid: DynamicVML.Internals.Parameters.Prefix
-  name: Prefix
-  href: api/DynamicVML.Internals.Parameters.html#DynamicVML_Internals_Parameters_Prefix
-  commentId: P:DynamicVML.Internals.Parameters.Prefix
-  fullName: DynamicVML.Internals.Parameters.Prefix
-  nameWithType: Parameters.Prefix
-- uid: DynamicVML.Internals.Parameters.Prefix*
-  name: Prefix
-  href: api/DynamicVML.Internals.Parameters.html#DynamicVML_Internals_Parameters_Prefix_
-  commentId: Overload:DynamicVML.Internals.Parameters.Prefix
-  isSpec: "True"
-  fullName: DynamicVML.Internals.Parameters.Prefix
-  nameWithType: Parameters.Prefix
+  fullName: DynamicVML.Internals.Parameters.ContainerId
+  nameWithType: Parameters.ContainerId
 - uid: DynamicVML.ListRenderMode
   name: ListRenderMode
   href: api/DynamicVML.ListRenderMode.html
@@ -1484,32 +1849,6 @@ references:
   isSpec: "True"
   fullName: DynamicVML.Options.DynamicListAttribute.DynamicListAttribute
   nameWithType: DynamicListAttribute.DynamicListAttribute
-- uid: DynamicVML.Options.DynamicListAttribute.DisplayTemplates
-  name: DisplayTemplates
-  href: api/DynamicVML.Options.DynamicListAttribute.html#DynamicVML_Options_DynamicListAttribute_DisplayTemplates
-  commentId: P:DynamicVML.Options.DynamicListAttribute.DisplayTemplates
-  fullName: DynamicVML.Options.DynamicListAttribute.DisplayTemplates
-  nameWithType: DynamicListAttribute.DisplayTemplates
-- uid: DynamicVML.Options.DynamicListAttribute.DisplayTemplates*
-  name: DisplayTemplates
-  href: api/DynamicVML.Options.DynamicListAttribute.html#DynamicVML_Options_DynamicListAttribute_DisplayTemplates_
-  commentId: Overload:DynamicVML.Options.DynamicListAttribute.DisplayTemplates
-  isSpec: "True"
-  fullName: DynamicVML.Options.DynamicListAttribute.DisplayTemplates
-  nameWithType: DynamicListAttribute.DisplayTemplates
-- uid: DynamicVML.Options.DynamicListAttribute.EditorTemplates
-  name: EditorTemplates
-  href: api/DynamicVML.Options.DynamicListAttribute.html#DynamicVML_Options_DynamicListAttribute_EditorTemplates
-  commentId: P:DynamicVML.Options.DynamicListAttribute.EditorTemplates
-  fullName: DynamicVML.Options.DynamicListAttribute.EditorTemplates
-  nameWithType: DynamicListAttribute.EditorTemplates
-- uid: DynamicVML.Options.DynamicListAttribute.EditorTemplates*
-  name: EditorTemplates
-  href: api/DynamicVML.Options.DynamicListAttribute.html#DynamicVML_Options_DynamicListAttribute_EditorTemplates_
-  commentId: Overload:DynamicVML.Options.DynamicListAttribute.EditorTemplates
-  isSpec: "True"
-  fullName: DynamicVML.Options.DynamicListAttribute.EditorTemplates
-  nameWithType: DynamicListAttribute.EditorTemplates
 - uid: DynamicVML.Options.DynamicListAttribute.ItemContainerTemplate
   name: ItemContainerTemplate
   href: api/DynamicVML.Options.DynamicListAttribute.html#DynamicVML_Options_DynamicListAttribute_ItemContainerTemplate
@@ -1594,71 +1933,6 @@ references:
   commentId: T:DynamicVML.Options.DynamicListDisplayOptions
   fullName: DynamicVML.Options.DynamicListDisplayOptions
   nameWithType: DynamicListDisplayOptions
-- uid: DynamicVML.Options.DynamicListDisplayOptions.DisplayTemplates
-  name: DisplayTemplates
-  href: api/DynamicVML.Options.DynamicListDisplayOptions.html#DynamicVML_Options_DynamicListDisplayOptions_DisplayTemplates
-  commentId: P:DynamicVML.Options.DynamicListDisplayOptions.DisplayTemplates
-  fullName: DynamicVML.Options.DynamicListDisplayOptions.DisplayTemplates
-  nameWithType: DynamicListDisplayOptions.DisplayTemplates
-- uid: DynamicVML.Options.DynamicListDisplayOptions.DisplayTemplates*
-  name: DisplayTemplates
-  href: api/DynamicVML.Options.DynamicListDisplayOptions.html#DynamicVML_Options_DynamicListDisplayOptions_DisplayTemplates_
-  commentId: Overload:DynamicVML.Options.DynamicListDisplayOptions.DisplayTemplates
-  isSpec: "True"
-  fullName: DynamicVML.Options.DynamicListDisplayOptions.DisplayTemplates
-  nameWithType: DynamicListDisplayOptions.DisplayTemplates
-- uid: DynamicVML.Options.DynamicListDisplayOptions.ItemContainerTemplate
-  name: ItemContainerTemplate
-  href: api/DynamicVML.Options.DynamicListDisplayOptions.html#DynamicVML_Options_DynamicListDisplayOptions_ItemContainerTemplate
-  commentId: P:DynamicVML.Options.DynamicListDisplayOptions.ItemContainerTemplate
-  fullName: DynamicVML.Options.DynamicListDisplayOptions.ItemContainerTemplate
-  nameWithType: DynamicListDisplayOptions.ItemContainerTemplate
-- uid: DynamicVML.Options.DynamicListDisplayOptions.ItemContainerTemplate*
-  name: ItemContainerTemplate
-  href: api/DynamicVML.Options.DynamicListDisplayOptions.html#DynamicVML_Options_DynamicListDisplayOptions_ItemContainerTemplate_
-  commentId: Overload:DynamicVML.Options.DynamicListDisplayOptions.ItemContainerTemplate
-  isSpec: "True"
-  fullName: DynamicVML.Options.DynamicListDisplayOptions.ItemContainerTemplate
-  nameWithType: DynamicListDisplayOptions.ItemContainerTemplate
-- uid: DynamicVML.Options.DynamicListDisplayOptions.ItemTemplate
-  name: ItemTemplate
-  href: api/DynamicVML.Options.DynamicListDisplayOptions.html#DynamicVML_Options_DynamicListDisplayOptions_ItemTemplate
-  commentId: P:DynamicVML.Options.DynamicListDisplayOptions.ItemTemplate
-  fullName: DynamicVML.Options.DynamicListDisplayOptions.ItemTemplate
-  nameWithType: DynamicListDisplayOptions.ItemTemplate
-- uid: DynamicVML.Options.DynamicListDisplayOptions.ItemTemplate*
-  name: ItemTemplate
-  href: api/DynamicVML.Options.DynamicListDisplayOptions.html#DynamicVML_Options_DynamicListDisplayOptions_ItemTemplate_
-  commentId: Overload:DynamicVML.Options.DynamicListDisplayOptions.ItemTemplate
-  isSpec: "True"
-  fullName: DynamicVML.Options.DynamicListDisplayOptions.ItemTemplate
-  nameWithType: DynamicListDisplayOptions.ItemTemplate
-- uid: DynamicVML.Options.DynamicListDisplayOptions.ListTemplate
-  name: ListTemplate
-  href: api/DynamicVML.Options.DynamicListDisplayOptions.html#DynamicVML_Options_DynamicListDisplayOptions_ListTemplate
-  commentId: P:DynamicVML.Options.DynamicListDisplayOptions.ListTemplate
-  fullName: DynamicVML.Options.DynamicListDisplayOptions.ListTemplate
-  nameWithType: DynamicListDisplayOptions.ListTemplate
-- uid: DynamicVML.Options.DynamicListDisplayOptions.ListTemplate*
-  name: ListTemplate
-  href: api/DynamicVML.Options.DynamicListDisplayOptions.html#DynamicVML_Options_DynamicListDisplayOptions_ListTemplate_
-  commentId: Overload:DynamicVML.Options.DynamicListDisplayOptions.ListTemplate
-  isSpec: "True"
-  fullName: DynamicVML.Options.DynamicListDisplayOptions.ListTemplate
-  nameWithType: DynamicListDisplayOptions.ListTemplate
-- uid: DynamicVML.Options.DynamicListDisplayOptions.Mode
-  name: Mode
-  href: api/DynamicVML.Options.DynamicListDisplayOptions.html#DynamicVML_Options_DynamicListDisplayOptions_Mode
-  commentId: P:DynamicVML.Options.DynamicListDisplayOptions.Mode
-  fullName: DynamicVML.Options.DynamicListDisplayOptions.Mode
-  nameWithType: DynamicListDisplayOptions.Mode
-- uid: DynamicVML.Options.DynamicListDisplayOptions.Mode*
-  name: Mode
-  href: api/DynamicVML.Options.DynamicListDisplayOptions.html#DynamicVML_Options_DynamicListDisplayOptions_Mode_
-  commentId: Overload:DynamicVML.Options.DynamicListDisplayOptions.Mode
-  isSpec: "True"
-  fullName: DynamicVML.Options.DynamicListDisplayOptions.Mode
-  nameWithType: DynamicListDisplayOptions.Mode
 - uid: DynamicVML.Options.DynamicListEditorOptions
   name: DynamicListEditorOptions
   href: api/DynamicVML.Options.DynamicListEditorOptions.html
@@ -1691,58 +1965,6 @@ references:
   isSpec: "True"
   fullName: DynamicVML.Options.DynamicListEditorOptions.AddNewItemText
   nameWithType: DynamicListEditorOptions.AddNewItemText
-- uid: DynamicVML.Options.DynamicListEditorOptions.EditorTemplates
-  name: EditorTemplates
-  href: api/DynamicVML.Options.DynamicListEditorOptions.html#DynamicVML_Options_DynamicListEditorOptions_EditorTemplates
-  commentId: P:DynamicVML.Options.DynamicListEditorOptions.EditorTemplates
-  fullName: DynamicVML.Options.DynamicListEditorOptions.EditorTemplates
-  nameWithType: DynamicListEditorOptions.EditorTemplates
-- uid: DynamicVML.Options.DynamicListEditorOptions.EditorTemplates*
-  name: EditorTemplates
-  href: api/DynamicVML.Options.DynamicListEditorOptions.html#DynamicVML_Options_DynamicListEditorOptions_EditorTemplates_
-  commentId: Overload:DynamicVML.Options.DynamicListEditorOptions.EditorTemplates
-  isSpec: "True"
-  fullName: DynamicVML.Options.DynamicListEditorOptions.EditorTemplates
-  nameWithType: DynamicListEditorOptions.EditorTemplates
-- uid: DynamicVML.Options.DynamicListEditorOptions.ItemContainerTemplate
-  name: ItemContainerTemplate
-  href: api/DynamicVML.Options.DynamicListEditorOptions.html#DynamicVML_Options_DynamicListEditorOptions_ItemContainerTemplate
-  commentId: P:DynamicVML.Options.DynamicListEditorOptions.ItemContainerTemplate
-  fullName: DynamicVML.Options.DynamicListEditorOptions.ItemContainerTemplate
-  nameWithType: DynamicListEditorOptions.ItemContainerTemplate
-- uid: DynamicVML.Options.DynamicListEditorOptions.ItemContainerTemplate*
-  name: ItemContainerTemplate
-  href: api/DynamicVML.Options.DynamicListEditorOptions.html#DynamicVML_Options_DynamicListEditorOptions_ItemContainerTemplate_
-  commentId: Overload:DynamicVML.Options.DynamicListEditorOptions.ItemContainerTemplate
-  isSpec: "True"
-  fullName: DynamicVML.Options.DynamicListEditorOptions.ItemContainerTemplate
-  nameWithType: DynamicListEditorOptions.ItemContainerTemplate
-- uid: DynamicVML.Options.DynamicListEditorOptions.ItemTemplate
-  name: ItemTemplate
-  href: api/DynamicVML.Options.DynamicListEditorOptions.html#DynamicVML_Options_DynamicListEditorOptions_ItemTemplate
-  commentId: P:DynamicVML.Options.DynamicListEditorOptions.ItemTemplate
-  fullName: DynamicVML.Options.DynamicListEditorOptions.ItemTemplate
-  nameWithType: DynamicListEditorOptions.ItemTemplate
-- uid: DynamicVML.Options.DynamicListEditorOptions.ItemTemplate*
-  name: ItemTemplate
-  href: api/DynamicVML.Options.DynamicListEditorOptions.html#DynamicVML_Options_DynamicListEditorOptions_ItemTemplate_
-  commentId: Overload:DynamicVML.Options.DynamicListEditorOptions.ItemTemplate
-  isSpec: "True"
-  fullName: DynamicVML.Options.DynamicListEditorOptions.ItemTemplate
-  nameWithType: DynamicListEditorOptions.ItemTemplate
-- uid: DynamicVML.Options.DynamicListEditorOptions.ListTemplate
-  name: ListTemplate
-  href: api/DynamicVML.Options.DynamicListEditorOptions.html#DynamicVML_Options_DynamicListEditorOptions_ListTemplate
-  commentId: P:DynamicVML.Options.DynamicListEditorOptions.ListTemplate
-  fullName: DynamicVML.Options.DynamicListEditorOptions.ListTemplate
-  nameWithType: DynamicListEditorOptions.ListTemplate
-- uid: DynamicVML.Options.DynamicListEditorOptions.ListTemplate*
-  name: ListTemplate
-  href: api/DynamicVML.Options.DynamicListEditorOptions.html#DynamicVML_Options_DynamicListEditorOptions_ListTemplate_
-  commentId: Overload:DynamicVML.Options.DynamicListEditorOptions.ListTemplate
-  isSpec: "True"
-  fullName: DynamicVML.Options.DynamicListEditorOptions.ListTemplate
-  nameWithType: DynamicListEditorOptions.ListTemplate
 - uid: DynamicVML.Options.DynamicListEditorOptions.Method
   name: Method
   href: api/DynamicVML.Options.DynamicListEditorOptions.html#DynamicVML_Options_DynamicListEditorOptions_Method
@@ -1756,16 +1978,61 @@ references:
   isSpec: "True"
   fullName: DynamicVML.Options.DynamicListEditorOptions.Method
   nameWithType: DynamicListEditorOptions.Method
-- uid: DynamicVML.Options.DynamicListEditorOptions.Mode
-  name: Mode
-  href: api/DynamicVML.Options.DynamicListEditorOptions.html#DynamicVML_Options_DynamicListEditorOptions_Mode
-  commentId: P:DynamicVML.Options.DynamicListEditorOptions.Mode
-  fullName: DynamicVML.Options.DynamicListEditorOptions.Mode
-  nameWithType: DynamicListEditorOptions.Mode
-- uid: DynamicVML.Options.DynamicListEditorOptions.Mode*
-  name: Mode
-  href: api/DynamicVML.Options.DynamicListEditorOptions.html#DynamicVML_Options_DynamicListEditorOptions_Mode_
-  commentId: Overload:DynamicVML.Options.DynamicListEditorOptions.Mode
+- uid: DynamicVML.Options.DynamicListOptions
+  name: DynamicListOptions
+  href: api/DynamicVML.Options.DynamicListOptions.html
+  commentId: T:DynamicVML.Options.DynamicListOptions
+  fullName: DynamicVML.Options.DynamicListOptions
+  nameWithType: DynamicListOptions
+- uid: DynamicVML.Options.DynamicListOptions.ItemContainerTemplate
+  name: ItemContainerTemplate
+  href: api/DynamicVML.Options.DynamicListOptions.html#DynamicVML_Options_DynamicListOptions_ItemContainerTemplate
+  commentId: P:DynamicVML.Options.DynamicListOptions.ItemContainerTemplate
+  fullName: DynamicVML.Options.DynamicListOptions.ItemContainerTemplate
+  nameWithType: DynamicListOptions.ItemContainerTemplate
+- uid: DynamicVML.Options.DynamicListOptions.ItemContainerTemplate*
+  name: ItemContainerTemplate
+  href: api/DynamicVML.Options.DynamicListOptions.html#DynamicVML_Options_DynamicListOptions_ItemContainerTemplate_
+  commentId: Overload:DynamicVML.Options.DynamicListOptions.ItemContainerTemplate
   isSpec: "True"
-  fullName: DynamicVML.Options.DynamicListEditorOptions.Mode
-  nameWithType: DynamicListEditorOptions.Mode
+  fullName: DynamicVML.Options.DynamicListOptions.ItemContainerTemplate
+  nameWithType: DynamicListOptions.ItemContainerTemplate
+- uid: DynamicVML.Options.DynamicListOptions.ItemTemplate
+  name: ItemTemplate
+  href: api/DynamicVML.Options.DynamicListOptions.html#DynamicVML_Options_DynamicListOptions_ItemTemplate
+  commentId: P:DynamicVML.Options.DynamicListOptions.ItemTemplate
+  fullName: DynamicVML.Options.DynamicListOptions.ItemTemplate
+  nameWithType: DynamicListOptions.ItemTemplate
+- uid: DynamicVML.Options.DynamicListOptions.ItemTemplate*
+  name: ItemTemplate
+  href: api/DynamicVML.Options.DynamicListOptions.html#DynamicVML_Options_DynamicListOptions_ItemTemplate_
+  commentId: Overload:DynamicVML.Options.DynamicListOptions.ItemTemplate
+  isSpec: "True"
+  fullName: DynamicVML.Options.DynamicListOptions.ItemTemplate
+  nameWithType: DynamicListOptions.ItemTemplate
+- uid: DynamicVML.Options.DynamicListOptions.ListTemplate
+  name: ListTemplate
+  href: api/DynamicVML.Options.DynamicListOptions.html#DynamicVML_Options_DynamicListOptions_ListTemplate
+  commentId: P:DynamicVML.Options.DynamicListOptions.ListTemplate
+  fullName: DynamicVML.Options.DynamicListOptions.ListTemplate
+  nameWithType: DynamicListOptions.ListTemplate
+- uid: DynamicVML.Options.DynamicListOptions.ListTemplate*
+  name: ListTemplate
+  href: api/DynamicVML.Options.DynamicListOptions.html#DynamicVML_Options_DynamicListOptions_ListTemplate_
+  commentId: Overload:DynamicVML.Options.DynamicListOptions.ListTemplate
+  isSpec: "True"
+  fullName: DynamicVML.Options.DynamicListOptions.ListTemplate
+  nameWithType: DynamicListOptions.ListTemplate
+- uid: DynamicVML.Options.DynamicListOptions.Mode
+  name: Mode
+  href: api/DynamicVML.Options.DynamicListOptions.html#DynamicVML_Options_DynamicListOptions_Mode
+  commentId: P:DynamicVML.Options.DynamicListOptions.Mode
+  fullName: DynamicVML.Options.DynamicListOptions.Mode
+  nameWithType: DynamicListOptions.Mode
+- uid: DynamicVML.Options.DynamicListOptions.Mode*
+  name: Mode
+  href: api/DynamicVML.Options.DynamicListOptions.html#DynamicVML_Options_DynamicListOptions_Mode_
+  commentId: Overload:DynamicVML.Options.DynamicListOptions.Mode
+  isSpec: "True"
+  fullName: DynamicVML.Options.DynamicListOptions.Mode
+  nameWithType: DynamicListOptions.Mode

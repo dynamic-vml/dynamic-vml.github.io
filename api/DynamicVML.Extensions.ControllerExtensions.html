@@ -38,7 +38,7 @@
               </button>
               
               <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg logo" src="../images/fas/fa-stream/stream-solid-white.svg" alt="">
+                <img id="logo" class="svg logo" src="../images/logo-128.png" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -161,10 +161,22 @@
                             <a href="DynamicVML.Internals.Constants.html" title="Constants" class="">Constants</a>
                           </li>
                           <li class="">
-                            <a href="DynamicVML.Internals.DisplayParams.html" title="DisplayParams" class="">DisplayParams</a>
+                            <a href="DynamicVML.Internals.ItemDisplayParameters.html" title="ItemDisplayParameters" class="">ItemDisplayParameters</a>
                           </li>
                           <li class="">
-                            <a href="DynamicVML.Internals.EditorParams.html" title="EditorParams" class="">EditorParams</a>
+                            <a href="DynamicVML.Internals.ItemEditorParameters.html" title="ItemEditorParameters" class="">ItemEditorParameters</a>
+                          </li>
+                          <li class="">
+                            <a href="DynamicVML.Internals.ItemParameters.html" title="ItemParameters" class="">ItemParameters</a>
+                          </li>
+                          <li class="">
+                            <a href="DynamicVML.Internals.ListDisplayParameters.html" title="ListDisplayParameters" class="">ListDisplayParameters</a>
+                          </li>
+                          <li class="">
+                            <a href="DynamicVML.Internals.ListEditorParameters.html" title="ListEditorParameters" class="">ListEditorParameters</a>
+                          </li>
+                          <li class="">
+                            <a href="DynamicVML.Internals.ListParameters.html" title="ListParameters" class="">ListParameters</a>
                           </li>
                           <li class="">
                             <a href="DynamicVML.Internals.Parameters.html" title="Parameters" class="">Parameters</a>
@@ -183,6 +195,9 @@
                           </li>
                           <li class="">
                             <a href="DynamicVML.Options.DynamicListEditorOptions.html" title="DynamicListEditorOptions" class="">DynamicListEditorOptions</a>
+                          </li>
+                          <li class="">
+                            <a href="DynamicVML.Options.DynamicListOptions.html" title="DynamicListOptions" class="">DynamicListOptions</a>
                           </li>
                         </ul>  </li>
                   </ul>        </div>
@@ -245,7 +260,7 @@
     <a href="https://github.com/dynamic-vml/dvml/new/master/docs-ref-overwrite/new?filename=DynamicVML_Extensions_ControllerExtensions_PartialView_Microsoft_AspNetCore_Mvc_Controller_DynamicVML_IDynamicList_DynamicVML_AddNewDynamicItem_.md&amp;value=---%0Auid%3A%20DynamicVML.Extensions.ControllerExtensions.PartialView(Microsoft.AspNetCore.Mvc.Controller%2CDynamicVML.IDynamicList%2CDynamicVML.AddNewDynamicItem)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Extensions/ControllerExtensions.cs/#L111">View Source</a>
+    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Extensions/ControllerExtensions.cs/#L222">View Source</a>
   </span>
   <a id="DynamicVML_Extensions_ControllerExtensions_PartialView_" data-uid="DynamicVML.Extensions.ControllerExtensions.PartialView*"></a>
   <h4 id="DynamicVML_Extensions_ControllerExtensions_PartialView_Microsoft_AspNetCore_Mvc_Controller_DynamicVML_IDynamicList_DynamicVML_AddNewDynamicItem_" data-uid="DynamicVML.Extensions.ControllerExtensions.PartialView(Microsoft.AspNetCore.Mvc.Controller,DynamicVML.IDynamicList,DynamicVML.AddNewDynamicItem)">PartialView(Controller, IDynamicList, AddNewDynamicItem)</h4>
@@ -307,7 +322,7 @@
     <a href="https://github.com/dynamic-vml/dvml/new/master/docs-ref-overwrite/new?filename=DynamicVML_Extensions_ControllerExtensions_PartialView__1_Microsoft_AspNetCore_Mvc_Controller___0_DynamicVML_AddNewDynamicItem_.md&amp;value=---%0Auid%3A%20DynamicVML.Extensions.ControllerExtensions.PartialView%60%601(Microsoft.AspNetCore.Mvc.Controller%2C%60%600%2CDynamicVML.AddNewDynamicItem)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Extensions/ControllerExtensions.cs/#L93">View Source</a>
+    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Extensions/ControllerExtensions.cs/#L203">View Source</a>
   </span>
   <a id="DynamicVML_Extensions_ControllerExtensions_PartialView_" data-uid="DynamicVML.Extensions.ControllerExtensions.PartialView*"></a>
   <h4 id="DynamicVML_Extensions_ControllerExtensions_PartialView__1_Microsoft_AspNetCore_Mvc_Controller___0_DynamicVML_AddNewDynamicItem_" data-uid="DynamicVML.Extensions.ControllerExtensions.PartialView``1(Microsoft.AspNetCore.Mvc.Controller,``0,DynamicVML.AddNewDynamicItem)">PartialView&lt;TViewModel&gt;(Controller, TViewModel, AddNewDynamicItem)</h4>
@@ -383,10 +398,98 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/dynamic-vml/dvml/new/master/docs-ref-overwrite/new?filename=DynamicVML_Extensions_ControllerExtensions_PartialView__1_Microsoft_AspNetCore_Mvc_Controller___0_DynamicVML_AddNewDynamicItem_System_Action_DynamicVML_DynamicListItem___0___.md&amp;value=---%0Auid%3A%20DynamicVML.Extensions.ControllerExtensions.PartialView%60%601(Microsoft.AspNetCore.Mvc.Controller%2C%60%600%2CDynamicVML.AddNewDynamicItem%2CSystem.Action%7BDynamicVML.DynamicListItem%7B%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Extensions/ControllerExtensions.cs/#L155">View Source</a>
+  </span>
+  <a id="DynamicVML_Extensions_ControllerExtensions_PartialView_" data-uid="DynamicVML.Extensions.ControllerExtensions.PartialView*"></a>
+  <h4 id="DynamicVML_Extensions_ControllerExtensions_PartialView__1_Microsoft_AspNetCore_Mvc_Controller___0_DynamicVML_AddNewDynamicItem_System_Action_DynamicVML_DynamicListItem___0___" data-uid="DynamicVML.Extensions.ControllerExtensions.PartialView``1(Microsoft.AspNetCore.Mvc.Controller,``0,DynamicVML.AddNewDynamicItem,System.Action{DynamicVML.DynamicListItem{``0}})">PartialView&lt;TViewModel&gt;(Controller, TViewModel, AddNewDynamicItem, Action&lt;DynamicListItem&lt;TViewModel&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Renders a partial view containing the item to be in plain HTML,
+and converts it to JSON so it can be sent back to the client. You should
+only use this method when using <a class="xref" href="DynamicVML.NewItemMethod.html#DynamicVML_NewItemMethod_Post">Post</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ActionResult PartialView&lt;TViewModel&gt;(this Controller controller, TViewModel viewModel, AddNewDynamicItem parameters, Action&lt;DynamicListItem&lt;TViewModel&gt;&gt; options)
+    where TViewModel : class</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.controller">Controller</a></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>The controller handling the action for creating the new item.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TViewModel</span></td>
+        <td><span class="parametername">viewModel</span></td>
+        <td><p>The view model whose view should be rendered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DynamicVML.AddNewDynamicItem.html">AddNewDynamicItem</a></td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The <a class="xref" href="DynamicVML.AddNewDynamicItem.html">AddNewDynamicItem</a> received by the controller.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="DynamicVML.DynamicListItem-1.html">DynamicListItem</a>&lt;TViewModel&gt;&gt;</td>
+        <td><span class="parametername">options</span></td>
+        <td><p>An action that allows for configuring the options to be associated 
+    with the new item before it gets inserted to the list.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.actionresult">ActionResult</a></td>
+        <td><p>An <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.actionresult">ActionResult</a> to be sent back to the client.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TViewModel</span></td>
+        <td><p>The type of the view model whose view should be rendered.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/dynamic-vml/dvml/new/master/docs-ref-overwrite/new?filename=DynamicVML_Extensions_ControllerExtensions_PartialView__2_Microsoft_AspNetCore_Mvc_Controller___0_DynamicVML_AddNewDynamicItem___1_.md&amp;value=---%0Auid%3A%20DynamicVML.Extensions.ControllerExtensions.PartialView%60%602(Microsoft.AspNetCore.Mvc.Controller%2C%60%600%2CDynamicVML.AddNewDynamicItem%2C%60%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Extensions/ControllerExtensions.cs/#L72">View Source</a>
+    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Extensions/ControllerExtensions.cs/#L129">View Source</a>
   </span>
   <a id="DynamicVML_Extensions_ControllerExtensions_PartialView_" data-uid="DynamicVML.Extensions.ControllerExtensions.PartialView*"></a>
   <h4 id="DynamicVML_Extensions_ControllerExtensions_PartialView__2_Microsoft_AspNetCore_Mvc_Controller___0_DynamicVML_AddNewDynamicItem___1_" data-uid="DynamicVML.Extensions.ControllerExtensions.PartialView``2(Microsoft.AspNetCore.Mvc.Controller,``0,DynamicVML.AddNewDynamicItem,``1)">PartialView&lt;TViewModel, TOptions&gt;(Controller, TViewModel, AddNewDynamicItem, TOptions)</h4>
@@ -475,10 +578,270 @@ only use this method when using <a class="xref" href="DynamicVML.NewItemMethod.h
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/dynamic-vml/dvml/new/master/docs-ref-overwrite/new?filename=DynamicVML_Extensions_ControllerExtensions_PartialView__2_Microsoft_AspNetCore_Mvc_Controller___0_DynamicVML_AddNewDynamicItem_System_Action___1__.md&amp;value=---%0Auid%3A%20DynamicVML.Extensions.ControllerExtensions.PartialView%60%602(Microsoft.AspNetCore.Mvc.Controller%2C%60%600%2CDynamicVML.AddNewDynamicItem%2CSystem.Action%7B%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Extensions/ControllerExtensions.cs/#L179">View Source</a>
+  </span>
+  <a id="DynamicVML_Extensions_ControllerExtensions_PartialView_" data-uid="DynamicVML.Extensions.ControllerExtensions.PartialView*"></a>
+  <h4 id="DynamicVML_Extensions_ControllerExtensions_PartialView__2_Microsoft_AspNetCore_Mvc_Controller___0_DynamicVML_AddNewDynamicItem_System_Action___1__" data-uid="DynamicVML.Extensions.ControllerExtensions.PartialView``2(Microsoft.AspNetCore.Mvc.Controller,``0,DynamicVML.AddNewDynamicItem,System.Action{``1})">PartialView&lt;TViewModel, TOptions&gt;(Controller, TViewModel, AddNewDynamicItem, Action&lt;TOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Renders a partial view containing the item to be in plain HTML,
+and converts it to JSON so it can be sent back to the client. You should
+only use this method when using <a class="xref" href="DynamicVML.NewItemMethod.html#DynamicVML_NewItemMethod_Post">Post</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ActionResult PartialView&lt;TViewModel, TOptions&gt;(this Controller controller, TViewModel viewModel, AddNewDynamicItem parameters, Action&lt;TOptions&gt; options)
+    where TViewModel : class where TOptions : DynamicListItem&lt;TViewModel&gt;, new()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.controller">Controller</a></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>The controller handling the action for creating the new item.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TViewModel</span></td>
+        <td><span class="parametername">viewModel</span></td>
+        <td><p>The view model whose view should be rendered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DynamicVML.AddNewDynamicItem.html">AddNewDynamicItem</a></td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The <a class="xref" href="DynamicVML.AddNewDynamicItem.html">AddNewDynamicItem</a> received by the controller.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;TOptions&gt;</td>
+        <td><span class="parametername">options</span></td>
+        <td><p>An action that allows for configuring the options to be associated 
+    with the new item before it gets inserted to the list.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.actionresult">ActionResult</a></td>
+        <td><p>An <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.actionresult">ActionResult</a> to be sent back to the client.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TViewModel</span></td>
+        <td><p>The type of the view model whose view should be rendered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TOptions</span></td>
+        <td><p>The options associated with the view model.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dynamic-vml/dvml/new/master/docs-ref-overwrite/new?filename=DynamicVML_Extensions_ControllerExtensions_PartialViewAsync_Microsoft_AspNetCore_Mvc_Controller_Microsoft_AspNetCore_Mvc_ViewEngines_ICompositeViewEngine_DynamicVML_IDynamicList_DynamicVML_AddNewDynamicItem_.md&amp;value=---%0Auid%3A%20DynamicVML.Extensions.ControllerExtensions.PartialViewAsync(Microsoft.AspNetCore.Mvc.Controller%2CMicrosoft.AspNetCore.Mvc.ViewEngines.ICompositeViewEngine%2CDynamicVML.IDynamicList%2CDynamicVML.AddNewDynamicItem)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Extensions/ControllerExtensions.cs/#L246">View Source</a>
+  </span>
+  <a id="DynamicVML_Extensions_ControllerExtensions_PartialViewAsync_" data-uid="DynamicVML.Extensions.ControllerExtensions.PartialViewAsync*"></a>
+  <h4 id="DynamicVML_Extensions_ControllerExtensions_PartialViewAsync_Microsoft_AspNetCore_Mvc_Controller_Microsoft_AspNetCore_Mvc_ViewEngines_ICompositeViewEngine_DynamicVML_IDynamicList_DynamicVML_AddNewDynamicItem_" data-uid="DynamicVML.Extensions.ControllerExtensions.PartialViewAsync(Microsoft.AspNetCore.Mvc.Controller,Microsoft.AspNetCore.Mvc.ViewEngines.ICompositeViewEngine,DynamicVML.IDynamicList,DynamicVML.AddNewDynamicItem)">PartialViewAsync(Controller, ICompositeViewEngine, IDynamicList, AddNewDynamicItem)</h4>
+  <div class="markdown level1 summary"><p>Renders a partial view containing the item to be in plain HTML,
+and converts it to JSON so it can be sent back to the client. You should
+only use this method when using <a class="xref" href="DynamicVML.NewItemMethod.html#DynamicVML_NewItemMethod_Post">Post</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;ActionResult&gt; PartialViewAsync(this Controller controller, ICompositeViewEngine engine, IDynamicList item, AddNewDynamicItem parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.controller">Controller</a></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>The controller handling the action for creating the new item.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.viewengines.icompositeviewengine">ICompositeViewEngine</a></td>
+        <td><span class="parametername">engine</span></td>
+        <td><p>An instance of the <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.viewengines.icompositeviewengine">ICompositeViewEngine</a> class (which 
+  can be obtained using dependency injection by asking it as a new parameter in your 
+  controllers&apos; constructor)</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DynamicVML.IDynamicList.html">IDynamicList</a></td>
+        <td><span class="parametername">item</span></td>
+        <td><p>The dynamic list item to be rendered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DynamicVML.AddNewDynamicItem.html">AddNewDynamicItem</a></td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The <a class="xref" href="DynamicVML.AddNewDynamicItem.html">AddNewDynamicItem</a> received by the controller.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.actionresult">ActionResult</a>&gt;</td>
+        <td><p>An <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.actionresult">ActionResult</a> to be sent back to the client.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dynamic-vml/dvml/new/master/docs-ref-overwrite/new?filename=DynamicVML_Extensions_ControllerExtensions_PartialViewAsync__1_Microsoft_AspNetCore_Mvc_Controller_Microsoft_AspNetCore_Mvc_ViewEngines_ICompositeViewEngine___0_DynamicVML_AddNewDynamicItem_System_Action_DynamicVML_DynamicListItem___0___.md&amp;value=---%0Auid%3A%20DynamicVML.Extensions.ControllerExtensions.PartialViewAsync%60%601(Microsoft.AspNetCore.Mvc.Controller%2CMicrosoft.AspNetCore.Mvc.ViewEngines.ICompositeViewEngine%2C%60%600%2CDynamicVML.AddNewDynamicItem%2CSystem.Action%7BDynamicVML.DynamicListItem%7B%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Extensions/ControllerExtensions.cs/#L73">View Source</a>
+  </span>
+  <a id="DynamicVML_Extensions_ControllerExtensions_PartialViewAsync_" data-uid="DynamicVML.Extensions.ControllerExtensions.PartialViewAsync*"></a>
+  <h4 id="DynamicVML_Extensions_ControllerExtensions_PartialViewAsync__1_Microsoft_AspNetCore_Mvc_Controller_Microsoft_AspNetCore_Mvc_ViewEngines_ICompositeViewEngine___0_DynamicVML_AddNewDynamicItem_System_Action_DynamicVML_DynamicListItem___0___" data-uid="DynamicVML.Extensions.ControllerExtensions.PartialViewAsync``1(Microsoft.AspNetCore.Mvc.Controller,Microsoft.AspNetCore.Mvc.ViewEngines.ICompositeViewEngine,``0,DynamicVML.AddNewDynamicItem,System.Action{DynamicVML.DynamicListItem{``0}})">PartialViewAsync&lt;TViewModel&gt;(Controller, ICompositeViewEngine, TViewModel, AddNewDynamicItem, Action&lt;DynamicListItem&lt;TViewModel&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Renders a partial view containing the item to be in plain HTML,
+and converts it to JSON so it can be sent back to the client. You should
+only use this method when using <a class="xref" href="DynamicVML.NewItemMethod.html#DynamicVML_NewItemMethod_Post">Post</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;ActionResult&gt; PartialViewAsync&lt;TViewModel&gt;(this Controller controller, ICompositeViewEngine engine, TViewModel viewModel, AddNewDynamicItem parameters, Action&lt;DynamicListItem&lt;TViewModel&gt;&gt; options)
+    where TViewModel : class</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.controller">Controller</a></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>The controller handling the action for creating the new item.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.viewengines.icompositeviewengine">ICompositeViewEngine</a></td>
+        <td><span class="parametername">engine</span></td>
+        <td><p>An instance of the <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.viewengines.icompositeviewengine">ICompositeViewEngine</a> class (which 
+  can be obtained using dependency injection by asking it as a new parameter in your 
+  controllers&apos; constructor)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TViewModel</span></td>
+        <td><span class="parametername">viewModel</span></td>
+        <td><p>The view model whose view should be rendered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DynamicVML.AddNewDynamicItem.html">AddNewDynamicItem</a></td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The <a class="xref" href="DynamicVML.AddNewDynamicItem.html">AddNewDynamicItem</a> received by the controller.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="DynamicVML.DynamicListItem-1.html">DynamicListItem</a>&lt;TViewModel&gt;&gt;</td>
+        <td><span class="parametername">options</span></td>
+        <td><p>Any additional options you might want to specify for this item.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.actionresult">ActionResult</a>&gt;</td>
+        <td><p>An <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.actionresult">ActionResult</a> to be sent back to the client.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TViewModel</span></td>
+        <td><p>The type of the view model whose view should be rendered.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/dynamic-vml/dvml/new/master/docs-ref-overwrite/new?filename=DynamicVML_Extensions_ControllerExtensions_PartialViewAsync__2_Microsoft_AspNetCore_Mvc_Controller_Microsoft_AspNetCore_Mvc_ViewEngines_ICompositeViewEngine___0_DynamicVML_AddNewDynamicItem___1_.md&amp;value=---%0Auid%3A%20DynamicVML.Extensions.ControllerExtensions.PartialViewAsync%60%602(Microsoft.AspNetCore.Mvc.Controller%2CMicrosoft.AspNetCore.Mvc.ViewEngines.ICompositeViewEngine%2C%60%600%2CDynamicVML.AddNewDynamicItem%2C%60%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Extensions/ControllerExtensions.cs/#L47">View Source</a>
+    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Extensions/ControllerExtensions.cs/#L45">View Source</a>
   </span>
   <a id="DynamicVML_Extensions_ControllerExtensions_PartialViewAsync_" data-uid="DynamicVML.Extensions.ControllerExtensions.PartialViewAsync*"></a>
   <h4 id="DynamicVML_Extensions_ControllerExtensions_PartialViewAsync__2_Microsoft_AspNetCore_Mvc_Controller_Microsoft_AspNetCore_Mvc_ViewEngines_ICompositeViewEngine___0_DynamicVML_AddNewDynamicItem___1_" data-uid="DynamicVML.Extensions.ControllerExtensions.PartialViewAsync``2(Microsoft.AspNetCore.Mvc.Controller,Microsoft.AspNetCore.Mvc.ViewEngines.ICompositeViewEngine,``0,DynamicVML.AddNewDynamicItem,``1)">PartialViewAsync&lt;TViewModel, TOptions&gt;(Controller, ICompositeViewEngine, TViewModel, AddNewDynamicItem, TOptions)</h4>
@@ -573,6 +936,106 @@ only use this method when using <a class="xref" href="DynamicVML.NewItemMethod.h
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/dynamic-vml/dvml/new/master/docs-ref-overwrite/new?filename=DynamicVML_Extensions_ControllerExtensions_PartialViewAsync__2_Microsoft_AspNetCore_Mvc_Controller_Microsoft_AspNetCore_Mvc_ViewEngines_ICompositeViewEngine___0_DynamicVML_AddNewDynamicItem_System_Action___1__.md&amp;value=---%0Auid%3A%20DynamicVML.Extensions.ControllerExtensions.PartialViewAsync%60%602(Microsoft.AspNetCore.Mvc.Controller%2CMicrosoft.AspNetCore.Mvc.ViewEngines.ICompositeViewEngine%2C%60%600%2CDynamicVML.AddNewDynamicItem%2CSystem.Action%7B%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Extensions/ControllerExtensions.cs/#L101">View Source</a>
+  </span>
+  <a id="DynamicVML_Extensions_ControllerExtensions_PartialViewAsync_" data-uid="DynamicVML.Extensions.ControllerExtensions.PartialViewAsync*"></a>
+  <h4 id="DynamicVML_Extensions_ControllerExtensions_PartialViewAsync__2_Microsoft_AspNetCore_Mvc_Controller_Microsoft_AspNetCore_Mvc_ViewEngines_ICompositeViewEngine___0_DynamicVML_AddNewDynamicItem_System_Action___1__" data-uid="DynamicVML.Extensions.ControllerExtensions.PartialViewAsync``2(Microsoft.AspNetCore.Mvc.Controller,Microsoft.AspNetCore.Mvc.ViewEngines.ICompositeViewEngine,``0,DynamicVML.AddNewDynamicItem,System.Action{``1})">PartialViewAsync&lt;TViewModel, TOptions&gt;(Controller, ICompositeViewEngine, TViewModel, AddNewDynamicItem, Action&lt;TOptions&gt;)</h4>
+  <div class="markdown level1 summary"><p>Renders a partial view containing the item to be in plain HTML,
+and converts it to JSON so it can be sent back to the client. You should
+only use this method when using <a class="xref" href="DynamicVML.NewItemMethod.html#DynamicVML_NewItemMethod_Post">Post</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;ActionResult&gt; PartialViewAsync&lt;TViewModel, TOptions&gt;(this Controller controller, ICompositeViewEngine engine, TViewModel viewModel, AddNewDynamicItem parameters, Action&lt;TOptions&gt; options)
+    where TViewModel : class where TOptions : DynamicListItem&lt;TViewModel&gt;, new()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.controller">Controller</a></td>
+        <td><span class="parametername">controller</span></td>
+        <td><p>The controller handling the action for creating the new item.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.viewengines.icompositeviewengine">ICompositeViewEngine</a></td>
+        <td><span class="parametername">engine</span></td>
+        <td><p>An instance of the <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.viewengines.icompositeviewengine">ICompositeViewEngine</a> class (which 
+  can be obtained using dependency injection by asking it as a new parameter in your 
+  controllers&apos; constructor)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TViewModel</span></td>
+        <td><span class="parametername">viewModel</span></td>
+        <td><p>The view model whose view should be rendered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DynamicVML.AddNewDynamicItem.html">AddNewDynamicItem</a></td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The <a class="xref" href="DynamicVML.AddNewDynamicItem.html">AddNewDynamicItem</a> received by the controller.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;TOptions&gt;</td>
+        <td><span class="parametername">options</span></td>
+        <td><p>Any additional options you might want to specify for this item.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.actionresult">ActionResult</a>&gt;</td>
+        <td><p>An <a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.actionresult">ActionResult</a> to be sent back to the client.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TViewModel</span></td>
+        <td><p>The type of the view model whose view should be rendered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TOptions</span></td>
+        <td><p>The options associated with the view model.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
@@ -584,7 +1047,7 @@ only use this method when using <a class="xref" href="DynamicVML.NewItemMethod.h
                     <a href="https://github.com/dynamic-vml/dvml/new/master/docs-ref-overwrite/new?filename=DynamicVML_Extensions_ControllerExtensions.md&amp;value=---%0Auid%3A%20DynamicVML.Extensions.ControllerExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Extensions/ControllerExtensions.cs/#L26" class="contribution-link">View Source</a>
+                    <a href="https://github.com/dynamic-vml/dvml/blob/master/src/Extensions/ControllerExtensions.cs/#L24" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
