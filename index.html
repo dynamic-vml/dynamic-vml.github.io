@@ -110,7 +110,7 @@ in your project:</p>
 <p><span class="install-command">dotnet add package DynamicVML</span></p>
 <p>After adding the package, you just have to perform four steps to get it running:</p>
 <h3 id="1-add-script-references">1. Add script references</h3>
-<p>Add a reference to <code>~/lib/dynamic-viewmodel-list/dvml.js</code> to your view, e.g., either by adding
+<p>Add a reference to <code>~/lib/dynamic-viewmodel-list/dvml.js</code> to your view, <em>e.g.</em>, either by adding
 it to your <code>_Layout.cshtml</code> file or to the <code>Scripts</code> section usually located at the bottom of 
 your <code>Create</code>, <code>Edit</code>, <code>Details</code>,  and/or <code>Delete.cshtml</code> view files:</p>
 <pre><code class="lang-html">@section Scripts {
@@ -164,7 +164,7 @@ view models.</p>
 you might have in your project. For example, a common approach for reuse would be to define a common
 &quot;Address.cshtml&quot; view that could render an <code>AddressViewModel</code> in different sections of your application.</p>
 <p>With this assumption in mind, it would have been a lot of trouble if you had to create separate
-views for each common kind of list items you would like to add to your project, e.g., lists for <code>PhoneViewModel</code>s,
+views for each common kind of list items you would like to add to your project, <em>e.g.</em>, lists for <code>PhoneViewModel</code>s,
 <code>AddressViewModel</code>s and so on.
 That is why, using this library, you can specify which template view you would like to use for each part
 of the list directly when creating your view. For instance, let&#39;s say you would like to render a list of
@@ -188,7 +188,20 @@ However, specifying the view is strongly advised in order to avoid unnecessary s
 <li>Regions that contain the list items (<em>which the library refers to as DynamicItemContainers</em>)</li>
 <li>The list items (<em>which are your already existing views</em>)</li>
 </ul>
-<p>The meaning of each region is shown in the figure below:</p>
+<p>You can specify templates for each of those regions using:</p>
+<pre><code class="lang-cs">@Html.DisplayListFor(x =&gt; x.Books,
+    itemTemplate: &quot;BookViewModel&quot;,
+    itemContainerTemplate: &quot;MyItemContainerTemplate&quot;
+    listTemplate:  &quot;MyListTemplate&quot;
+    listContainerTemplate: &quot;MyListContainerTemplate&quot;)
+</code></pre><p>or</p>
+<pre><code class="lang-cs">@Html.ListEditorFor(x =&gt; x.Books,
+    itemTemplate: &quot;BookViewModel&quot;,
+    itemContainerTemplate: &quot;MyItemContainerTemplate&quot;
+    listTemplate:  &quot;MyListTemplate&quot;
+    listContainerTemplate: &quot;MyListContainerTemplate&quot;)
+</code></pre><p>A default template will be used for regions that have not been specified. 
+The meaning of each region is shown in the figure below:</p>
 <p><img src="images/templates.png" alt="The four regions of a dynamic list" title="The four regions of a dynamic list"></p>
 <p>Note that each of those regions are completely oblivious of each other and can be replaced at will,
 without having to create different views for each configuration. All you have to do is specify templates
@@ -196,9 +209,9 @@ for them when calling <code>ListEditorFor()</code> in your view. If you do not s
 the library will use default ones that can be obtained either from the library itself, or by searching
 for .cshtml files in your application that have the same name as the default templates.</p>
 <h3 id="custom-reusable-options">Custom reusable options</h3>
-<p>Now, a common task is to be able to customize each of the item containers with some buttons (e.g. to
+<p>Now, a common task is to be able to customize each of the item containers with some buttons (<em>e.g.</em> to
 remove the item, collapse the item, or display extra information about what the user is entering).
-Furthermore, you may want only some items to be removable, but not all of them (e.g. the first
+Furthermore, you may want only some items to be removable, but not all of them (<em>e.g.</em> the first
 address in a list of addresses could be mandatory and non-removable).</p>
 <p>Instead of having to add each of those options to your ViewModels and thus maybe having multiple
 different ViewModels for different configurations of your items, you can instead specify <em>item
@@ -219,7 +232,7 @@ options</em> for each of your items directly from your view or controller:</p>
     });
 }
 </code></pre><p>The <code>MyOptions&lt;T&gt;</code> can be considered a separate view model on its own, that you can customize 
-yourself, adding any options you may want, e.g.:</p>
+yourself, adding any options you may want, <em>e.g.</em>:</p>
 <pre><code class="lang-cs">public class MyOptions&lt;T&gt; : DynamicListItemOptions&lt;T&gt;, IMyOptions
     where T : class
 {
@@ -273,10 +286,35 @@ original behavior of your views working. </p>
 since the additional data may be too long to be included in a GET query string.</p>
 </div>
 <div class="WARNING"><h5>Warning</h5><p>While the library supports this scenario, it may not be advisable to actually make use of this
-since there may be other cleaner ways to pass user data to your views, e.g. with proper properties
+since there may be other cleaner ways to pass user data to your views, <em>e.g.</em> with proper properties
 in your view models. A malicious user could also tamper with the stored data and let the form
 submit altered data to your server. However, again, if you <strong>really</strong> need this functionality and
 understand the risks, the library will also let you do so.</p>
+</div>
+<h3 id="passing-custom-action-parameters-to-your-controller">Passing custom <em>action parameters</em> to your <em>controller</em></h3>
+<p>Please note that you are not restricted to have only the <code>AddNewDynamicItem</code> as the single
+parameter in your controller actions. If desired, you can include further parameters. For
+example, consider the case where we would like to pass extra string and integer parameters:</p>
+<pre><code class="lang-cs">public IActionResult AddBook(AddNewDynamicItem parameters, string parameter1, int parameter2)
+{
+    var newBookViewModel = new BookViewModel()
+    {
+        Title = $&quot;New book with parameter values {parameter1} and {parameter2}&quot;
+    };
+
+    return this.PartialView(newBookViewModel, parameters);
+}
+</code></pre><p>In this case, we should be able to call our parameterized controller action from our view using:</p>
+<pre><code class="lang-cs">@Html.ListEditorFor(x =&gt; x.Books,
+    action: Url.Action(&quot;AddBook&quot;, &quot;BooksControllerName&quot;, new {
+        parameter1: &quot;some text&quot;,
+        parameter2: 42,
+    }), 
+    addNewItemText: &quot;Add new book&quot;,
+</code></pre><p>And the above should work both by both GET and POST.</p>
+<div class="NOTE"><h5>Note</h5><p>Because the additional action parameters are encoded in the query string (even when using POST), 
+you may only be able to pass <em>strings</em>, primitive types (<em>e.g.</em>, <em>int</em>, <em>bool</em>, <em>double</em>, <em>float</em>),
+and other simple parameters that can be converted to and from strings (<em>e.g.</em>, <em>TimeSpan</em>, <em>DateTime</em>, <em>Guid</em>).</p>
 </div>
 <h1 id="related-links">Related links</h1>
 <h3 id="alternative-approaches-amp-more-information-on-aspnets-binding-mechanism">Alternative approaches &amp; more information on ASP.NET&#39;s binding mechanism:</h3>
@@ -290,11 +328,22 @@ understand the risks, the library will also let you do so.</p>
 <h3 id="stackoverflow-questions-this-library-should-address">StackOverflow questions this library should address:</h3>
 <ul>
 <li><a href="https://stackoverflow.com/questions/14038392/editorfor-ienumerablet-with-templatename">https://stackoverflow.com/questions/14038392/editorfor-ienumerablet-with-templatename</a></li>
+<li><a href="https://stackoverflow.com/questions/25333332/correct-idiomatic-way-to-use-custom-editor-templates-with-ienumerable-models-in">https://stackoverflow.com/questions/25333332/correct-idiomatic-way-to-use-custom-editor-templates-with-ienumerable-models-in</a></li>
 <li><a href="https://stackoverflow.com/questions/36171865/dynamic-partial-view-list-not-being-picked-up-when-saving">https://stackoverflow.com/questions/36171865/dynamic-partial-view-list-not-being-picked-up-when-saving</a></li>
 <li><a href="https://stackoverflow.com/questions/52305337/how-do-i-use-the-editorformany-html-helper-in-net-core">https://stackoverflow.com/questions/52305337/how-do-i-use-the-editorformany-html-helper-in-net-core</a></li>
 <li><a href="https://stackoverflow.com/questions/42116800/editorformany-not-working-for-objects-deeper-than-1-level">https://stackoverflow.com/questions/42116800/editorformany-not-working-for-objects-deeper-than-1-level</a></li>
 <li><a href="https://stackoverflow.com/questions/29324837/add-related-entities-with-asp-net-mvc-and-razor">https://stackoverflow.com/questions/29324837/add-related-entities-with-asp-net-mvc-and-razor</a></li>
 <li><a href="https://stackoverflow.com/questions/9915612/how-can-i-add-rows-to-a-collection-list-in-my-model">https://stackoverflow.com/questions/9915612/how-can-i-add-rows-to-a-collection-list-in-my-model</a></li>
+</ul>
+<h1 id="unrelated-links">Unrelated links</h1>
+<p> I have recently created another library for ASP.NET called <a href="https://github.com/cesarsouza/sefa/"><strong>System.Enums.FontAwesome (sefa)</strong></a>.
+ It provides strongly-typed enumerations that can be used to list icons from <a href="https://fontawesome.com/">https://fontawesome.com/</a>. Enumeration members are marked 
+ with DisplayAttributes to make them suitable for being bound to user controls such as selectlists and comboboxes.</p>
+<p> Other of my projects include:</p>
+<ul>
+<li><a href="http://accord-framework.net/">Accord.NET</a> - one of the earliest and most complete machine learning libraries for .NET/C#.</li>
+<li><a href="https://www.codeproject.com/Articles/835786/Statistics-Workbench">Statistics Workbench</a> - a tool to help teaching introductory classes on statistics, made in WPF.</li>
+<li><a href="http://adas.cvc.uab.es/phav/">Procedural Human Action Videos</a> - a dataset for learning computer vision models using procedural generation.</li>
 </ul>
 <h1 id="license">License</h1>
 <p>This library is licensed under the <a href="https://opensource.org/licenses/MIT">MIT license</a>. The library logo 
